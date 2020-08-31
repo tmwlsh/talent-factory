@@ -1,0 +1,85 @@
+{
+  "countries": [
+    {
+      "name": "Germany",
+      "slug": "germany",
+      "playerCount": 128,
+      "averageNetDifference": 9561445.09,
+      "averagePercentageDifference": 410277515,
+      "data": [{
+          "name": "Eintracht Frankfurt",
+          "playerCount": 1,
+          "averageNetDifference": 26190000.00,
+          "averagePercentageDifference": 3233
+        },
+        {
+          "name": "RB Leipzig",
+          "playerCount": 5,
+          "averageNetDifference": 64800000.00,
+          "averagePercentageDifference": 900
+        }
+      ]
+    },
+    {
+      "name": "Indonesia",
+      "slug": "indonesia",
+      "playerCount": 34,
+      "averageNetDifference": 793576.4026,
+      "averagePercentageDifference": 17.7126,
+      "data": [{
+          "name": "Lucinda",
+          "playerCount": 29,
+          "averageNetDifference": 235978.2178,
+          "averagePercentageDifference": 13.7801
+        },
+        {
+          "name": "Philip",
+          "playerCount": 45,
+          "averageNetDifference": 717210.3092,
+          "averagePercentageDifference": 97.6668
+        }
+      ]
+    }
+  ],
+  "bestValueClubs": [{
+    "country": "Germany",
+    "slug": "germany",
+    "playerCount": 128,
+    "averageNetDifference": 9561445.09,
+    "averagePercentageDifference": 410277515,
+    "clubs": [{
+        "club": "Eintracht Frankfurt",
+        "playerCount": 1,
+        "averageNetDifference": 26190000.00,
+        "averagePercentageDifference": 3233
+      },
+      {
+        "club": "RB Leipzig",
+        "playerCount": 5,
+        "averageNetDifference": 64800000.00,
+        "averagePercentageDifference": 900
+      }
+    ]
+  }],
+  "bestTrophyClubs": [{
+    "name": "Germany",
+    "slug": "germany",
+    "playerCount": 128,
+    "averageNetDifference": 9561445.09,
+    "averagePercentageDifference": 410277515,
+    "data": [{
+        "name": "Eintracht Frankfurt",
+        "playerCount": 1,
+        "averageNetDifference": 26190000.00,
+        "averagePercentageDifference": 3233
+      },
+      {
+        "name": "RB Leipzig",
+        "playerCount": 5,
+        "averageNetDifference": 64800000.00,
+        "averagePercentageDifference": 900
+      }
+    ]
+  }]
+
+}

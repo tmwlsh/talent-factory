@@ -1,0 +1,134 @@
+<template>
+  <div class="table">
+    <div class="table-header row">
+      <div class="data" @click.prevent="setActiveSort('name')">Club</div>
+      <div class="data" @click.prevent="setActiveSort('playerCount')">Player Count</div>
+      <div class="data" @click.prevent="setActiveSort('averageNetDifference')">Average Net Difference</div>
+      <div class="data" @click.prevent="setActiveSort('averagePercentageDifference')">Average Percentage Difference</div>
+    </div>
+    <div v-for="row in filteredTableData" :key="row.country">
+      <div class="row" @click.prevent="toggleDisplay(row.slug)">
+        <div class="data">
+          {{row.country}}
+        </div>
+        <div class="data">
+          {{row.playerCount}}
+        </div>
+        <div class="data">
+          {{row.averageNetDifference | numberFilter}}
+        </div>
+        <div class="data">
+          {{row.averagePercentageDifference}}
+        </div>
+      </div>
+      <transition name="slide-fade">
+        <div v-if="activeCountries.indexOf(row.slug) !== -1">
+          <div class="row inner" v-for="club in row.clubs" :key="club.name">
+            <div class="data">
+              {{club.club}}
+            </div>
+            <div class="data">
+              {{club.playerCount}}
+            </div>
+            <div class="data">
+              <!-- {{club.averageNetDifference | numberFilter}} -->
+            </div>
+            <div class="data">
+              <!-- {{club.averagePercentageDifference}} -->
+            </div>
+
+          </div>
+        </div>
+      </transition>
+    </div>
+  </div>
+</template>
+
+<script>
+  export default {
+    props: ['tableData'],
+    data: () => {
+      return {
+        activeCountries: [],
+        activeSort: false,
+        sortAscending: true,
+      }
+    },
+    methods: {
+      setActiveSort(id) {
+        if(id === this.activeSort) this.sortAscending = !this.sortAscending
+        else this.sortAscending
+        this.activeSort = id
+      },
+      toggleDisplay(slug) {
+        if(this.activeCountries.indexOf(slug) === -1) {
+            this.activeCountries.push(slug);
+        }
+        else {
+          this.activeCountries.splice(this.activeCountries.indexOf(slug), 1)
+        }
+      },
+    },
+    filters: {
+      numberFilter(num) {
+        return `£${num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`;
+      }
+    },
+    computed: {
+      filteredTableData: function () {
+        const clonedData = JSON.parse(JSON.stringify(this.tableData))
+        if(this.activeSort && this.sortAscending) return clonedData.sort((a, b) => {
+          if(this.sortAscending) return a[this.activeSort] - b[this.activeSort]
+          else return b[this.activeSort] - a[this.activeSort]
+        })
+        else return clonedData
+
+      }
+    }
+  }
+</script>
+
+<style lang="scss" scoped>
+  .table {
+    padding: 20px 0px;
+    overflow-x: auto
+  }
+  .row {
+    display: flex;
+    margin-bottom: 5px;
+    .data {
+      &:nth-of-type(odd) {
+        background-color: blue;
+      }
+      &:nth-of-type(even) {
+        background-color: lightblue;
+      }
+    }
+    &.inner {
+      .data {
+        &:nth-of-type(odd) {
+          background-color: red;
+        }
+        &:nth-of-type(even) {
+          background-color: lightcoral;
+        }
+      }
+    }
+  }
+  .data {
+    min-width: 250px;
+    padding: 10px;
+  }
+  .slide-fade-enter-active {
+    transition: all .3s ease;
+  }
+  .slide-fade-leave-active {
+    transition: all .3s ease;
+  }
+  .slide-fade-enter, .slide-fade-leave-to
+  /* .slide-fade-leave-active below version 2.1.8 */ {
+    transform: scaleY(1);
+    opacity: 0;
+  }
+</style>
+
