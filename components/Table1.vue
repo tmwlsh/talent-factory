@@ -9,7 +9,7 @@
     <div v-for="row in filteredTableData" :key="row.country">
       <div class="row" @click.prevent="toggleDisplay(row.slug)">
         <div class="data">
-          {{row.country}}
+          {{row.name}}
         </div>
         <div class="data">
           {{row.playerCount}}
@@ -23,18 +23,18 @@
       </div>
       <transition name="slide-fade">
         <div v-if="activeCountries.indexOf(row.slug) !== -1">
-          <div class="row inner" v-for="club in row.clubs" :key="club.name">
+          <div class="row inner" v-for="club in row.data" :key="club.name">
             <div class="data">
-              {{club.club}}
+              {{club.name}}
             </div>
             <div class="data">
               {{club.playerCount}}
             </div>
             <div class="data">
-              <!-- {{club.averageNetDifference | numberFilter}} -->
+              {{club.averageNetDifference | numberFilter}}
             </div>
             <div class="data">
-              <!-- {{club.averagePercentageDifference}} -->
+              {{club.averagePercentageDifference}}
             </div>
 
           </div>

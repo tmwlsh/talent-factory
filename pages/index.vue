@@ -2,12 +2,12 @@
   <main>
     <div class="container">
       <div>
-        <p>Countries</p>
+        <!-- <p>Countries</p>
         <Table1 :table-data="countries"/>
         <p>Best value clubs</p>
         <Table1 :table-data="bestValueClubs"/>
-        <p>Best trophy clubs</p>
-        <Table2 :table-data="bestValueClubs"/>
+        <p>Best trophy clubs</p> -->
+        <Table2 :table-data="bestTrophyClubs"/>
       </div>
     </div>
   </main>
@@ -16,8 +16,7 @@
 <script>
   import Table1 from '~/components/Table1'
   import Table2 from '~/components/Table2'
-  import {bestValueClubs, bestTrophyClubs} from '~/assets/data/dummy.json'
-  import countries from '~/assets/data/real.json'
+  import {countries, bestValueClubs, bestTrophyClubs} from '~/assets/data/real.json'
 
   export default {
     components: {
