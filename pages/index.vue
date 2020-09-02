@@ -2,11 +2,11 @@
   <main>
     <div class="container">
       <div>
-        <!-- <p>Countries</p>
+        <p>Countries</p>
         <Table1 :table-data="countries"/>
         <p>Best value clubs</p>
         <Table1 :table-data="bestValueClubs"/>
-        <p>Best trophy clubs</p> -->
+        <p>Best trophy clubs</p>
         <Table2 :table-data="bestTrophyClubs"/>
       </div>
     </div>

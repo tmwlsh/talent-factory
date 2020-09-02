@@ -77,9 +77,10 @@
     computed: {
       filteredTableData: function () {
         const clonedData = JSON.parse(JSON.stringify(this.tableData))
-        if(this.activeSort && this.sortAscending) return clonedData.sort((a, b) => {
+
+        if(this.activeSort) return clonedData.sort((a, b) => {
           if(this.sortAscending) return a[this.activeSort] - b[this.activeSort]
-          else return b[this.activeSort] - a[this.activeSort]
+          return b[this.activeSort] - a[this.activeSort]
         })
         else return clonedData
 
