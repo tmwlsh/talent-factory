@@ -1,7 +1,7 @@
 <template>
   <div class="table">
     <div class="table-header row">
-      <div class="data" @click.prevent="setActiveSort('name')">Club</div>
+      <div class="data" @click.prevent="setActiveSort('slug')">Club</div>
       <div class="data" @click.prevent="setActiveSort('playerCount')">Player Count</div>
       <div class="data" @click.prevent="setActiveSort('averageNetDifference')">Average Net Difference</div>
       <div class="data" @click.prevent="setActiveSort('averagePercentageDifference')">Average Percentage Difference</div>
@@ -18,7 +18,7 @@
           {{row.averageNetDifference | numberFilter}}
         </div>
         <div class="data">
-          {{row.averagePercentageDifference}}
+          {{row.averagePercentageDifference}}%
         </div>
       </div>
       <transition name="slide-fade">
@@ -34,7 +34,7 @@
               {{club.averageNetDifference | numberFilter}}
             </div>
             <div class="data">
-              {{club.averagePercentageDifference}}
+              {{club.averagePercentageDifference}}%
             </div>
 
           </div>
@@ -79,6 +79,9 @@
         const clonedData = JSON.parse(JSON.stringify(this.tableData))
 
         if(this.activeSort) return clonedData.sort((a, b) => {
+          if(this.activeSort === 'slug') {
+            return  this.sortAscending ? a.slug.localeCompare(b.slug) : b.slug.localeCompare(a.slug)
+          }
           if(this.sortAscending) return a[this.activeSort] - b[this.activeSort]
           return b[this.activeSort] - a[this.activeSort]
         })

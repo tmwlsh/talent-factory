@@ -1,7 +1,7 @@
 <template>
   <div class="table">
     <div class="table-header row">
-      <div class="data" @click.prevent="setActiveSort('club')">First Club</div>
+      <div class="data" @click.prevent="setActiveSort('slug')">First Club</div>
       <div class="data" @click.prevent="setActiveSort('playerCount')">First club Count</div>
       <div class="data" @click.prevent="setActiveSort('domesticTitles')">Domestic Titles</div>
       <div class="data" @click.prevent="setActiveSort('ucls')">Champtions league wins</div>
@@ -98,6 +98,9 @@
     computed: {
       filteredTableData: function () {
         const clonedData = JSON.parse(JSON.stringify(this.tableData))
+        if(this.activeSort === 'slug') {
+            return  this.sortAscending ? a.slug.localeCompare(b.slug) : b.slug.localeCompare(a.slug)
+          }
         if(this.activeSort) return clonedData.sort((a, b) => {
           if(this.sortAscending) return a[this.activeSort] - b[this.activeSort]
           else return b[this.activeSort] - a[this.activeSort]
