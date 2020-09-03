@@ -122,19 +122,19 @@
     margin-bottom: 5px;
     .data {
       &:nth-of-type(odd) {
-        background-color: blue;
+        background: linear-gradient(to right, #162C5F 0%, #122854 100%);
       }
       &:nth-of-type(even) {
-        background-color: lightblue;
+        background: linear-gradient(to right, #1D3C80 0%, #193573 100%);
       }
     }
     &.inner {
       .data {
         &:nth-of-type(odd) {
-          background-color: red;
+          background: linear-gradient(to right, #721C1D 0%, #5D1515 100%);
         }
         &:nth-of-type(even) {
-          background-color: lightcoral;
+          background: linear-gradient(to right, #9D2627 0%, #7E1E1D 100%);
         }
       }
     }

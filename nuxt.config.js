@@ -51,6 +51,11 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    ['vue-scrollto/nuxt', {
+      duration: 300,
+      cancelable: false,
+      offset: -80
+    }],
   ],
   /*
   ** Build configuration

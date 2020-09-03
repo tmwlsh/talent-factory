@@ -1,10 +1,18 @@
 <template>
   <div class="table">
     <div class="table-header row">
-      <div class="data" @click.prevent="setActiveSort('slug')">Club</div>
-      <div class="data" @click.prevent="setActiveSort('playerCount')">Player Count</div>
-      <div class="data" @click.prevent="setActiveSort('averageNetDifference')">Average Net Difference</div>
-      <div class="data" @click.prevent="setActiveSort('averagePercentageDifference')">Average Percentage Difference</div>
+      <div class="data" @click.prevent="setActiveSort('slug')">
+        <span>Club</span>
+      </div>
+      <div class="data" @click.prevent="setActiveSort('playerCount')">
+        <span>Player Count</span>
+      </div>
+      <div class="data" @click.prevent="setActiveSort('averageNetDifference')">
+        <span>Average Net Difference</span>
+      </div>
+      <div class="data" @click.prevent="setActiveSort('averagePercentageDifference')">
+        <span>Average Percentage Difference</span>
+      </div>
     </div>
     <div v-for="row in filteredTableData" :key="row.country">
       <div class="row" @click.prevent="toggleDisplay(row.slug)">
@@ -95,26 +103,31 @@
 <style lang="scss" scoped>
   .table {
     padding: 20px 0px;
-    overflow-x: auto
+    overflow-x: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .row {
     display: flex;
     margin-bottom: 5px;
     .data {
       &:nth-of-type(odd) {
-        background-color: blue;
+        background: linear-gradient(to right, #162C5F 0%, #122854 100%);
       }
       &:nth-of-type(even) {
-        background-color: lightblue;
+        background: linear-gradient(to right, #1D3C80 0%, #193573 100%);
       }
     }
     &.inner {
       .data {
         &:nth-of-type(odd) {
-          background-color: red;
+          background: linear-gradient(to right, #721C1D 0%, #5D1515 100%);
         }
         &:nth-of-type(even) {
-          background-color: lightcoral;
+          background: linear-gradient(to right, #9D2627 0%, #7E1E1D 100%);
         }
       }
     }
