@@ -76,6 +76,7 @@
     font-size: 1.4rem;
     text-transform: uppercase;
     margin-bottom: 0;
+    color: #ffffff;
   }
   .quote {
     font-size: 3rem;
@@ -133,9 +134,8 @@
     }
   }
   .container {
-    color: #fff;
-    padding: 40px;
-    max-width: 1080px;
     margin: 0 auto;
+    padding: 0 30px;
+    max-width: 1400px;
   }
 </style>

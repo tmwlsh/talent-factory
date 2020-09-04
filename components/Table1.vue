@@ -14,7 +14,7 @@
         <span>Average Percentage Difference</span>
       </div>
     </div>
-    <div v-for="row in filteredTableData" :key="row.country">
+    <div class="row-outer" v-for="row in filteredTableData" :key="row.country">
       <div class="row" @click.prevent="toggleDisplay(row.slug)">
         <div class="data">
           {{row.name}}
@@ -107,11 +107,17 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    color: #fff;
+  }
+  .row-outer {
+    display: flex;
+    width: 100%;
+    min-width: 960px;
   }
   .row {
+    min-width: 960px;
     display: flex;
+    width: 100%;
     margin-bottom: 5px;
     .data {
       &:nth-of-type(odd) {
@@ -133,8 +139,9 @@
     }
   }
   .data {
-    min-width: 250px;
+    min-width: 25%;
     padding: 10px;
+    box-sizing: border-box;
   }
   .slide-fade-enter-active {
     transition: all .3s ease;

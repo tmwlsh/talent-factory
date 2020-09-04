@@ -115,7 +115,8 @@
 <style lang="scss" scoped>
   .table {
     padding: 20px 0px;
-    overflow-x: auto
+    overflow-x: auto;
+    color: #fff;
   }
   .row {
     display: flex;
