@@ -30,7 +30,7 @@
         </div>
       </div>
       <transition name="slide-fade">
-        <div v-if="activeCountries.indexOf(row.slug) !== -1">
+        <div class="row-inner-container" v-if="activeCountries.indexOf(row.slug) !== -1">
           <div class="row inner" v-for="club in row.data" :key="club.name">
             <div class="data">
               {{club.name}}
@@ -44,7 +44,6 @@
             <div class="data">
               {{club.averagePercentageDifference}}%
             </div>
-
           </div>
         </div>
       </transition>
@@ -112,7 +111,11 @@
   .row-outer {
     display: flex;
     width: 100%;
+    flex-wrap: wrap;
     min-width: 960px;
+  }
+  .row-inner-container {
+    width: 100%;
   }
   .row {
     min-width: 960px;
@@ -129,6 +132,7 @@
     }
     &.inner {
       .data {
+        flex: 0 0 25%;
         &:nth-of-type(odd) {
           background: linear-gradient(to right, #721C1D 0%, #5D1515 100%);
         }
