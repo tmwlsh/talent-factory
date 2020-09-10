@@ -2,7 +2,7 @@
   <div class="table">
     <div class="table-header row">
       <div class="data" @click.prevent="setActiveSort('slug')">
-        <span>Club</span>
+        <span>Country</span>
       </div>
       <div class="data" @click.prevent="setActiveSort('playerCount')">
         <span>Player Count</span>
