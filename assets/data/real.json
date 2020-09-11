@@ -3149,7 +3149,7 @@
       "playerCount": 45,
       "averageNetDifference": -103000.11,
       "averagePercentageDifference": -0.58,
-      "players": [
+      "data": [
         {
           "name": "Aaron Ramsey",
           "playerCount": 1,
@@ -3380,7 +3380,7 @@
       "playerCount": 30,
       "averageNetDifference": 4339666.43,
       "averagePercentageDifference": 30.55,
-      "players": [
+      "data": [
         {
           "name": "Aaron Ramsey",
           "playerCount": 2,
@@ -3533,7 +3533,7 @@
       "playerCount": 3,
       "averageNetDifference": 1649999.67,
       "averagePercentageDifference": 73.33,
-      "players": [
+      "data": [
         {
           "name": "Aaron Ramsey",
           "playerCount": 2,
@@ -3554,7 +3554,7 @@
       "playerCount": 2,
       "averageNetDifference": 450000,
       "averagePercentageDifference": 16.67,
-      "players": [
+      "data": [
         {
           "name": "Aaron Ramsey",
           "playerCount": 1,
@@ -3575,7 +3575,7 @@
       "playerCount": 57,
       "averageNetDifference": 1256315.58,
       "averagePercentageDifference": 6.37,
-      "players": [
+      "data": [
         {
           "name": "Achraf Hakimi",
           "playerCount": 2,
@@ -3866,7 +3866,7 @@
       "playerCount": 26,
       "averageNetDifference": 19398461.38,
       "averagePercentageDifference": 157.59,
-      "players": [
+      "data": [
         {
           "name": "Achraf Hakimi",
           "playerCount": 1,
@@ -4007,7 +4007,7 @@
       "playerCount": 26,
       "averageNetDifference": 1334230.69,
       "averagePercentageDifference": 4.9,
-      "players": [
+      "data": [
         {
           "name": "Adrien Rabiot",
           "playerCount": 2,
@@ -4166,7 +4166,7 @@
       "playerCount": 1,
       "averageNetDifference": 900000,
       "averagePercentageDifference": 40,
-      "players": [
+      "data": [
         {
           "name": "Adrien Rabiot",
           "playerCount": 1,
@@ -4181,7 +4181,7 @@
       "playerCount": 19,
       "averageNetDifference": 12111578.79,
       "averagePercentageDifference": 111.38,
-      "players": [
+      "data": [
         {
           "name": "Adrien Silva",
           "playerCount": 1,
@@ -4298,7 +4298,7 @@
       "playerCount": 7,
       "averageNetDifference": 18931428.57,
       "averagePercentageDifference": 284.5,
-      "players": [
+      "data": [
         {
           "name": "Adrien Silva",
           "playerCount": 1,
@@ -4349,7 +4349,7 @@
       "playerCount": 11,
       "averageNetDifference": 10513635.91,
       "averagePercentageDifference": 309.64,
-      "players": [
+      "data": [
         {
           "name": "Adrien Silva",
           "playerCount": 2,
@@ -4406,7 +4406,7 @@
       "playerCount": 1,
       "averageNetDifference": 1440000,
       "averagePercentageDifference": 84.21,
-      "players": [
+      "data": [
         {
           "name": "Adrien Silva",
           "playerCount": 1,
@@ -4421,7 +4421,7 @@
       "playerCount": 1,
       "averageNetDifference": -540000,
       "averagePercentageDifference": -24,
-      "players": [
+      "data": [
         {
           "name": "Adrien Silva",
           "playerCount": 1,
@@ -4436,7 +4436,7 @@
       "playerCount": 2,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Alessandro del Piero",
           "playerCount": 1,
@@ -4457,7 +4457,7 @@
       "playerCount": 1,
       "averageNetDifference": -225000,
       "averagePercentageDifference": -33.33,
-      "players": [
+      "data": [
         {
           "name": "Alessandro del Piero",
           "playerCount": 1,
@@ -4472,7 +4472,7 @@
       "playerCount": 2,
       "averageNetDifference": 3000000,
       "averagePercentageDifference": 600,
-      "players": [
+      "data": [
         {
           "name": "Alessandro del Piero",
           "playerCount": 1,
@@ -4493,7 +4493,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Alessandro Nesta",
           "playerCount": 1,
@@ -4508,7 +4508,7 @@
       "playerCount": 3,
       "averageNetDifference": -600000,
       "averagePercentageDifference": -21.28,
-      "players": [
+      "data": [
         {
           "name": "Alessandro Nesta",
           "playerCount": 1,
@@ -4535,7 +4535,7 @@
       "playerCount": 39,
       "averageNetDifference": 1868717.72,
       "averagePercentageDifference": 18.06,
-      "players": [
+      "data": [
         {
           "name": "Alessandro Nesta",
           "playerCount": 1,
@@ -4748,7 +4748,7 @@
       "playerCount": 10,
       "averageNetDifference": 3599999.9,
       "averagePercentageDifference": 86.02,
-      "players": [
+      "data": [
         {
           "name": "Alessandro Nesta",
           "playerCount": 1,
@@ -4817,7 +4817,7 @@
       "playerCount": 14,
       "averageNetDifference": 13278571.36,
       "averagePercentageDifference": 249.46,
-      "players": [
+      "data": [
         {
           "name": "Alex Sandro",
           "playerCount": 1,
@@ -4904,7 +4904,7 @@
       "playerCount": 6,
       "averageNetDifference": 11759999.67,
       "averagePercentageDifference": 607.75,
-      "players": [
+      "data": [
         {
           "name": "Alex Sandro",
           "playerCount": 1,
@@ -4943,7 +4943,7 @@
       "playerCount": 1,
       "averageNetDifference": 359999,
       "averagePercentageDifference": 35999900,
-      "players": [
+      "data": [
         {
           "name": "Alex Sandro",
           "playerCount": 1,
@@ -4958,7 +4958,7 @@
       "playerCount": 3,
       "averageNetDifference": -4920000,
       "averagePercentageDifference": -44.93,
-      "players": [
+      "data": [
         {
           "name": "Alex Teixeira",
           "playerCount": 1,
@@ -4985,7 +4985,7 @@
       "playerCount": 8,
       "averageNetDifference": 13421250,
       "averagePercentageDifference": 303.56,
-      "players": [
+      "data": [
         {
           "name": "Alex Teixeira",
           "playerCount": 1,
@@ -5042,7 +5042,7 @@
       "playerCount": 6,
       "averageNetDifference": 1291666.5,
       "averagePercentageDifference": 231.34,
-      "players": [
+      "data": [
         {
           "name": "Alex Teixeira",
           "playerCount": 1,
@@ -5075,7 +5075,7 @@
       "playerCount": 12,
       "averageNetDifference": 14084999.42,
       "averagePercentageDifference": 371.88,
-      "players": [
+      "data": [
         {
           "name": "Alexandre Lacazette",
           "playerCount": 1,
@@ -5156,7 +5156,7 @@
       "playerCount": 42,
       "averageNetDifference": 803095.07,
       "averagePercentageDifference": 6.17,
-      "players": [
+      "data": [
         {
           "name": "Alexis Sanchez",
           "playerCount": 1,
@@ -5375,7 +5375,7 @@
       "playerCount": 43,
       "averageNetDifference": 2013720.7,
       "averagePercentageDifference": 10.64,
-      "players": [
+      "data": [
         {
           "name": "Alexis Sanchez",
           "playerCount": 1,
@@ -5612,7 +5612,7 @@
       "playerCount": 44,
       "averageNetDifference": 3995681.61,
       "averagePercentageDifference": 17.84,
-      "players": [
+      "data": [
         {
           "name": "Alexis Sanchez",
           "playerCount": 1,
@@ -5879,7 +5879,7 @@
       "playerCount": 12,
       "averageNetDifference": 6581249.83,
       "averagePercentageDifference": 207.69,
-      "players": [
+      "data": [
         {
           "name": "Alexis Sanchez",
           "playerCount": 2,
@@ -5936,7 +5936,7 @@
       "playerCount": 9,
       "averageNetDifference": 4434444.11,
       "averagePercentageDifference": 367.83,
-      "players": [
+      "data": [
         {
           "name": "Alexis Sanchez",
           "playerCount": 1,
@@ -5993,7 +5993,7 @@
       "playerCount": 3,
       "averageNetDifference": 3511666,
       "averagePercentageDifference": 23410.07,
-      "players": [
+      "data": [
         {
           "name": "Alexis Sanchez",
           "playerCount": 1,
@@ -6020,7 +6020,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Alexis Sanchez",
           "playerCount": 1,
@@ -6035,7 +6035,7 @@
       "playerCount": 27,
       "averageNetDifference": 21593333.15,
       "averagePercentageDifference": 117.14,
-      "players": [
+      "data": [
         {
           "name": "Alisson",
           "playerCount": 1,
@@ -6188,7 +6188,7 @@
       "playerCount": 20,
       "averageNetDifference": 7124999.85,
       "averagePercentageDifference": 68.89,
-      "players": [
+      "data": [
         {
           "name": "Alisson",
           "playerCount": 1,
@@ -6305,7 +6305,7 @@
       "playerCount": 5,
       "averageNetDifference": 7224999.6,
       "averagePercentageDifference": 1156,
-      "players": [
+      "data": [
         {
           "name": "Alisson",
           "playerCount": 1,
@@ -6344,7 +6344,7 @@
       "playerCount": 36,
       "averageNetDifference": 11431944.31,
       "averagePercentageDifference": 68.28,
-      "players": [
+      "data": [
         {
           "name": "Alvaro Morata",
           "playerCount": 1,
@@ -6527,7 +6527,7 @@
       "playerCount": 54,
       "averageNetDifference": -62407.46,
       "averagePercentageDifference": -0.3,
-      "players": [
+      "data": [
         {
           "name": "Alvaro Morata",
           "playerCount": 1,
@@ -6788,7 +6788,7 @@
       "playerCount": 1,
       "averageNetDifference": -400000,
       "averagePercentageDifference": -20,
-      "players": [
+      "data": [
         {
           "name": "Alvaro Negredo",
           "playerCount": 1,
@@ -6803,7 +6803,7 @@
       "playerCount": 2,
       "averageNetDifference": -450000,
       "averagePercentageDifference": -23.68,
-      "players": [
+      "data": [
         {
           "name": "Alvaro Negredo",
           "playerCount": 1,
@@ -6824,7 +6824,7 @@
       "playerCount": 20,
       "averageNetDifference": 2513999.85,
       "averagePercentageDifference": 33.62,
-      "players": [
+      "data": [
         {
           "name": "Alvaro Negredo",
           "playerCount": 2,
@@ -6911,7 +6911,7 @@
       "playerCount": 4,
       "averageNetDifference": -1862500,
       "averagePercentageDifference": -32.46,
-      "players": [
+      "data": [
         {
           "name": "Alvaro Negredo",
           "playerCount": 1,
@@ -6944,7 +6944,7 @@
       "playerCount": 2,
       "averageNetDifference": -1725000,
       "averagePercentageDifference": -35.38,
-      "players": [
+      "data": [
         {
           "name": "Alvaro Negredo",
           "playerCount": 1,
@@ -6965,7 +6965,7 @@
       "playerCount": 41,
       "averageNetDifference": 4557926.76,
       "averagePercentageDifference": 23.23,
-      "players": [
+      "data": [
         {
           "name": "Alvaro Negredo",
           "playerCount": 1,
@@ -7178,7 +7178,7 @@
       "playerCount": 15,
       "averageNetDifference": 5892666.6,
       "averagePercentageDifference": 68.89,
-      "players": [
+      "data": [
         {
           "name": "Alvaro Negredo",
           "playerCount": 1,
@@ -7265,7 +7265,7 @@
       "playerCount": 1,
       "averageNetDifference": 9400000,
       "averagePercentageDifference": 361.54,
-      "players": [
+      "data": [
         {
           "name": "Alvaro Negredo",
           "playerCount": 1,
@@ -7280,7 +7280,7 @@
       "playerCount": 4,
       "averageNetDifference": 3612499.75,
       "averagePercentageDifference": 139.61,
-      "players": [
+      "data": [
         {
           "name": "Alvaro Negredo",
           "playerCount": 1,
@@ -7313,7 +7313,7 @@
       "playerCount": 4,
       "averageNetDifference": 179999.5,
       "averagePercentageDifference": 228.57,
-      "players": [
+      "data": [
         {
           "name": "Alvaro Recoba",
           "playerCount": 2,
@@ -7340,7 +7340,7 @@
       "playerCount": 4,
       "averageNetDifference": 1171249.5,
       "averagePercentageDifference": 520.55,
-      "players": [
+      "data": [
         {
           "name": "Alvaro Recoba",
           "playerCount": 2,
@@ -7367,7 +7367,7 @@
       "playerCount": 10,
       "averageNetDifference": 427499.8,
       "averagePercentageDifference": 11.42,
-      "players": [
+      "data": [
         {
           "name": "Alvaro Recoba",
           "playerCount": 1,
@@ -7412,7 +7412,7 @@
       "playerCount": 1,
       "averageNetDifference": -1350000,
       "averagePercentageDifference": -60,
-      "players": [
+      "data": [
         {
           "name": "Alvaro Recoba",
           "playerCount": 1,
@@ -7427,7 +7427,7 @@
       "playerCount": 2,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Alvaro Recoba",
           "playerCount": 1,
@@ -7448,7 +7448,7 @@
       "playerCount": 4,
       "averageNetDifference": -1305000,
       "averagePercentageDifference": -35.15,
-      "players": [
+      "data": [
         {
           "name": "Andrea Pirlo",
           "playerCount": 1,
@@ -7475,7 +7475,7 @@
       "playerCount": 3,
       "averageNetDifference": 149999.67,
       "averagePercentageDifference": 5,
-      "players": [
+      "data": [
         {
           "name": "Andrea Pirlo",
           "playerCount": 1,
@@ -7502,7 +7502,7 @@
       "playerCount": 2,
       "averageNetDifference": -2250000,
       "averagePercentageDifference": -54.35,
-      "players": [
+      "data": [
         {
           "name": "Andres Iniesta",
           "playerCount": 1,
@@ -7523,7 +7523,7 @@
       "playerCount": 4,
       "averageNetDifference": 4387500,
       "averagePercentageDifference": 111.43,
-      "players": [
+      "data": [
         {
           "name": "Andrew Robertson",
           "playerCount": 1,
@@ -7550,7 +7550,7 @@
       "playerCount": 1,
       "averageNetDifference": 3082000,
       "averagePercentageDifference": 4532.35,
-      "players": [
+      "data": [
         {
           "name": "Andrew Robertson",
           "playerCount": 1,
@@ -7565,7 +7565,7 @@
       "playerCount": 2,
       "averageNetDifference": 1608999.5,
       "averagePercentageDifference": 178.78,
-      "players": [
+      "data": [
         {
           "name": "Andrew Robertson",
           "playerCount": 1,
@@ -7586,7 +7586,7 @@
       "playerCount": 4,
       "averageNetDifference": 4005000,
       "averagePercentageDifference": 193.48,
-      "players": [
+      "data": [
         {
           "name": "Andriy Shevchenko",
           "playerCount": 2,
@@ -7613,7 +7613,7 @@
       "playerCount": 13,
       "averageNetDifference": -429230.85,
       "averagePercentageDifference": -4.78,
-      "players": [
+      "data": [
         {
           "name": "Andriy Yarmolenko",
           "playerCount": 1,
@@ -7694,7 +7694,7 @@
       "playerCount": 1,
       "averageNetDifference": 179999,
       "averagePercentageDifference": 17999900,
-      "players": [
+      "data": [
         {
           "name": "Andriy Yarmolenko",
           "playerCount": 1,
@@ -7709,7 +7709,7 @@
       "playerCount": 21,
       "averageNetDifference": 10615714.14,
       "averagePercentageDifference": 182.94,
-      "players": [
+      "data": [
         {
           "name": "Angel di Maria",
           "playerCount": 1,
@@ -7826,7 +7826,7 @@
       "playerCount": 2,
       "averageNetDifference": 2799999,
       "averagePercentageDifference": 279999900,
-      "players": [
+      "data": [
         {
           "name": "Angel di Maria",
           "playerCount": 1,
@@ -7847,7 +7847,7 @@
       "playerCount": 1,
       "averageNetDifference": 26190000,
       "averagePercentageDifference": 3233.33,
-      "players": [
+      "data": [
         {
           "name": "Ante Rebic",
           "playerCount": 1,
@@ -7862,7 +7862,7 @@
       "playerCount": 2,
       "averageNetDifference": 5174999.5,
       "averagePercentageDifference": 766.67,
-      "players": [
+      "data": [
         {
           "name": "Ante Rebic",
           "playerCount": 1,
@@ -7883,7 +7883,7 @@
       "playerCount": 14,
       "averageNetDifference": 2028214.29,
       "averagePercentageDifference": 38.22,
-      "players": [
+      "data": [
         {
           "name": "Ante Rebic",
           "playerCount": 2,
@@ -7952,7 +7952,7 @@
       "playerCount": 5,
       "averageNetDifference": 26189999.8,
       "averagePercentageDifference": 461.9,
-      "players": [
+      "data": [
         {
           "name": "Ante Rebic",
           "playerCount": 1,
@@ -7991,7 +7991,7 @@
       "playerCount": 1,
       "averageNetDifference": 4049999,
       "averagePercentageDifference": 404999900,
-      "players": [
+      "data": [
         {
           "name": "Ante Rebic",
           "playerCount": 1,
@@ -8006,7 +8006,7 @@
       "playerCount": 3,
       "averageNetDifference": 15749999.33,
       "averagePercentageDifference": 3499.99,
-      "players": [
+      "data": [
         {
           "name": "Antoine Griezmann",
           "playerCount": 1,
@@ -8033,7 +8033,7 @@
       "playerCount": 7,
       "averageNetDifference": 12142.71,
       "averagePercentageDifference": 0.27,
-      "players": [
+      "data": [
         {
           "name": "Arda Turan",
           "playerCount": 3,
@@ -8072,7 +8072,7 @@
       "playerCount": 1,
       "averageNetDifference": -6165000,
       "averagePercentageDifference": -91.33,
-      "players": [
+      "data": [
         {
           "name": "Arda Turan",
           "playerCount": 1,
@@ -8087,7 +8087,7 @@
       "playerCount": 1,
       "averageNetDifference": 765000,
       "averagePercentageDifference": 130.77,
-      "players": [
+      "data": [
         {
           "name": "Arda Turan",
           "playerCount": 1,
@@ -8102,7 +8102,7 @@
       "playerCount": 4,
       "averageNetDifference": 17819999.5,
       "averagePercentageDifference": 1320,
-      "players": [
+      "data": [
         {
           "name": "Aritz Aduriz",
           "playerCount": 2,
@@ -8129,7 +8129,7 @@
       "playerCount": 3,
       "averageNetDifference": 9329999.33,
       "averagePercentageDifference": 706.82,
-      "players": [
+      "data": [
         {
           "name": "Aritz Aduriz",
           "playerCount": 1,
@@ -8156,7 +8156,7 @@
       "playerCount": 6,
       "averageNetDifference": 2736666.5,
       "averagePercentageDifference": 291.65,
-      "players": [
+      "data": [
         {
           "name": "Arjen Robben",
           "playerCount": 2,
@@ -8195,7 +8195,7 @@
       "playerCount": 40,
       "averageNetDifference": 3233249.8,
       "averagePercentageDifference": 15.26,
-      "players": [
+      "data": [
         {
           "name": "Arjen Robben",
           "playerCount": 1,
@@ -8408,7 +8408,7 @@
       "playerCount": 10,
       "averageNetDifference": 8729999.7,
       "averagePercentageDifference": 262.16,
-      "players": [
+      "data": [
         {
           "name": "Arjen Robben",
           "playerCount": 1,
@@ -8477,7 +8477,7 @@
       "playerCount": 5,
       "averageNetDifference": 15002999.4,
       "averagePercentageDifference": 55565.02,
-      "players": [
+      "data": [
         {
           "name": "Arthur Melo",
           "playerCount": 1,
@@ -8516,7 +8516,7 @@
       "playerCount": 7,
       "averageNetDifference": 13307142.71,
       "averagePercentageDifference": 217.89,
-      "players": [
+      "data": [
         {
           "name": "Arturo Vidal",
           "playerCount": 1,
@@ -8561,7 +8561,7 @@
       "playerCount": 2,
       "averageNetDifference": -270000,
       "averagePercentageDifference": -17.14,
-      "players": [
+      "data": [
         {
           "name": "Ashley Cole",
           "playerCount": 1,
@@ -8582,7 +8582,7 @@
       "playerCount": 5,
       "averageNetDifference": -2240000,
       "averagePercentageDifference": -45.25,
-      "players": [
+      "data": [
         {
           "name": "Ashley Cole",
           "playerCount": 1,
@@ -8615,7 +8615,7 @@
       "playerCount": 1,
       "averageNetDifference": -1800000,
       "averagePercentageDifference": -40,
-      "players": [
+      "data": [
         {
           "name": "Asmir Begovic",
           "playerCount": 1,
@@ -8630,7 +8630,7 @@
       "playerCount": 3,
       "averageNetDifference": -1470000,
       "averagePercentageDifference": -17.44,
-      "players": [
+      "data": [
         {
           "name": "Asmir Begovic",
           "playerCount": 2,
@@ -8651,7 +8651,7 @@
       "playerCount": 3,
       "averageNetDifference": 2400000,
       "averagePercentageDifference": 34.78,
-      "players": [
+      "data": [
         {
           "name": "Asmir Begovic",
           "playerCount": 1,
@@ -8678,7 +8678,7 @@
       "playerCount": 2,
       "averageNetDifference": 764999.5,
       "averagePercentageDifference": 425,
-      "players": [
+      "data": [
         {
           "name": "Asmir Begovic",
           "playerCount": 2,
@@ -8693,7 +8693,7 @@
       "playerCount": 1,
       "averageNetDifference": 180000,
       "averagePercentageDifference": 100,
-      "players": [
+      "data": [
         {
           "name": "Asmir Begovic",
           "playerCount": 1,
@@ -8708,7 +8708,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Asmir Begovic",
           "playerCount": 1,
@@ -8723,7 +8723,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Asmir Begovic",
           "playerCount": 1,
@@ -8738,7 +8738,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Asmir Begovic",
           "playerCount": 1,
@@ -8753,7 +8753,7 @@
       "playerCount": 1,
       "averageNetDifference": 9000000,
       "averagePercentageDifference": 66.67,
-      "players": [
+      "data": [
         {
           "name": "Axel Witsel",
           "playerCount": 1,
@@ -8768,7 +8768,7 @@
       "playerCount": 4,
       "averageNetDifference": -9900000,
       "averagePercentageDifference": -45.36,
-      "players": [
+      "data": [
         {
           "name": "Axel Witsel",
           "playerCount": 1,
@@ -8801,7 +8801,7 @@
       "playerCount": 4,
       "averageNetDifference": 5062499.5,
       "averagePercentageDifference": 409.09,
-      "players": [
+      "data": [
         {
           "name": "Axel Witsel",
           "playerCount": 1,
@@ -8834,7 +8834,7 @@
       "playerCount": 1,
       "averageNetDifference": -3150000,
       "averagePercentageDifference": -77.78,
-      "players": [
+      "data": [
         {
           "name": "Bastian Schweinsteiger",
           "playerCount": 1,
@@ -8849,7 +8849,7 @@
       "playerCount": 14,
       "averageNetDifference": 2690356.93,
       "averagePercentageDifference": 36.79,
-      "players": [
+      "data": [
         {
           "name": "Benjamin Mendy",
           "playerCount": 1,
@@ -8930,7 +8930,7 @@
       "playerCount": 2,
       "averageNetDifference": 2364999,
       "averagePercentageDifference": 236499900,
-      "players": [
+      "data": [
         {
           "name": "Benjamin Mendy",
           "playerCount": 1,
@@ -8951,7 +8951,7 @@
       "playerCount": 6,
       "averageNetDifference": 10019999.67,
       "averagePercentageDifference": 430.97,
-      "players": [
+      "data": [
         {
           "name": "Benjamin Pavard",
           "playerCount": 1,
@@ -8990,7 +8990,7 @@
       "playerCount": 11,
       "averageNetDifference": 6200908.73,
       "averagePercentageDifference": 183.68,
-      "players": [
+      "data": [
         {
           "name": "Benjamin Pavard",
           "playerCount": 1,
@@ -9059,7 +9059,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Blaise Matuidi",
           "playerCount": 1,
@@ -9074,7 +9074,7 @@
       "playerCount": 4,
       "averageNetDifference": 5795000,
       "averagePercentageDifference": 250.05,
-      "players": [
+      "data": [
         {
           "name": "Blaise Matuidi",
           "playerCount": 1,
@@ -9107,7 +9107,7 @@
       "playerCount": 1,
       "averageNetDifference": 3599999,
       "averagePercentageDifference": 359999900,
-      "players": [
+      "data": [
         {
           "name": "Blaise Matuidi",
           "playerCount": 1,
@@ -9122,7 +9122,7 @@
       "playerCount": 1,
       "averageNetDifference": 6390000,
       "averagePercentageDifference": 1775,
-      "players": [
+      "data": [
         {
           "name": "Branislav Ivanovic",
           "playerCount": 1,
@@ -9137,7 +9137,7 @@
       "playerCount": 1,
       "averageNetDifference": 359999,
       "averagePercentageDifference": 35999900,
-      "players": [
+      "data": [
         {
           "name": "Branislav Ivanovic",
           "playerCount": 1,
@@ -9152,7 +9152,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Branislav Ivanovic",
           "playerCount": 1,
@@ -9167,7 +9167,7 @@
       "playerCount": 9,
       "averageNetDifference": 6109999.89,
       "averagePercentageDifference": 131.4,
-      "players": [
+      "data": [
         {
           "name": "Bruno Fernandes",
           "playerCount": 1,
@@ -9224,7 +9224,7 @@
       "playerCount": 1,
       "averageNetDifference": 4049999,
       "averagePercentageDifference": 404999900,
-      "players": [
+      "data": [
         {
           "name": "Bruno Fernandes",
           "playerCount": 1,
@@ -9239,7 +9239,7 @@
       "playerCount": 4,
       "averageNetDifference": -630000,
       "averagePercentageDifference": -8.98,
-      "players": [
+      "data": [
         {
           "name": "Bruno Henrique",
           "playerCount": 1,
@@ -9272,7 +9272,7 @@
       "playerCount": 7,
       "averageNetDifference": 9964285.71,
       "averagePercentageDifference": 142.2,
-      "players": [
+      "data": [
         {
           "name": "Bruno Henrique",
           "playerCount": 1,
@@ -9323,7 +9323,7 @@
       "playerCount": 1,
       "averageNetDifference": 1799999,
       "averagePercentageDifference": 179999900,
-      "players": [
+      "data": [
         {
           "name": "Bruno Henrique",
           "playerCount": 1,
@@ -9338,7 +9338,7 @@
       "playerCount": 7,
       "averageNetDifference": 2802857,
       "averagePercentageDifference": 140.65,
-      "players": [
+      "data": [
         {
           "name": "Cafu",
           "playerCount": 1,
@@ -9389,7 +9389,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Cafu",
           "playerCount": 1,
@@ -9404,7 +9404,7 @@
       "playerCount": 12,
       "averageNetDifference": 6172499.5,
       "averagePercentageDifference": 625.86,
-      "players": [
+      "data": [
         {
           "name": "Cafu",
           "playerCount": 1,
@@ -9473,7 +9473,7 @@
       "playerCount": 11,
       "averageNetDifference": 4713636.18,
       "averagePercentageDifference": 105.79,
-      "players": [
+      "data": [
         {
           "name": "Carlos Bacca",
           "playerCount": 1,
@@ -9530,7 +9530,7 @@
       "playerCount": 3,
       "averageNetDifference": 4140000,
       "averagePercentageDifference": 265.38,
-      "players": [
+      "data": [
         {
           "name": "Carlos Bacca",
           "playerCount": 1,
@@ -9557,7 +9557,7 @@
       "playerCount": 2,
       "averageNetDifference": 405000,
       "averagePercentageDifference": 81.82,
-      "players": [
+      "data": [
         {
           "name": "Carlos Bacca",
           "playerCount": 2,
@@ -9572,7 +9572,7 @@
       "playerCount": 2,
       "averageNetDifference": 494999.5,
       "averagePercentageDifference": 49499950,
-      "players": [
+      "data": [
         {
           "name": "Carlos Bacca",
           "playerCount": 2,
@@ -9587,7 +9587,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Carlos Bacca",
           "playerCount": 1,
@@ -9602,7 +9602,7 @@
       "playerCount": 1,
       "averageNetDifference": -450000,
       "averagePercentageDifference": -25,
-      "players": [
+      "data": [
         {
           "name": "Carlos Sanchez",
           "playerCount": 1,
@@ -9617,7 +9617,7 @@
       "playerCount": 1,
       "averageNetDifference": 450000,
       "averagePercentageDifference": 33.33,
-      "players": [
+      "data": [
         {
           "name": "Carlos Sanchez",
           "playerCount": 1,
@@ -9632,7 +9632,7 @@
       "playerCount": 1,
       "averageNetDifference": 1350000,
       "averagePercentageDifference": 500,
-      "players": [
+      "data": [
         {
           "name": "Carlos Sanchez",
           "playerCount": 1,
@@ -9647,7 +9647,7 @@
       "playerCount": 1,
       "averageNetDifference": 269999,
       "averagePercentageDifference": 26999900,
-      "players": [
+      "data": [
         {
           "name": "Carlos Sanchez",
           "playerCount": 1,
@@ -9662,7 +9662,7 @@
       "playerCount": 7,
       "averageNetDifference": 263571.14,
       "averagePercentageDifference": 5.32,
-      "players": [
+      "data": [
         {
           "name": "Carlos Tevez",
           "playerCount": 3,
@@ -9695,7 +9695,7 @@
       "playerCount": 3,
       "averageNetDifference": -5833333.33,
       "averagePercentageDifference": -50.8,
-      "players": [
+      "data": [
         {
           "name": "Carlos Tevez",
           "playerCount": 1,
@@ -9722,7 +9722,7 @@
       "playerCount": 11,
       "averageNetDifference": 2409545.27,
       "averagePercentageDifference": 91.6,
-      "players": [
+      "data": [
         {
           "name": "Carlos Tevez",
           "playerCount": 1,
@@ -9791,7 +9791,7 @@
       "playerCount": 2,
       "averageNetDifference": 3824999,
       "averagePercentageDifference": 382499900,
-      "players": [
+      "data": [
         {
           "name": "Cesar Azpilicueta",
           "playerCount": 1,
@@ -9812,7 +9812,7 @@
       "playerCount": 18,
       "averageNetDifference": 20837499.94,
       "averagePercentageDifference": 170.28,
-      "players": [
+      "data": [
         {
           "name": "Christian Eriksen",
           "playerCount": 1,
@@ -9917,7 +9917,7 @@
       "playerCount": 22,
       "averageNetDifference": 15369545.09,
       "averagePercentageDifference": 482.9,
-      "players": [
+      "data": [
         {
           "name": "Christian Eriksen",
           "playerCount": 1,
@@ -10028,7 +10028,7 @@
       "playerCount": 4,
       "averageNetDifference": 2250000,
       "averagePercentageDifference": 33.33,
-      "players": [
+      "data": [
         {
           "name": "Christian Vieri",
           "playerCount": 3,
@@ -10049,7 +10049,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Christian Vieri",
           "playerCount": 1,
@@ -10064,7 +10064,7 @@
       "playerCount": 2,
       "averageNetDifference": 945000,
       "averagePercentageDifference": 525,
-      "players": [
+      "data": [
         {
           "name": "Christian Vieri",
           "playerCount": 1,
@@ -10085,7 +10085,7 @@
       "playerCount": 7,
       "averageNetDifference": -268571.57,
       "averagePercentageDifference": -9.29,
-      "players": [
+      "data": [
         {
           "name": "Ciro Immobile",
           "playerCount": 1,
@@ -10130,7 +10130,7 @@
       "playerCount": 4,
       "averageNetDifference": 7109999.5,
       "averagePercentageDifference": 1316.67,
-      "players": [
+      "data": [
         {
           "name": "Ciro Immobile",
           "playerCount": 1,
@@ -10163,7 +10163,7 @@
       "playerCount": 1,
       "averageNetDifference": 90000,
       "averagePercentageDifference": 33.33,
-      "players": [
+      "data": [
         {
           "name": "Ciro Immobile",
           "playerCount": 1,
@@ -10178,7 +10178,7 @@
       "playerCount": 2,
       "averageNetDifference": 2250000,
       "averagePercentageDifference": 384.62,
-      "players": [
+      "data": [
         {
           "name": "Ciro Immobile",
           "playerCount": 1,
@@ -10199,7 +10199,7 @@
       "playerCount": 2,
       "averageNetDifference": -90000,
       "averagePercentageDifference": -15.38,
-      "players": [
+      "data": [
         {
           "name": "Clarence Seedorf",
           "playerCount": 1,
@@ -10220,7 +10220,7 @@
       "playerCount": 2,
       "averageNetDifference": -3600000,
       "averagePercentageDifference": -19.42,
-      "players": [
+      "data": [
         {
           "name": "Claudio Bravo",
           "playerCount": 1,
@@ -10241,7 +10241,7 @@
       "playerCount": 1,
       "averageNetDifference": 4499999,
       "averagePercentageDifference": 449999900,
-      "players": [
+      "data": [
         {
           "name": "Dani Alves",
           "playerCount": 1,
@@ -10256,7 +10256,7 @@
       "playerCount": 1,
       "averageNetDifference": -2700000,
       "averagePercentageDifference": -27.27,
-      "players": [
+      "data": [
         {
           "name": "Daniel Sturridge",
           "playerCount": 1,
@@ -10271,7 +10271,7 @@
       "playerCount": 3,
       "averageNetDifference": 1350000,
       "averagePercentageDifference": 12,
-      "players": [
+      "data": [
         {
           "name": "Daniel Sturridge",
           "playerCount": 1,
@@ -10298,7 +10298,7 @@
       "playerCount": 3,
       "averageNetDifference": 1350000,
       "averagePercentageDifference": 47.37,
-      "players": [
+      "data": [
         {
           "name": "Daniel Sturridge",
           "playerCount": 1,
@@ -10325,7 +10325,7 @@
       "playerCount": 6,
       "averageNetDifference": 3494999.83,
       "averagePercentageDifference": 95.1,
-      "players": [
+      "data": [
         {
           "name": "Dante",
           "playerCount": 1,
@@ -10370,7 +10370,7 @@
       "playerCount": 3,
       "averageNetDifference": 15599999.67,
       "averagePercentageDifference": 1040,
-      "players": [
+      "data": [
         {
           "name": "Dante",
           "playerCount": 1,
@@ -10397,7 +10397,7 @@
       "playerCount": 1,
       "averageNetDifference": 180000,
       "averagePercentageDifference": 25,
-      "players": [
+      "data": [
         {
           "name": "Dante",
           "playerCount": 1,
@@ -10412,7 +10412,7 @@
       "playerCount": 2,
       "averageNetDifference": 1687499,
       "averagePercentageDifference": 168749900,
-      "players": [
+      "data": [
         {
           "name": "Dante",
           "playerCount": 1,
@@ -10433,7 +10433,7 @@
       "playerCount": 4,
       "averageNetDifference": 3262500,
       "averagePercentageDifference": 56.2,
-      "players": [
+      "data": [
         {
           "name": "Darijo Srna",
           "playerCount": 1,
@@ -10460,7 +10460,7 @@
       "playerCount": 1,
       "averageNetDifference": 2069999,
       "averagePercentageDifference": 206999900,
-      "players": [
+      "data": [
         {
           "name": "Darijo Srna",
           "playerCount": 1,
@@ -10475,7 +10475,7 @@
       "playerCount": 4,
       "averageNetDifference": -5675000,
       "averagePercentageDifference": -47.99,
-      "players": [
+      "data": [
         {
           "name": "Dario Conca",
           "playerCount": 2,
@@ -10502,7 +10502,7 @@
       "playerCount": 7,
       "averageNetDifference": 1125714.14,
       "averagePercentageDifference": 54.46,
-      "players": [
+      "data": [
         {
           "name": "Dario Conca",
           "playerCount": 2,
@@ -10547,7 +10547,7 @@
       "playerCount": 4,
       "averageNetDifference": -5512500,
       "averagePercentageDifference": -34.78,
-      "players": [
+      "data": [
         {
           "name": "Dario Conca",
           "playerCount": 1,
@@ -10574,7 +10574,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Dario Conca",
           "playerCount": 1,
@@ -10589,7 +10589,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Dario Conca",
           "playerCount": 1,
@@ -10604,7 +10604,7 @@
       "playerCount": 3,
       "averageNetDifference": 12750000,
       "averagePercentageDifference": 202.38,
-      "players": [
+      "data": [
         {
           "name": "David Alaba ",
           "playerCount": 1,
@@ -10631,7 +10631,7 @@
       "playerCount": 3,
       "averageNetDifference": 449999.67,
       "averagePercentageDifference": 44999966.67,
-      "players": [
+      "data": [
         {
           "name": "David Luiz",
           "playerCount": 1,
@@ -10658,7 +10658,7 @@
       "playerCount": 6,
       "averageNetDifference": 2175000,
       "averagePercentageDifference": 96.67,
-      "players": [
+      "data": [
         {
           "name": "David Silva ",
           "playerCount": 1,
@@ -10697,7 +10697,7 @@
       "playerCount": 1,
       "averageNetDifference": -450000,
       "averagePercentageDifference": -6.67,
-      "players": [
+      "data": [
         {
           "name": "David Villa",
           "playerCount": 1,
@@ -10712,7 +10712,7 @@
       "playerCount": 3,
       "averageNetDifference": 4770000,
       "averagePercentageDifference": 151.43,
-      "players": [
+      "data": [
         {
           "name": "David Villa",
           "playerCount": 1,
@@ -10739,7 +10739,7 @@
       "playerCount": 1,
       "averageNetDifference": 2249999,
       "averagePercentageDifference": 224999900,
-      "players": [
+      "data": [
         {
           "name": "David Villa",
           "playerCount": 1,
@@ -10754,7 +10754,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Deco",
           "playerCount": 1,
@@ -10769,7 +10769,7 @@
       "playerCount": 1,
       "averageNetDifference": 4499999,
       "averagePercentageDifference": 449999900,
-      "players": [
+      "data": [
         {
           "name": "Dele Alli",
           "playerCount": 1,
@@ -10784,7 +10784,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Dida",
           "playerCount": 1,
@@ -10799,7 +10799,7 @@
       "playerCount": 3,
       "averageNetDifference": 44999.67,
       "averagePercentageDifference": 4499966.67,
-      "players": [
+      "data": [
         {
           "name": "Dida",
           "playerCount": 2,
@@ -10820,7 +10820,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Dida",
           "playerCount": 1,
@@ -10835,7 +10835,7 @@
       "playerCount": 4,
       "averageNetDifference": 1687500,
       "averagePercentageDifference": 500,
-      "players": [
+      "data": [
         {
           "name": "Dida",
           "playerCount": 1,
@@ -10868,7 +10868,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Didier Drogba",
           "playerCount": 1,
@@ -10883,7 +10883,7 @@
       "playerCount": 2,
       "averageNetDifference": 269999.5,
       "averagePercentageDifference": 26999950,
-      "players": [
+      "data": [
         {
           "name": "Didier Drogba",
           "playerCount": 1,
@@ -10904,7 +10904,7 @@
       "playerCount": 2,
       "averageNetDifference": 3035000,
       "averagePercentageDifference": 537.17,
-      "players": [
+      "data": [
         {
           "name": "Didier Drogba",
           "playerCount": 1,
@@ -10925,7 +10925,7 @@
       "playerCount": 2,
       "averageNetDifference": 900000,
       "averagePercentageDifference": 28.57,
-      "players": [
+      "data": [
         {
           "name": "Diego Costa",
           "playerCount": 1,
@@ -10946,7 +10946,7 @@
       "playerCount": 2,
       "averageNetDifference": 495000,
       "averagePercentageDifference": 64.71,
-      "players": [
+      "data": [
         {
           "name": "Diego Costa",
           "playerCount": 1,
@@ -10967,7 +10967,7 @@
       "playerCount": 1,
       "averageNetDifference": 2249999,
       "averagePercentageDifference": 224999900,
-      "players": [
+      "data": [
         {
           "name": "Diego Costa",
           "playerCount": 1,
@@ -10982,7 +10982,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Diego Forlan",
           "playerCount": 1,
@@ -10997,7 +10997,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Diego Forlan",
           "playerCount": 1,
@@ -11012,7 +11012,7 @@
       "playerCount": 1,
       "averageNetDifference": -250000,
       "averagePercentageDifference": -71.43,
-      "players": [
+      "data": [
         {
           "name": "Diego Forlan",
           "playerCount": 1,
@@ -11027,7 +11027,7 @@
       "playerCount": 2,
       "averageNetDifference": 1924999.5,
       "averagePercentageDifference": 385,
-      "players": [
+      "data": [
         {
           "name": "Diego Forlan",
           "playerCount": 1,
@@ -11048,7 +11048,7 @@
       "playerCount": 2,
       "averageNetDifference": 10349999.5,
       "averagePercentageDifference": 1034999950,
-      "players": [
+      "data": [
         {
           "name": "Diego Forlan",
           "playerCount": 1,
@@ -11069,7 +11069,7 @@
       "playerCount": 1,
       "averageNetDifference": 1890000,
       "averagePercentageDifference": 525,
-      "players": [
+      "data": [
         {
           "name": "Dimitri Payet",
           "playerCount": 1,
@@ -11084,7 +11084,7 @@
       "playerCount": 1,
       "averageNetDifference": 359999,
       "averagePercentageDifference": 35999900,
-      "players": [
+      "data": [
         {
           "name": "Dimitri Payet",
           "playerCount": 1,
@@ -11099,7 +11099,7 @@
       "playerCount": 19,
       "averageNetDifference": 11967631.53,
       "averagePercentageDifference": 122.05,
-      "players": [
+      "data": [
         {
           "name": "Dries Mertens",
           "playerCount": 1,
@@ -11204,7 +11204,7 @@
       "playerCount": 2,
       "averageNetDifference": 4275000,
       "averagePercentageDifference": 190,
-      "players": [
+      "data": [
         {
           "name": "Dries Mertens",
           "playerCount": 1,
@@ -11225,7 +11225,7 @@
       "playerCount": 1,
       "averageNetDifference": 1980000,
       "averagePercentageDifference": 733.33,
-      "players": [
+      "data": [
         {
           "name": "Dries Mertens",
           "playerCount": 1,
@@ -11240,7 +11240,7 @@
       "playerCount": 1,
       "averageNetDifference": 269999,
       "averagePercentageDifference": 26999900,
-      "players": [
+      "data": [
         {
           "name": "Dries Mertens",
           "playerCount": 1,
@@ -11255,7 +11255,7 @@
       "playerCount": 8,
       "averageNetDifference": 9472499.88,
       "averagePercentageDifference": 135.81,
-      "players": [
+      "data": [
         {
           "name": "Dusan Tadic",
           "playerCount": 1,
@@ -11306,7 +11306,7 @@
       "playerCount": 2,
       "averageNetDifference": 4500000,
       "averagePercentageDifference": 66.67,
-      "players": [
+      "data": [
         {
           "name": "Dusan Tadic",
           "playerCount": 1,
@@ -11327,7 +11327,7 @@
       "playerCount": 1,
       "averageNetDifference": 2929999,
       "averagePercentageDifference": 292999900,
-      "players": [
+      "data": [
         {
           "name": "Dusan Tadic",
           "playerCount": 1,
@@ -11342,7 +11342,7 @@
       "playerCount": 3,
       "averageNetDifference": 1500000,
       "averagePercentageDifference": 215,
-      "players": [
+      "data": [
         {
           "name": "Duvan Zapata",
           "playerCount": 1,
@@ -11369,7 +11369,7 @@
       "playerCount": 1,
       "averageNetDifference": 1799999,
       "averagePercentageDifference": 179999900,
-      "players": [
+      "data": [
         {
           "name": "Duvan Zapata",
           "playerCount": 1,
@@ -11384,7 +11384,7 @@
       "playerCount": 3,
       "averageNetDifference": 749999.67,
       "averagePercentageDifference": 92.59,
-      "players": [
+      "data": [
         {
           "name": "Ederson",
           "playerCount": 1,
@@ -11411,7 +11411,7 @@
       "playerCount": 1,
       "averageNetDifference": 269999,
       "averagePercentageDifference": 26999900,
-      "players": [
+      "data": [
         {
           "name": "Ederson",
           "playerCount": 1,
@@ -11426,7 +11426,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Edgar Davids",
           "playerCount": 1,
@@ -11441,7 +11441,7 @@
       "playerCount": 2,
       "averageNetDifference": -6300000,
       "averagePercentageDifference": -86.15,
-      "players": [
+      "data": [
         {
           "name": "Edgar Davids",
           "playerCount": 1,
@@ -11462,7 +11462,7 @@
       "playerCount": 1,
       "averageNetDifference": 4049999,
       "averagePercentageDifference": 404999900,
-      "players": [
+      "data": [
         {
           "name": "Edin Dzeko",
           "playerCount": 1,
@@ -11477,7 +11477,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Edin Dzeko",
           "playerCount": 1,
@@ -11492,7 +11492,7 @@
       "playerCount": 3,
       "averageNetDifference": 18343333.33,
       "averagePercentageDifference": 494.87,
-      "players": [
+      "data": [
         {
           "name": "Edinson Cavani",
           "playerCount": 1,
@@ -11519,7 +11519,7 @@
       "playerCount": 1,
       "averageNetDifference": 1260000,
       "averagePercentageDifference": 233.33,
-      "players": [
+      "data": [
         {
           "name": "Emil Forsberg",
           "playerCount": 1,
@@ -11534,7 +11534,7 @@
       "playerCount": 1,
       "averageNetDifference": 539999,
       "averagePercentageDifference": 53999900,
-      "players": [
+      "data": [
         {
           "name": "Emil Forsberg",
           "playerCount": 1,
@@ -11549,7 +11549,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Emmanuel Emenike",
           "playerCount": 1,
@@ -11564,7 +11564,7 @@
       "playerCount": 5,
       "averageNetDifference": 1214999.8,
       "averagePercentageDifference": 75,
-      "players": [
+      "data": [
         {
           "name": "Emmanuel Emenike",
           "playerCount": 1,
@@ -11597,7 +11597,7 @@
       "playerCount": 7,
       "averageNetDifference": -3342857.14,
       "averagePercentageDifference": -39.39,
-      "players": [
+      "data": [
         {
           "name": "Emmanuel Emenike",
           "playerCount": 3,
@@ -11636,7 +11636,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Emmanuel Emenike",
           "playerCount": 1,
@@ -11651,7 +11651,7 @@
       "playerCount": 3,
       "averageNetDifference": 4560000,
       "averagePercentageDifference": 86.86,
-      "players": [
+      "data": [
         {
           "name": "Emmanuel Emenike",
           "playerCount": 1,
@@ -11678,7 +11678,7 @@
       "playerCount": 1,
       "averageNetDifference": 5220000,
       "averagePercentageDifference": 2900,
-      "players": [
+      "data": [
         {
           "name": "Emmanuel Emenike",
           "playerCount": 1,
@@ -11693,7 +11693,7 @@
       "playerCount": 1,
       "averageNetDifference": 179999,
       "averagePercentageDifference": 17999900,
-      "players": [
+      "data": [
         {
           "name": "Emmanuel Emenike",
           "playerCount": 1,
@@ -11708,7 +11708,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Emmanuel Emenike",
           "playerCount": 1,
@@ -11723,7 +11723,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Emmanuel Mayuka",
           "playerCount": 1,
@@ -11738,7 +11738,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Emmanuel Mayuka",
           "playerCount": 1,
@@ -11753,7 +11753,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Emmanuel Mayuka",
           "playerCount": 1,
@@ -11768,7 +11768,7 @@
       "playerCount": 1,
       "averageNetDifference": -720000,
       "averagePercentageDifference": -66.67,
-      "players": [
+      "data": [
         {
           "name": "Emmanuel Mayuka",
           "playerCount": 1,
@@ -11783,7 +11783,7 @@
       "playerCount": 5,
       "averageNetDifference": 2097999.4,
       "averagePercentageDifference": 259.01,
-      "players": [
+      "data": [
         {
           "name": "Emmanuel Mayuka",
           "playerCount": 1,
@@ -11822,7 +11822,7 @@
       "playerCount": 4,
       "averageNetDifference": 866249.75,
       "averagePercentageDifference": 70,
-      "players": [
+      "data": [
         {
           "name": "Emmanuel Mayuka",
           "playerCount": 1,
@@ -11849,7 +11849,7 @@
       "playerCount": 2,
       "averageNetDifference": 5895000,
       "averagePercentageDifference": 689.47,
-      "players": [
+      "data": [
         {
           "name": "Emmanuel Mayuka",
           "playerCount": 1,
@@ -11870,7 +11870,7 @@
       "playerCount": 2,
       "averageNetDifference": 1215000,
       "averagePercentageDifference": 158.82,
-      "players": [
+      "data": [
         {
           "name": "Emmanuel Mayuka",
           "playerCount": 1,
@@ -11891,7 +11891,7 @@
       "playerCount": 1,
       "averageNetDifference": 179999,
       "averagePercentageDifference": 17999900,
-      "players": [
+      "data": [
         {
           "name": "Emmanuel Mayuka",
           "playerCount": 1,
@@ -11906,7 +11906,7 @@
       "playerCount": 1,
       "averageNetDifference": -3150000,
       "averagePercentageDifference": -58.33,
-      "players": [
+      "data": [
         {
           "name": "Enner Valencia",
           "playerCount": 1,
@@ -11921,7 +11921,7 @@
       "playerCount": 9,
       "averageNetDifference": 13299999.89,
       "averagePercentageDifference": 129.76,
-      "players": [
+      "data": [
         {
           "name": "Enner Valencia",
           "playerCount": 1,
@@ -11978,7 +11978,7 @@
       "playerCount": 4,
       "averageNetDifference": 6727499.5,
       "averagePercentageDifference": 533.93,
-      "players": [
+      "data": [
         {
           "name": "Enner Valencia",
           "playerCount": 1,
@@ -12011,7 +12011,7 @@
       "playerCount": 1,
       "averageNetDifference": 1439999,
       "averagePercentageDifference": 143999900,
-      "players": [
+      "data": [
         {
           "name": "Enner Valencia",
           "playerCount": 1,
@@ -12026,7 +12026,7 @@
       "playerCount": 3,
       "averageNetDifference": 24000000,
       "averagePercentageDifference": 1000,
-      "players": [
+      "data": [
         {
           "name": "Erling Braut Haaland",
           "playerCount": 1,
@@ -12053,7 +12053,7 @@
       "playerCount": 1,
       "averageNetDifference": 4230000,
       "averagePercentageDifference": 1566.67,
-      "players": [
+      "data": [
         {
           "name": "Erling Braut Haaland",
           "playerCount": 1,
@@ -12068,7 +12068,7 @@
       "playerCount": 1,
       "averageNetDifference": 269999,
       "averagePercentageDifference": 26999900,
-      "players": [
+      "data": [
         {
           "name": "Erling Braut Haaland",
           "playerCount": 1,
@@ -12083,7 +12083,7 @@
       "playerCount": 2,
       "averageNetDifference": -225000.5,
       "averagePercentageDifference": -4.17,
-      "players": [
+      "data": [
         {
           "name": "Ever Banega",
           "playerCount": 1,
@@ -12104,7 +12104,7 @@
       "playerCount": 2,
       "averageNetDifference": 2025000,
       "averagePercentageDifference": 29.03,
-      "players": [
+      "data": [
         {
           "name": "Ezequiel Garay",
           "playerCount": 2,
@@ -12119,7 +12119,7 @@
       "playerCount": 4,
       "averageNetDifference": -3189250,
       "averagePercentageDifference": -52.5,
-      "players": [
+      "data": [
         {
           "name": "Ezequiel Lavezzi",
           "playerCount": 1,
@@ -12152,7 +12152,7 @@
       "playerCount": 2,
       "averageNetDifference": 5289999,
       "averagePercentageDifference": 528999900,
-      "players": [
+      "data": [
         {
           "name": "Ezequiel Lavezzi",
           "playerCount": 1,
@@ -12173,7 +12173,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Fabio Cannavaro",
           "playerCount": 1,
@@ -12188,7 +12188,7 @@
       "playerCount": 7,
       "averageNetDifference": 3599999.86,
       "averagePercentageDifference": 116.67,
-      "players": [
+      "data": [
         {
           "name": "Fabio Cannavaro",
           "playerCount": 1,
@@ -12233,7 +12233,7 @@
       "playerCount": 1,
       "averageNetDifference": 2115000,
       "averagePercentageDifference": 1566.67,
-      "players": [
+      "data": [
         {
           "name": "Federico Marchetti",
           "playerCount": 1,
@@ -12248,7 +12248,7 @@
       "playerCount": 1,
       "averageNetDifference": 90000,
       "averagePercentageDifference": 200,
-      "players": [
+      "data": [
         {
           "name": "Federico Marchetti",
           "playerCount": 1,
@@ -12263,7 +12263,7 @@
       "playerCount": 2,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Federico Marchetti",
           "playerCount": 2,
@@ -12278,7 +12278,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Federico Marchetti",
           "playerCount": 1,
@@ -12293,7 +12293,7 @@
       "playerCount": 1,
       "averageNetDifference": 3599999,
       "averagePercentageDifference": 359999900,
-      "players": [
+      "data": [
         {
           "name": "Fernandinho",
           "playerCount": 1,
@@ -12308,7 +12308,7 @@
       "playerCount": 1,
       "averageNetDifference": -900000,
       "averagePercentageDifference": -28.57,
-      "players": [
+      "data": [
         {
           "name": "Fernando Torres",
           "playerCount": 1,
@@ -12323,7 +12323,7 @@
       "playerCount": 1,
       "averageNetDifference": 2699999,
       "averagePercentageDifference": 269999900,
-      "players": [
+      "data": [
         {
           "name": "Franck Ribery",
           "playerCount": 1,
@@ -12338,7 +12338,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Franck Ribery",
           "playerCount": 1,
@@ -12353,7 +12353,7 @@
       "playerCount": 2,
       "averageNetDifference": 179999.5,
       "averagePercentageDifference": 17999950,
-      "players": [
+      "data": [
         {
           "name": "Franck Ribery",
           "playerCount": 1,
@@ -12374,7 +12374,7 @@
       "playerCount": 3,
       "averageNetDifference": 1546666.33,
       "averagePercentageDifference": 1031.11,
-      "players": [
+      "data": [
         {
           "name": "Frenkie de Jong",
           "playerCount": 1,
@@ -12401,7 +12401,7 @@
       "playerCount": 10,
       "averageNetDifference": 733000,
       "averagePercentageDifference": 7.8,
-      "players": [
+      "data": [
         {
           "name": "Georginio Wijnaldum",
           "playerCount": 1,
@@ -12458,7 +12458,7 @@
       "playerCount": 5,
       "averageNetDifference": 2159999.6,
       "averagePercentageDifference": 600,
-      "players": [
+      "data": [
         {
           "name": "Georginio Wijnaldum",
           "playerCount": 1,
@@ -12491,7 +12491,7 @@
       "playerCount": 2,
       "averageNetDifference": 1464999,
       "averagePercentageDifference": 146499900,
-      "players": [
+      "data": [
         {
           "name": "Gervinho",
           "playerCount": 1,
@@ -12512,7 +12512,7 @@
       "playerCount": 3,
       "averageNetDifference": 44999.67,
       "averagePercentageDifference": 9.68,
-      "players": [
+      "data": [
         {
           "name": "Giorgio Chiellini",
           "playerCount": 1,
@@ -12533,7 +12533,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Giuseppe Rossi",
           "playerCount": 1,
@@ -12548,7 +12548,7 @@
       "playerCount": 2,
       "averageNetDifference": 4590000,
       "averagePercentageDifference": 175.86,
-      "players": [
+      "data": [
         {
           "name": "Giuseppe Rossi",
           "playerCount": 1,
@@ -12569,7 +12569,7 @@
       "playerCount": 1,
       "averageNetDifference": -2700000,
       "averagePercentageDifference": -20,
-      "players": [
+      "data": [
         {
           "name": "Gonzalo Martinez",
           "playerCount": 1,
@@ -12584,7 +12584,7 @@
       "playerCount": 2,
       "averageNetDifference": 4859999.5,
       "averagePercentageDifference": 5399.97,
-      "players": [
+      "data": [
         {
           "name": "Gonzalo Martinez",
           "playerCount": 1,
@@ -12605,7 +12605,7 @@
       "playerCount": 3,
       "averageNetDifference": 3299999.67,
       "averagePercentageDifference": 366.67,
-      "players": [
+      "data": [
         {
           "name": "Hakim Ziyech",
           "playerCount": 1,
@@ -12632,7 +12632,7 @@
       "playerCount": 2,
       "averageNetDifference": 2475000,
       "averagePercentageDifference": 183.33,
-      "players": [
+      "data": [
         {
           "name": "Harry Kane",
           "playerCount": 1,
@@ -12653,7 +12653,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Harry Maguire",
           "playerCount": 1,
@@ -12668,7 +12668,7 @@
       "playerCount": 3,
       "averageNetDifference": 614999.33,
       "averagePercentageDifference": 68.33,
-      "players": [
+      "data": [
         {
           "name": "Harry Maguire",
           "playerCount": 1,
@@ -12689,7 +12689,7 @@
       "playerCount": 5,
       "averageNetDifference": 4949999.4,
       "averagePercentageDifference": 305.56,
-      "players": [
+      "data": [
         {
           "name": "Hatem Ben Arfa",
           "playerCount": 1,
@@ -12722,7 +12722,7 @@
       "playerCount": 3,
       "averageNetDifference": -150000,
       "averagePercentageDifference": -10,
-      "players": [
+      "data": [
         {
           "name": "Henrik Larsson",
           "playerCount": 3,
@@ -12737,7 +12737,7 @@
       "playerCount": 5,
       "averageNetDifference": 3913999.8,
       "averagePercentageDifference": 129.77,
-      "players": [
+      "data": [
         {
           "name": "Henrik Larsson",
           "playerCount": 1,
@@ -12776,7 +12776,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Henrik Larsson",
           "playerCount": 1,
@@ -12791,7 +12791,7 @@
       "playerCount": 2,
       "averageNetDifference": 2160000,
       "averagePercentageDifference": 150,
-      "players": [
+      "data": [
         {
           "name": "Henrikh Mkhitaryan",
           "playerCount": 1,
@@ -12812,7 +12812,7 @@
       "playerCount": 1,
       "averageNetDifference": 1079999,
       "averagePercentageDifference": 107999900,
-      "players": [
+      "data": [
         {
           "name": "Henrikh Mkhitaryan",
           "playerCount": 1,
@@ -12827,7 +12827,7 @@
       "playerCount": 2,
       "averageNetDifference": 2249999.5,
       "averagePercentageDifference": 224999950,
-      "players": [
+      "data": [
         {
           "name": "Hulk",
           "playerCount": 2,
@@ -12842,7 +12842,7 @@
       "playerCount": 2,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Hulk",
           "playerCount": 2,
@@ -12857,7 +12857,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Hulk",
           "playerCount": 1,
@@ -12872,7 +12872,7 @@
       "playerCount": 7,
       "averageNetDifference": 3407142.86,
       "averagePercentageDifference": 56.2,
-      "players": [
+      "data": [
         {
           "name": "Idrissa Gueye",
           "playerCount": 1,
@@ -12917,7 +12917,7 @@
       "playerCount": 1,
       "averageNetDifference": 4770000,
       "averagePercentageDifference": 757.14,
-      "players": [
+      "data": [
         {
           "name": "Ilkay Gundogan",
           "playerCount": 1,
@@ -12932,7 +12932,7 @@
       "playerCount": 1,
       "averageNetDifference": 629999,
       "averagePercentageDifference": 62999900,
-      "players": [
+      "data": [
         {
           "name": "Ilkay Gundogan",
           "playerCount": 1,
@@ -12947,7 +12947,7 @@
       "playerCount": 3,
       "averageNetDifference": 9300000,
       "averagePercentageDifference": 119.23,
-      "players": [
+      "data": [
         {
           "name": "Isco",
           "playerCount": 1,
@@ -12974,7 +12974,7 @@
       "playerCount": 1,
       "averageNetDifference": 585000,
       "averagePercentageDifference": 185.71,
-      "players": [
+      "data": [
         {
           "name": "Ivan Perisic",
           "playerCount": 1,
@@ -12989,7 +12989,7 @@
       "playerCount": 9,
       "averageNetDifference": 3799999.67,
       "averagePercentageDifference": 80.85,
-      "players": [
+      "data": [
         {
           "name": "Ivan Rakitic",
           "playerCount": 1,
@@ -13052,7 +13052,7 @@
       "playerCount": 3,
       "averageNetDifference": 2399999.67,
       "averagePercentageDifference": 55.17,
-      "players": [
+      "data": [
         {
           "name": "Ivan Rakitic",
           "playerCount": 1,
@@ -13079,7 +13079,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Jaap Stam",
           "playerCount": 1,
@@ -13094,7 +13094,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Jaap Stam",
           "playerCount": 1,
@@ -13109,7 +13109,7 @@
       "playerCount": 1,
       "averageNetDifference": -2070000,
       "averagePercentageDifference": -76.67,
-      "players": [
+      "data": [
         {
           "name": "Jackson Martinez",
           "playerCount": 1,
@@ -13124,7 +13124,7 @@
       "playerCount": 1,
       "averageNetDifference": 4950000,
       "averagePercentageDifference": 183.33,
-      "players": [
+      "data": [
         {
           "name": "Jackson Martinez",
           "playerCount": 1,
@@ -13139,7 +13139,7 @@
       "playerCount": 2,
       "averageNetDifference": 1372499,
       "averagePercentageDifference": 137249900,
-      "players": [
+      "data": [
         {
           "name": "Jackson Martinez",
           "playerCount": 1,
@@ -13160,7 +13160,7 @@
       "playerCount": 2,
       "averageNetDifference": 3824999.5,
       "averagePercentageDifference": 850,
-      "players": [
+      "data": [
         {
           "name": "James Milner ",
           "playerCount": 1,
@@ -13181,7 +13181,7 @@
       "playerCount": 2,
       "averageNetDifference": 1912500,
       "averagePercentageDifference": 1699.99,
-      "players": [
+      "data": [
         {
           "name": "James Rodriguez",
           "playerCount": 1,
@@ -13202,7 +13202,7 @@
       "playerCount": 1,
       "averageNetDifference": 224999,
       "averagePercentageDifference": 22499900,
-      "players": [
+      "data": [
         {
           "name": "James Rodriguez",
           "playerCount": 1,
@@ -13217,7 +13217,7 @@
       "playerCount": 1,
       "averageNetDifference": 899999,
       "averagePercentageDifference": 89999900,
-      "players": [
+      "data": [
         {
           "name": "Jamie Vardy",
           "playerCount": 1,
@@ -13232,7 +13232,7 @@
       "playerCount": 1,
       "averageNetDifference": 1170000,
       "averagePercentageDifference": 118.18,
-      "players": [
+      "data": [
         {
           "name": "Jan Oblak",
           "playerCount": 1,
@@ -13247,7 +13247,7 @@
       "playerCount": 1,
       "averageNetDifference": 629999,
       "averagePercentageDifference": 62999900,
-      "players": [
+      "data": [
         {
           "name": "Jan Oblak",
           "playerCount": 1,
@@ -13262,7 +13262,7 @@
       "playerCount": 1,
       "averageNetDifference": 180000,
       "averagePercentageDifference": 28.57,
-      "players": [
+      "data": [
         {
           "name": "Jan Vertonghen",
           "playerCount": 1,
@@ -13277,7 +13277,7 @@
       "playerCount": 2,
       "averageNetDifference": 89999.5,
       "averagePercentageDifference": 8999950,
-      "players": [
+      "data": [
         {
           "name": "Javier Pastore",
           "playerCount": 1,
@@ -13298,7 +13298,7 @@
       "playerCount": 4,
       "averageNetDifference": 4779999.75,
       "averagePercentageDifference": 107.54,
-      "players": [
+      "data": [
         {
           "name": "Jerome Boateng",
           "playerCount": 1,
@@ -13331,7 +13331,7 @@
       "playerCount": 3,
       "averageNetDifference": 991666,
       "averagePercentageDifference": 330.55,
-      "players": [
+      "data": [
         {
           "name": "Jerome Boateng",
           "playerCount": 1,
@@ -13352,7 +13352,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Jerzy Dudek",
           "playerCount": 1,
@@ -13367,7 +13367,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Jerzy Dudek",
           "playerCount": 1,
@@ -13382,7 +13382,7 @@
       "playerCount": 2,
       "averageNetDifference": -1800000,
       "averagePercentageDifference": -14.29,
-      "players": [
+      "data": [
         {
           "name": "Joao Moutinho",
           "playerCount": 1,
@@ -13403,7 +13403,7 @@
       "playerCount": 2,
       "averageNetDifference": 292500,
       "averagePercentageDifference": 8.39,
-      "players": [
+      "data": [
         {
           "name": "Joe Hart",
           "playerCount": 1,
@@ -13424,7 +13424,7 @@
       "playerCount": 1,
       "averageNetDifference": 1800000,
       "averagePercentageDifference": 28.57,
-      "players": [
+      "data": [
         {
           "name": "Joe Hart",
           "playerCount": 1,
@@ -13439,7 +13439,7 @@
       "playerCount": 1,
       "averageNetDifference": 630000,
       "averagePercentageDifference": 280,
-      "players": [
+      "data": [
         {
           "name": "Joe Hart",
           "playerCount": 1,
@@ -13454,7 +13454,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Joe Hart",
           "playerCount": 1,
@@ -13469,7 +13469,7 @@
       "playerCount": 1,
       "averageNetDifference": 224999,
       "averagePercentageDifference": 22499900,
-      "players": [
+      "data": [
         {
           "name": "Joe Hart",
           "playerCount": 1,
@@ -13484,7 +13484,7 @@
       "playerCount": 2,
       "averageNetDifference": 1799999.5,
       "averagePercentageDifference": 1599.99,
-      "players": [
+      "data": [
         {
           "name": "John Stones",
           "playerCount": 1,
@@ -13505,7 +13505,7 @@
       "playerCount": 5,
       "averageNetDifference": 6029999.6,
       "averagePercentageDifference": 1030.77,
-      "players": [
+      "data": [
         {
           "name": "Jordan Henderson",
           "playerCount": 1,
@@ -13532,7 +13532,7 @@
       "playerCount": 1,
       "averageNetDifference": 450000,
       "averagePercentageDifference": 100,
-      "players": [
+      "data": [
         {
           "name": "Jordan Pickford",
           "playerCount": 1,
@@ -13547,7 +13547,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Jordan Pickford",
           "playerCount": 1,
@@ -13562,7 +13562,7 @@
       "playerCount": 1,
       "averageNetDifference": 1530000,
       "averagePercentageDifference": 566.67,
-      "players": [
+      "data": [
         {
           "name": "Jordi Alba",
           "playerCount": 1,
@@ -13577,7 +13577,7 @@
       "playerCount": 4,
       "averageNetDifference": 4330000,
       "averagePercentageDifference": 114.85,
-      "players": [
+      "data": [
         {
           "name": "Jose Callejon",
           "playerCount": 1,
@@ -13610,7 +13610,7 @@
       "playerCount": 1,
       "averageNetDifference": 4320000,
       "averagePercentageDifference": 400,
-      "players": [
+      "data": [
         {
           "name": "Juan Cuadrado",
           "playerCount": 1,
@@ -13625,7 +13625,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Juan Roman Riquelme",
           "playerCount": 1,
@@ -13640,7 +13640,7 @@
       "playerCount": 3,
       "averageNetDifference": 1423333,
       "averagePercentageDifference": 270.25,
-      "players": [
+      "data": [
         {
           "name": "Juan Zuniga",
           "playerCount": 2,
@@ -13661,7 +13661,7 @@
       "playerCount": 1,
       "averageNetDifference": 450000,
       "averagePercentageDifference": 50,
-      "players": [
+      "data": [
         {
           "name": "Juan Zuniga",
           "playerCount": 1,
@@ -13676,7 +13676,7 @@
       "playerCount": 1,
       "averageNetDifference": -900000,
       "averagePercentageDifference": -66.67,
-      "players": [
+      "data": [
         {
           "name": "Juan Zuniga",
           "playerCount": 1,
@@ -13691,7 +13691,7 @@
       "playerCount": 1,
       "averageNetDifference": 1799999,
       "averagePercentageDifference": 179999900,
-      "players": [
+      "data": [
         {
           "name": "Julian Weigl",
           "playerCount": 1,
@@ -13706,7 +13706,7 @@
       "playerCount": 3,
       "averageNetDifference": -1800000,
       "averagePercentageDifference": -58.54,
-      "players": [
+      "data": [
         {
           "name": "Juninho Pernambucano",
           "playerCount": 1,
@@ -13727,7 +13727,7 @@
       "playerCount": 2,
       "averageNetDifference": -1237500,
       "averagePercentageDifference": -45.83,
-      "players": [
+      "data": [
         {
           "name": "Juninho Pernambucano",
           "playerCount": 1,
@@ -13748,7 +13748,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Juninho Pernambucano",
           "playerCount": 1,
@@ -13763,7 +13763,7 @@
       "playerCount": 3,
       "averageNetDifference": -1980000,
       "averagePercentageDifference": -44,
-      "players": [
+      "data": [
         {
           "name": "Kaka ",
           "playerCount": 2,
@@ -13784,7 +13784,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Kakha Kaladze",
           "playerCount": 1,
@@ -13799,7 +13799,7 @@
       "playerCount": 3,
       "averageNetDifference": 6239999.33,
       "averagePercentageDifference": 1733.33,
-      "players": [
+      "data": [
         {
           "name": "Kalidou Koulibaly",
           "playerCount": 1,
@@ -13826,7 +13826,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Kasper Schmeichel",
           "playerCount": 1,
@@ -13841,7 +13841,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Kasper Schmeichel",
           "playerCount": 1,
@@ -13856,7 +13856,7 @@
       "playerCount": 1,
       "averageNetDifference": 225000,
       "averagePercentageDifference": 100,
-      "players": [
+      "data": [
         {
           "name": "Kasper Schmeichel",
           "playerCount": 1,
@@ -13871,7 +13871,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Kasper Schmeichel",
           "playerCount": 1,
@@ -13886,7 +13886,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Kasper Schmeichel",
           "playerCount": 1,
@@ -13901,7 +13901,7 @@
       "playerCount": 3,
       "averageNetDifference": 3463333.33,
       "averagePercentageDifference": 159.11,
-      "players": [
+      "data": [
         {
           "name": "Keisuke Honda",
           "playerCount": 1,
@@ -13928,7 +13928,7 @@
       "playerCount": 1,
       "averageNetDifference": -2250000,
       "averagePercentageDifference": -71.43,
-      "players": [
+      "data": [
         {
           "name": "Keisuke Honda",
           "playerCount": 1,
@@ -13943,7 +13943,7 @@
       "playerCount": 3,
       "averageNetDifference": 5100000,
       "averagePercentageDifference": 53.13,
-      "players": [
+      "data": [
         {
           "name": "Keisuke Honda",
           "playerCount": 1,
@@ -13964,7 +13964,7 @@
       "playerCount": 1,
       "averageNetDifference": 5265000,
       "averagePercentageDifference": 3900,
-      "players": [
+      "data": [
         {
           "name": "Keisuke Honda",
           "playerCount": 1,
@@ -13979,7 +13979,7 @@
       "playerCount": 1,
       "averageNetDifference": 134999,
       "averagePercentageDifference": 13499900,
-      "players": [
+      "data": [
         {
           "name": "Keisuke Honda",
           "playerCount": 1,
@@ -13994,7 +13994,7 @@
       "playerCount": 4,
       "averageNetDifference": 12712500,
       "averagePercentageDifference": 221.57,
-      "players": [
+      "data": [
         {
           "name": "Kevin de Bruyne",
           "playerCount": 1,
@@ -14027,7 +14027,7 @@
       "playerCount": 4,
       "averageNetDifference": 6627500,
       "averagePercentageDifference": 398.05,
-      "players": [
+      "data": [
         {
           "name": "Kevin Gameiro",
           "playerCount": 1,
@@ -14060,7 +14060,7 @@
       "playerCount": 1,
       "averageNetDifference": 2969999,
       "averagePercentageDifference": 296999900,
-      "players": [
+      "data": [
         {
           "name": "Kevin Gameiro",
           "playerCount": 1,
@@ -14075,7 +14075,7 @@
       "playerCount": 1,
       "averageNetDifference": 2249999,
       "averagePercentageDifference": 224999900,
-      "players": [
+      "data": [
         {
           "name": "Kevin Strootman",
           "playerCount": 1,
@@ -14090,7 +14090,7 @@
       "playerCount": 1,
       "averageNetDifference": 269999,
       "averagePercentageDifference": 26999900,
-      "players": [
+      "data": [
         {
           "name": "Keylor Navas",
           "playerCount": 1,
@@ -14105,7 +14105,7 @@
       "playerCount": 2,
       "averageNetDifference": -450000,
       "averagePercentageDifference": -20,
-      "players": [
+      "data": [
         {
           "name": "Laurent Koscielny",
           "playerCount": 1,
@@ -14126,7 +14126,7 @@
       "playerCount": 3,
       "averageNetDifference": 1650000,
       "averagePercentageDifference": 500,
-      "players": [
+      "data": [
         {
           "name": "Laurent Koscielny",
           "playerCount": 1,
@@ -14153,7 +14153,7 @@
       "playerCount": 1,
       "averageNetDifference": 22499999,
       "averagePercentageDifference": 2249999900,
-      "players": [
+      "data": [
         {
           "name": "Lautaro Martinez",
           "playerCount": 1,
@@ -14168,7 +14168,7 @@
       "playerCount": 1,
       "averageNetDifference": 9450000,
       "averagePercentageDifference": 420,
-      "players": [
+      "data": [
         {
           "name": "Leonardo Bonucci",
           "playerCount": 1,
@@ -14183,7 +14183,7 @@
       "playerCount": 1,
       "averageNetDifference": 90000,
       "averagePercentageDifference": 33.33,
-      "players": [
+      "data": [
         {
           "name": "Leonardo Bonucci",
           "playerCount": 1,
@@ -14198,7 +14198,7 @@
       "playerCount": 1,
       "averageNetDifference": 1552000,
       "averagePercentageDifference": 625.81,
-      "players": [
+      "data": [
         {
           "name": "Lorenzo Insigne",
           "playerCount": 1,
@@ -14213,7 +14213,7 @@
       "playerCount": 1,
       "averageNetDifference": 113000,
       "averagePercentageDifference": 83.7,
-      "players": [
+      "data": [
         {
           "name": "Lorenzo Insigne",
           "playerCount": 1,
@@ -14228,7 +14228,7 @@
       "playerCount": 2,
       "averageNetDifference": 11429999.5,
       "averagePercentageDifference": 4233.33,
-      "players": [
+      "data": [
         {
           "name": "Luka Modric",
           "playerCount": 1,
@@ -14249,7 +14249,7 @@
       "playerCount": 1,
       "averageNetDifference": 855000,
       "averagePercentageDifference": 1900,
-      "players": [
+      "data": [
         {
           "name": "Lukasz Piszczek",
           "playerCount": 1,
@@ -14264,7 +14264,7 @@
       "playerCount": 2,
       "averageNetDifference": 8774999.5,
       "averagePercentageDifference": 433.33,
-      "players": [
+      "data": [
         {
           "name": "Mapou Yanga-Mbiwa",
           "playerCount": 1,
@@ -14285,7 +14285,7 @@
       "playerCount": 1,
       "averageNetDifference": 1349999,
       "averagePercentageDifference": 134999900,
-      "players": [
+      "data": [
         {
           "name": "Marco Reus",
           "playerCount": 1,
@@ -14300,7 +14300,7 @@
       "playerCount": 2,
       "averageNetDifference": -10215000,
       "averagePercentageDifference": -43.65,
-      "players": [
+      "data": [
         {
           "name": "Marek Hamsik",
           "playerCount": 1,
@@ -14321,7 +14321,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Marek Hamsik",
           "playerCount": 1,
@@ -14336,7 +14336,7 @@
       "playerCount": 1,
       "averageNetDifference": 899999,
       "averagePercentageDifference": 89999900,
-      "players": [
+      "data": [
         {
           "name": "Mario Balotelli",
           "playerCount": 1,
@@ -14351,7 +14351,7 @@
       "playerCount": 2,
       "averageNetDifference": -2340000,
       "averagePercentageDifference": -37.14,
-      "players": [
+      "data": [
         {
           "name": "Mario Mandzukic",
           "playerCount": 1,
@@ -14372,7 +14372,7 @@
       "playerCount": 1,
       "averageNetDifference": 539999,
       "averagePercentageDifference": 53999900,
-      "players": [
+      "data": [
         {
           "name": "Mario Mandzukic",
           "playerCount": 1,
@@ -14387,7 +14387,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Mario Mandzukic",
           "playerCount": 1,
@@ -14402,7 +14402,7 @@
       "playerCount": 1,
       "averageNetDifference": -5850000,
       "averagePercentageDifference": -54.17,
-      "players": [
+      "data": [
         {
           "name": "Marouane Fellaini",
           "playerCount": 1,
@@ -14417,7 +14417,7 @@
       "playerCount": 1,
       "averageNetDifference": -5400000,
       "averagePercentageDifference": -42.86,
-      "players": [
+      "data": [
         {
           "name": "Mathieu Valbuena",
           "playerCount": 1,
@@ -14432,7 +14432,7 @@
       "playerCount": 1,
       "averageNetDifference": 134999,
       "averagePercentageDifference": 13499900,
-      "players": [
+      "data": [
         {
           "name": "Mathieu Valbuena",
           "playerCount": 1,
@@ -14447,7 +14447,7 @@
       "playerCount": 2,
       "averageNetDifference": 2025000,
       "averagePercentageDifference": 450,
-      "players": [
+      "data": [
         {
           "name": "Mehdi Benatia",
           "playerCount": 1,
@@ -14468,7 +14468,7 @@
       "playerCount": 2,
       "averageNetDifference": 3149999.5,
       "averagePercentageDifference": 314999950,
-      "players": [
+      "data": [
         {
           "name": "Michael Ballack",
           "playerCount": 1,
@@ -14489,7 +14489,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Michael Ballack",
           "playerCount": 1,
@@ -14504,7 +14504,7 @@
       "playerCount": 2,
       "averageNetDifference": 44999.5,
       "averagePercentageDifference": 10,
-      "players": [
+      "data": [
         {
           "name": "Michu",
           "playerCount": 2,
@@ -14519,7 +14519,7 @@
       "playerCount": 1,
       "averageNetDifference": 899999,
       "averagePercentageDifference": 89999900,
-      "players": [
+      "data": [
         {
           "name": "Michu",
           "playerCount": 1,
@@ -14534,7 +14534,7 @@
       "playerCount": 6,
       "averageNetDifference": -524999.83,
       "averagePercentageDifference": -5.6,
-      "players": [
+      "data": [
         {
           "name": "Michu",
           "playerCount": 2,
@@ -14561,7 +14561,7 @@
       "playerCount": 1,
       "averageNetDifference": -720000,
       "averagePercentageDifference": -20,
-      "players": [
+      "data": [
         {
           "name": "Miguel Borja",
           "playerCount": 1,
@@ -14576,7 +14576,7 @@
       "playerCount": 2,
       "averageNetDifference": 553500,
       "averagePercentageDifference": 148.99,
-      "players": [
+      "data": [
         {
           "name": "Miguel Borja",
           "playerCount": 2,
@@ -14591,7 +14591,7 @@
       "playerCount": 1,
       "averageNetDifference": -135000,
       "averagePercentageDifference": -16.67,
-      "players": [
+      "data": [
         {
           "name": "Miguel Borja",
           "playerCount": 1,
@@ -14606,7 +14606,7 @@
       "playerCount": 1,
       "averageNetDifference": 67999,
       "averagePercentageDifference": 6799900,
-      "players": [
+      "data": [
         {
           "name": "Miguel Borja",
           "playerCount": 1,
@@ -14621,7 +14621,7 @@
       "playerCount": 1,
       "averageNetDifference": 2249999,
       "averagePercentageDifference": 224999900,
-      "players": [
+      "data": [
         {
           "name": "Miranda",
           "playerCount": 1,
@@ -14636,7 +14636,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Miroslav Klose",
           "playerCount": 1,
@@ -14651,7 +14651,7 @@
       "playerCount": 1,
       "averageNetDifference": 2249999,
       "averagePercentageDifference": 224999900,
-      "players": [
+      "data": [
         {
           "name": "Mohamed Salah",
           "playerCount": 1,
@@ -14666,7 +14666,7 @@
       "playerCount": 1,
       "averageNetDifference": -7650000,
       "averagePercentageDifference": -70.83,
-      "players": [
+      "data": [
         {
           "name": "Mousa Dembele",
           "playerCount": 1,
@@ -14681,7 +14681,7 @@
       "playerCount": 1,
       "averageNetDifference": 10350000,
       "averagePercentageDifference": 153.33,
-      "players": [
+      "data": [
         {
           "name": "Mousa Dembele",
           "playerCount": 1,
@@ -14696,7 +14696,7 @@
       "playerCount": 1,
       "averageNetDifference": 2020000,
       "averagePercentageDifference": 42.71,
-      "players": [
+      "data": [
         {
           "name": "Mousa Dembele",
           "playerCount": 1,
@@ -14711,7 +14711,7 @@
       "playerCount": 1,
       "averageNetDifference": 449999,
       "averagePercentageDifference": 44999900,
-      "players": [
+      "data": [
         {
           "name": "Mousa Dembele",
           "playerCount": 1,
@@ -14726,7 +14726,7 @@
       "playerCount": 1,
       "averageNetDifference": 899999,
       "averagePercentageDifference": 89999900,
-      "players": [
+      "data": [
         {
           "name": "Naby Keita",
           "playerCount": 1,
@@ -14741,7 +14741,7 @@
       "playerCount": 1,
       "averageNetDifference": 1799999,
       "averagePercentageDifference": 179999900,
-      "players": [
+      "data": [
         {
           "name": "Nemanja Matic",
           "playerCount": 1,
@@ -14756,7 +14756,7 @@
       "playerCount": 1,
       "averageNetDifference": 4499999,
       "averagePercentageDifference": 449999900,
-      "players": [
+      "data": [
         {
           "name": "Nemanja Vidic",
           "playerCount": 1,
@@ -14771,7 +14771,7 @@
       "playerCount": 3,
       "averageNetDifference": 3779999.33,
       "averagePercentageDifference": 3149.98,
-      "players": [
+      "data": [
         {
           "name": "N'Golo Kante",
           "playerCount": 1,
@@ -14798,7 +14798,7 @@
       "playerCount": 2,
       "averageNetDifference": 1575000,
       "averagePercentageDifference": 31.82,
-      "players": [
+      "data": [
         {
           "name": "Nolito",
           "playerCount": 1,
@@ -14819,7 +14819,7 @@
       "playerCount": 1,
       "averageNetDifference": 359999,
       "averagePercentageDifference": 35999900,
-      "players": [
+      "data": [
         {
           "name": "Nolito",
           "playerCount": 1,
@@ -14834,7 +14834,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Oliver Kahn",
           "playerCount": 1,
@@ -14849,7 +14849,7 @@
       "playerCount": 1,
       "averageNetDifference": 359999,
       "averagePercentageDifference": 35999900,
-      "players": [
+      "data": [
         {
           "name": "Olivier Giroud",
           "playerCount": 1,
@@ -14864,7 +14864,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Patrice Evra",
           "playerCount": 1,
@@ -14879,7 +14879,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Patrice Evra",
           "playerCount": 1,
@@ -14894,7 +14894,7 @@
       "playerCount": 2,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Patrick Vieira",
           "playerCount": 1,
@@ -14915,7 +14915,7 @@
       "playerCount": 1,
       "averageNetDifference": 405000,
       "averagePercentageDifference": 112.5,
-      "players": [
+      "data": [
         {
           "name": "Paulinho",
           "playerCount": 1,
@@ -14930,7 +14930,7 @@
       "playerCount": 1,
       "averageNetDifference": 202000,
       "averagePercentageDifference": 127.85,
-      "players": [
+      "data": [
         {
           "name": "Paulinho",
           "playerCount": 1,
@@ -14945,7 +14945,7 @@
       "playerCount": 1,
       "averageNetDifference": 23000,
       "averagePercentageDifference": 17.04,
-      "players": [
+      "data": [
         {
           "name": "Paulinho",
           "playerCount": 1,
@@ -14960,7 +14960,7 @@
       "playerCount": 1,
       "averageNetDifference": 134999,
       "averagePercentageDifference": 13499900,
-      "players": [
+      "data": [
         {
           "name": "Paulinho",
           "playerCount": 1,
@@ -14975,7 +14975,7 @@
       "playerCount": 1,
       "averageNetDifference": 1799999,
       "averagePercentageDifference": 179999900,
-      "players": [
+      "data": [
         {
           "name": "Paulo Dybala",
           "playerCount": 1,
@@ -14990,7 +14990,7 @@
       "playerCount": 3,
       "averageNetDifference": 1095000,
       "averagePercentageDifference": 1042.85,
-      "players": [
+      "data": [
         {
           "name": "Pavel Nedved",
           "playerCount": 1,
@@ -15017,7 +15017,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Pavel Nedved",
           "playerCount": 1,
@@ -15032,7 +15032,7 @@
       "playerCount": 1,
       "averageNetDifference": 2699999,
       "averagePercentageDifference": 269999900,
-      "players": [
+      "data": [
         {
           "name": "Pepe",
           "playerCount": 1,
@@ -15047,7 +15047,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Petr Cech",
           "playerCount": 1,
@@ -15062,7 +15062,7 @@
       "playerCount": 1,
       "averageNetDifference": 1305000,
       "averagePercentageDifference": 2900,
-      "players": [
+      "data": [
         {
           "name": "Pierre-Emerick Aubameyang",
           "playerCount": 1,
@@ -15077,7 +15077,7 @@
       "playerCount": 1,
       "averageNetDifference": 2249999,
       "averagePercentageDifference": 224999900,
-      "players": [
+      "data": [
         {
           "name": "Radja Nainggolan",
           "playerCount": 1,
@@ -15092,7 +15092,7 @@
       "playerCount": 1,
       "averageNetDifference": 1349999,
       "averagePercentageDifference": 134999900,
-      "players": [
+      "data": [
         {
           "name": "Ramires",
           "playerCount": 1,
@@ -15107,7 +15107,7 @@
       "playerCount": 1,
       "averageNetDifference": 7199999,
       "averagePercentageDifference": 719999900,
-      "players": [
+      "data": [
         {
           "name": "Raphael Varane",
           "playerCount": 1,
@@ -15122,7 +15122,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Raul",
           "playerCount": 1,
@@ -15137,7 +15137,7 @@
       "playerCount": 2,
       "averageNetDifference": -1350000,
       "averagePercentageDifference": -50,
-      "players": [
+      "data": [
         {
           "name": "Raul",
           "playerCount": 1,
@@ -15158,7 +15158,7 @@
       "playerCount": 1,
       "averageNetDifference": -1800000,
       "averagePercentageDifference": -9.09,
-      "players": [
+      "data": [
         {
           "name": "Renato Sanches",
           "playerCount": 1,
@@ -15173,7 +15173,7 @@
       "playerCount": 2,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Rivaldo",
           "playerCount": 2,
@@ -15188,7 +15188,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Rivaldo",
           "playerCount": 1,
@@ -15203,7 +15203,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Rivaldo",
           "playerCount": 1,
@@ -15218,7 +15218,7 @@
       "playerCount": 1,
       "averageNetDifference": -765000,
       "averagePercentageDifference": -85,
-      "players": [
+      "data": [
         {
           "name": "Rivaldo",
           "playerCount": 1,
@@ -15233,7 +15233,7 @@
       "playerCount": 1,
       "averageNetDifference": -2700000,
       "averagePercentageDifference": -75,
-      "players": [
+      "data": [
         {
           "name": "Rivaldo",
           "playerCount": 1,
@@ -15248,7 +15248,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Rivaldo",
           "playerCount": 1,
@@ -15263,7 +15263,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Rivaldo",
           "playerCount": 1,
@@ -15278,7 +15278,7 @@
       "playerCount": 1,
       "averageNetDifference": 4680000,
       "averagePercentageDifference": 650,
-      "players": [
+      "data": [
         {
           "name": "Robert Lewandowski",
           "playerCount": 1,
@@ -15293,7 +15293,7 @@
       "playerCount": 1,
       "averageNetDifference": 719999,
       "averagePercentageDifference": 71999900,
-      "players": [
+      "data": [
         {
           "name": "Robert Lewandowski",
           "playerCount": 1,
@@ -15308,7 +15308,7 @@
       "playerCount": 3,
       "averageNetDifference": -5460000,
       "averagePercentageDifference": -27.66,
-      "players": [
+      "data": [
         {
           "name": "Roberto Carlos",
           "playerCount": 1,
@@ -15335,7 +15335,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Roberto Carlos",
           "playerCount": 1,
@@ -15350,7 +15350,7 @@
       "playerCount": 1,
       "averageNetDifference": 3599999,
       "averagePercentageDifference": 359999900,
-      "players": [
+      "data": [
         {
           "name": "Roberto Firmino",
           "playerCount": 1,
@@ -15365,7 +15365,7 @@
       "playerCount": 4,
       "averageNetDifference": 4837499.5,
       "averagePercentageDifference": 226.32,
-      "players": [
+      "data": [
         {
           "name": "Romelu Lukaku",
           "playerCount": 1,
@@ -15392,7 +15392,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Ronaldinho",
           "playerCount": 1,
@@ -15407,7 +15407,7 @@
       "playerCount": 1,
       "averageNetDifference": -1350000,
       "averagePercentageDifference": -50,
-      "players": [
+      "data": [
         {
           "name": "Ronaldinho",
           "playerCount": 1,
@@ -15422,7 +15422,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Roy Keane ",
           "playerCount": 1,
@@ -15437,7 +15437,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Ruud van Nistelrooy",
           "playerCount": 1,
@@ -15452,7 +15452,7 @@
       "playerCount": 1,
       "averageNetDifference": 2025000,
       "averagePercentageDifference": 300,
-      "players": [
+      "data": [
         {
           "name": "Samir Handanovic",
           "playerCount": 1,
@@ -15467,7 +15467,7 @@
       "playerCount": 1,
       "averageNetDifference": 89999,
       "averagePercentageDifference": 8999900,
-      "players": [
+      "data": [
         {
           "name": "Samir Handanovic",
           "playerCount": 1,
@@ -15482,7 +15482,7 @@
       "playerCount": 2,
       "averageNetDifference": -2475000,
       "averagePercentageDifference": -45.83,
-      "players": [
+      "data": [
         {
           "name": "Samir Nasri",
           "playerCount": 1,
@@ -15503,7 +15503,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Samuel Eto'o",
           "playerCount": 1,
@@ -15518,7 +15518,7 @@
       "playerCount": 1,
       "averageNetDifference": -450000,
       "averagePercentageDifference": -33.33,
-      "players": [
+      "data": [
         {
           "name": "Samuel Eto'o",
           "playerCount": 1,
@@ -15533,7 +15533,7 @@
       "playerCount": 1,
       "averageNetDifference": 990000,
       "averagePercentageDifference": 31.43,
-      "players": [
+      "data": [
         {
           "name": "Santi Cazorla",
           "playerCount": 1,
@@ -15548,7 +15548,7 @@
       "playerCount": 1,
       "averageNetDifference": -1350000,
       "averagePercentageDifference": -25,
-      "players": [
+      "data": [
         {
           "name": "Sebastian Giovinco",
           "playerCount": 1,
@@ -15563,7 +15563,7 @@
       "playerCount": 1,
       "averageNetDifference": -1800000,
       "averagePercentageDifference": -25,
-      "players": [
+      "data": [
         {
           "name": "Sebastian Giovinco",
           "playerCount": 1,
@@ -15578,7 +15578,7 @@
       "playerCount": 1,
       "averageNetDifference": 6750000,
       "averagePercentageDifference": 500,
-      "players": [
+      "data": [
         {
           "name": "Sebastian Giovinco",
           "playerCount": 1,
@@ -15593,7 +15593,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Seydou Doumbia",
           "playerCount": 1,
@@ -15608,7 +15608,7 @@
       "playerCount": 1,
       "averageNetDifference": -450000,
       "averagePercentageDifference": -25,
-      "players": [
+      "data": [
         {
           "name": "Seydou Doumbia",
           "playerCount": 1,
@@ -15623,7 +15623,7 @@
       "playerCount": 1,
       "averageNetDifference": 449999,
       "averagePercentageDifference": 44999900,
-      "players": [
+      "data": [
         {
           "name": "Seydou Doumbia",
           "playerCount": 1,
@@ -15638,7 +15638,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Seydou Doumbia",
           "playerCount": 1,
@@ -15653,7 +15653,7 @@
       "playerCount": 1,
       "averageNetDifference": 8100000,
       "averagePercentageDifference": 900,
-      "players": [
+      "data": [
         {
           "name": "Tammy Abraham",
           "playerCount": 1,
@@ -15668,7 +15668,7 @@
       "playerCount": 1,
       "averageNetDifference": 450000,
       "averagePercentageDifference": 25,
-      "players": [
+      "data": [
         {
           "name": "Teemu Pukki",
           "playerCount": 1,
@@ -15683,7 +15683,7 @@
       "playerCount": 1,
       "averageNetDifference": 990000,
       "averagePercentageDifference": 275,
-      "players": [
+      "data": [
         {
           "name": "Teemu Pukki",
           "playerCount": 1,
@@ -15698,7 +15698,7 @@
       "playerCount": 1,
       "averageNetDifference": 359999,
       "averagePercentageDifference": 35999900,
-      "players": [
+      "data": [
         {
           "name": "Teemu Pukki",
           "playerCount": 1,
@@ -15713,7 +15713,7 @@
       "playerCount": 1,
       "averageNetDifference": 629999,
       "averagePercentageDifference": 62999900,
-      "players": [
+      "data": [
         {
           "name": "Thomas Meunier",
           "playerCount": 1,
@@ -15728,7 +15728,7 @@
       "playerCount": 1,
       "averageNetDifference": 2479999,
       "averagePercentageDifference": 247999900,
-      "players": [
+      "data": [
         {
           "name": "Victor Wanyama",
           "playerCount": 1,
@@ -15743,7 +15743,7 @@
       "playerCount": 1,
       "averageNetDifference": -220000,
       "averagePercentageDifference": -12.22,
-      "players": [
+      "data": [
         {
           "name": "Vincent Enyeama",
           "playerCount": 1,
@@ -15758,7 +15758,7 @@
       "playerCount": 1,
       "averageNetDifference": 1440000,
       "averagePercentageDifference": 400,
-      "players": [
+      "data": [
         {
           "name": "Vincent Enyeama",
           "playerCount": 1,
@@ -15773,7 +15773,7 @@
       "playerCount": 1,
       "averageNetDifference": 359999,
       "averagePercentageDifference": 35999900,
-      "players": [
+      "data": [
         {
           "name": "Vincent Enyeama",
           "playerCount": 1,
@@ -15788,7 +15788,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Vincent Enyeama",
           "playerCount": 1,
@@ -15803,7 +15803,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Vincent Enyeama",
           "playerCount": 1,
@@ -15818,7 +15818,7 @@
       "playerCount": 1,
       "averageNetDifference": -4500000,
       "averagePercentageDifference": -62.5,
-      "players": [
+      "data": [
         {
           "name": "Wayne Rooney",
           "playerCount": 1,
@@ -15833,7 +15833,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Wilfried Bony",
           "playerCount": 1,
@@ -15848,7 +15848,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Wilfried Bony",
           "playerCount": 1,
@@ -15863,7 +15863,7 @@
       "playerCount": 1,
       "averageNetDifference": 314999,
       "averagePercentageDifference": 31499900,
-      "players": [
+      "data": [
         {
           "name": "Wilfried Bony",
           "playerCount": 1,
@@ -15878,7 +15878,7 @@
       "playerCount": 1,
       "averageNetDifference": -2700000,
       "averagePercentageDifference": -18.75,
-      "players": [
+      "data": [
         {
           "name": "Yacine Brahimi",
           "playerCount": 1,
@@ -15893,7 +15893,7 @@
       "playerCount": 1,
       "averageNetDifference": -135000,
       "averagePercentageDifference": -60,
-      "players": [
+      "data": [
         {
           "name": "Yaya Toure",
           "playerCount": 1,
@@ -15908,7 +15908,7 @@
       "playerCount": 1,
       "averageNetDifference": 22499999,
       "averagePercentageDifference": 2249999900,
-      "players": [
+      "data": [
         {
           "name": "Yevhen Konoplyanka",
           "playerCount": 1,
@@ -15923,7 +15923,7 @@
       "playerCount": 1,
       "averageNetDifference": 0,
       "averagePercentageDifference": 0,
-      "players": [
+      "data": [
         {
           "name": "Zlatan Ibrahimovic ",
           "playerCount": 1,
@@ -15943,7 +15943,7 @@
       "uel": 0,
       "domesticCups": 1,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Julian Weigl",
           "domesticTitles": 0,
@@ -15963,7 +15963,7 @@
       "uel": 0,
       "domesticCups": 3,
       "domesticSecondCups": 1,
-      "players": [
+      "data": [
         {
           "name": "Gianluigi Donnarumma",
           "domesticTitles": 0,
@@ -15999,7 +15999,7 @@
       "uel": 4,
       "domesticCups": 25,
       "domesticSecondCups": 3,
-      "players": [
+      "data": [
         {
           "name": "Christian Eriksen",
           "domesticTitles": 3,
@@ -16091,7 +16091,7 @@
       "uel": 0,
       "domesticCups": 0,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Mohamed Salah",
           "domesticTitles": 3,
@@ -16111,7 +16111,7 @@
       "uel": 0,
       "domesticCups": 1,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Duvan Zapata",
           "domesticTitles": 1,
@@ -16131,7 +16131,7 @@
       "uel": 0,
       "domesticCups": 2,
       "domesticSecondCups": 4,
-      "players": [
+      "data": [
         {
           "name": "Romelu Lukaku",
           "domesticTitles": 1,
@@ -16159,7 +16159,7 @@
       "uel": 1,
       "domesticCups": 14,
       "domesticSecondCups": 2,
-      "players": [
+      "data": [
         {
           "name": "Ashley Cole",
           "domesticTitles": 3,
@@ -16203,7 +16203,7 @@
       "uel": 0,
       "domesticCups": 2,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Dimitri Payet",
           "domesticTitles": 0,
@@ -16223,7 +16223,7 @@
       "uel": 0,
       "domesticCups": 1,
       "domesticSecondCups": 2,
-      "players": [
+      "data": [
         {
           "name": "Aritz Aduriz",
           "domesticTitles": 0,
@@ -16251,7 +16251,7 @@
       "uel": 0,
       "domesticCups": 3,
       "domesticSecondCups": 1,
-      "players": [
+      "data": [
         {
           "name": "Seydou Doumbia",
           "domesticTitles": 3,
@@ -16271,7 +16271,7 @@
       "uel": 2,
       "domesticCups": 0,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Carlos Bacca",
           "domesticTitles": 2,
@@ -16291,7 +16291,7 @@
       "uel": 9,
       "domesticCups": 5,
       "domesticSecondCups": 1,
-      "players": [
+      "data": [
         {
           "name": "David de Gea",
           "domesticTitles": 1,
@@ -16343,7 +16343,7 @@
       "uel": 0,
       "domesticCups": 2,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Juan Zuniga",
           "domesticTitles": 3,
@@ -16363,7 +16363,7 @@
       "uel": 1,
       "domesticCups": 8,
       "domesticSecondCups": 5,
-      "players": [
+      "data": [
         {
           "name": "Fernandinho",
           "domesticTitles": 9,
@@ -16391,7 +16391,7 @@
       "uel": 2,
       "domesticCups": 7,
       "domesticSecondCups": 2,
-      "players": [
+      "data": [
         {
           "name": "Dani Alves",
           "domesticTitles": 9,
@@ -16411,7 +16411,7 @@
       "uel": 1,
       "domesticCups": 36,
       "domesticSecondCups": 1,
-      "players": [
+      "data": [
         {
           "name": "Andres Iniesta",
           "domesticTitles": 9,
@@ -16495,7 +16495,7 @@
       "uel": 0,
       "domesticCups": 1,
       "domesticSecondCups": 2,
-      "players": [
+      "data": [
         {
           "name": "John Stones",
           "domesticTitles": 2,
@@ -16515,7 +16515,7 @@
       "uel": 1,
       "domesticCups": 5,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Ivan Rakitic",
           "domesticTitles": 4,
@@ -16535,7 +16535,7 @@
       "uel": 0,
       "domesticCups": 0,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Kai Havertz",
           "domesticTitles": 0,
@@ -16555,7 +16555,7 @@
       "uel": 0,
       "domesticCups": 28,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Bastian Schweinsteiger",
           "domesticTitles": 8,
@@ -16615,7 +16615,7 @@
       "uel": 0,
       "domesticCups": 1,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Victor Wanyama",
           "domesticTitles": 2,
@@ -16635,7 +16635,7 @@
       "uel": 0,
       "domesticCups": 8,
       "domesticSecondCups": 4,
-      "players": [
+      "data": [
         {
           "name": "Bernardo Silva",
           "domesticTitles": 4,
@@ -16679,7 +16679,7 @@
       "uel": 0,
       "domesticCups": 4,
       "domesticSecondCups": 2,
-      "players": [
+      "data": [
         {
           "name": "Gervinho",
           "domesticTitles": 1,
@@ -16707,7 +16707,7 @@
       "uel": 3,
       "domesticCups": 5,
       "domesticSecondCups": 1,
-      "players": [
+      "data": [
         {
           "name": "Carlos Tevez",
           "domesticTitles": 11,
@@ -16743,7 +16743,7 @@
       "uel": 0,
       "domesticCups": 5,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Christian Pulisic",
           "domesticTitles": 0,
@@ -16779,7 +16779,7 @@
       "uel": 0,
       "domesticCups": 4,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Marc-Andre ter Stegen",
           "domesticTitles": 4,
@@ -16799,7 +16799,7 @@
       "uel": 1,
       "domesticCups": 8,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Franck Ribery",
           "domesticTitles": 9,
@@ -16827,7 +16827,7 @@
       "uel": 1,
       "domesticCups": 1,
       "domesticSecondCups": 1,
-      "players": [
+      "data": [
         {
           "name": "Diego Costa",
           "domesticTitles": 3,
@@ -16847,7 +16847,7 @@
       "uel": 0,
       "domesticCups": 2,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Andrea Pirlo",
           "domesticTitles": 6,
@@ -16867,7 +16867,7 @@
       "uel": 0,
       "domesticCups": 1,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Erling Braut Haaland",
           "domesticTitles": 2,
@@ -16887,7 +16887,7 @@
       "uel": 0,
       "domesticCups": 1,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Raphael Guerreiro",
           "domesticTitles": 0,
@@ -16915,7 +16915,7 @@
       "uel": 0,
       "domesticCups": 4,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Patrick Vieira",
           "domesticTitles": 7,
@@ -16943,7 +16943,7 @@
       "uel": 0,
       "domesticCups": 3,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Aaron Ramsey",
           "domesticTitles": 1,
@@ -16963,7 +16963,7 @@
       "uel": 0,
       "domesticCups": 2,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Shinji Kagawa",
           "domesticTitles": 3,
@@ -16983,7 +16983,7 @@
       "uel": 1,
       "domesticCups": 5,
       "domesticSecondCups": 3,
-      "players": [
+      "data": [
         {
           "name": "John Terry",
           "domesticTitles": 5,
@@ -17011,7 +17011,7 @@
       "uel": 0,
       "domesticCups": 5,
       "domesticSecondCups": 1,
-      "players": [
+      "data": [
         {
           "name": "Michael Ballack",
           "domesticTitles": 5,
@@ -17031,7 +17031,7 @@
       "uel": 0,
       "domesticCups": 0,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Petr Cech",
           "domesticTitles": 0,
@@ -17051,7 +17051,7 @@
       "uel": 0,
       "domesticCups": 4,
       "domesticSecondCups": 1,
-      "players": [
+      "data": [
         {
           "name": "Roy Keane ",
           "domesticTitles": 8,
@@ -17071,7 +17071,7 @@
       "uel": 0,
       "domesticCups": 3,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Alexis Sanchez",
           "domesticTitles": 4,
@@ -17091,7 +17091,7 @@
       "uel": 0,
       "domesticCups": 4,
       "domesticSecondCups": 2,
-      "players": [
+      "data": [
         {
           "name": "Arturo Vidal",
           "domesticTitles": 11,
@@ -17119,7 +17119,7 @@
       "uel": 0,
       "domesticCups": 2,
       "domesticSecondCups": 1,
-      "players": [
+      "data": [
         {
           "name": "Jerzy Dudek",
           "domesticTitles": 2,
@@ -17139,7 +17139,7 @@
       "uel": 3,
       "domesticCups": 14,
       "domesticSecondCups": 8,
-      "players": [
+      "data": [
         {
           "name": "Deco",
           "domesticTitles": 8,
@@ -17175,7 +17175,7 @@
       "uel": 1,
       "domesticCups": 1,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Miranda",
           "domesticTitles": 4,
@@ -17195,7 +17195,7 @@
       "uel": 1,
       "domesticCups": 4,
       "domesticSecondCups": 2,
-      "players": [
+      "data": [
         {
           "name": "Ronaldo",
           "domesticTitles": 1,
@@ -17215,7 +17215,7 @@
       "uel": 1,
       "domesticCups": 1,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Miguel Borja",
           "domesticTitles": 1,
@@ -17235,7 +17235,7 @@
       "uel": 2,
       "domesticCups": 8,
       "domesticSecondCups": 6,
-      "players": [
+      "data": [
         {
           "name": "Alvaro Recoba",
           "domesticTitles": 4,
@@ -17271,7 +17271,7 @@
       "uel": 0,
       "domesticCups": 1,
       "domesticSecondCups": 1,
-      "players": [
+      "data": [
         {
           "name": "Ruud van Nistelrooy",
           "domesticTitles": 5,
@@ -17291,7 +17291,7 @@
       "uel": 0,
       "domesticCups": 2,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Andriy Yarmolenko",
           "domesticTitles": 3,
@@ -17311,7 +17311,7 @@
       "uel": 0,
       "domesticCups": 8,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Kakha Kaladze",
           "domesticTitles": 9,
@@ -17331,7 +17331,7 @@
       "uel": 0,
       "domesticCups": 3,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Luka Modric",
           "domesticTitles": 5,
@@ -17351,7 +17351,7 @@
       "uel": 1,
       "domesticCups": 0,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Yevhen Konoplyanka",
           "domesticTitles": 1,
@@ -17371,7 +17371,7 @@
       "uel": 0,
       "domesticCups": 0,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Samir Handanovic",
           "domesticTitles": 0,
@@ -17391,7 +17391,7 @@
       "uel": 0,
       "domesticCups": 4,
       "domesticSecondCups": 1,
-      "players": [
+      "data": [
         {
           "name": "Andriy Shevchenko",
           "domesticTitles": 6,
@@ -17411,7 +17411,7 @@
       "uel": 0,
       "domesticCups": 0,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Enner Valencia",
           "domesticTitles": 2,
@@ -17431,7 +17431,7 @@
       "uel": 1,
       "domesticCups": 2,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "James Rodriguez",
           "domesticTitles": 7,
@@ -17451,7 +17451,7 @@
       "uel": 0,
       "domesticCups": 2,
       "domesticSecondCups": 2,
-      "players": [
+      "data": [
         {
           "name": "Ezequiel Lavezzi",
           "domesticTitles": 5,
@@ -17471,7 +17471,7 @@
       "uel": 1,
       "domesticCups": 1,
       "domesticSecondCups": 3,
-      "players": [
+      "data": [
         {
           "name": "Wayne Rooney",
           "domesticTitles": 5,
@@ -17491,7 +17491,7 @@
       "uel": 0,
       "domesticCups": 3,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Miroslav Klose",
           "domesticTitles": 2,
@@ -17511,7 +17511,7 @@
       "uel": 0,
       "domesticCups": 2,
       "domesticSecondCups": 1,
-      "players": [
+      "data": [
         {
           "name": "Paulinho",
           "domesticTitles": 5,
@@ -17531,7 +17531,7 @@
       "uel": 0,
       "domesticCups": 4,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Jaap Stam",
           "domesticTitles": 4,
@@ -17551,7 +17551,7 @@
       "uel": 1,
       "domesticCups": 4,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Georginio Wijnaldum",
           "domesticTitles": 2,
@@ -17579,7 +17579,7 @@
       "uel": 0,
       "domesticCups": 0,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Roberto Firmino",
           "domesticTitles": 1,
@@ -17599,7 +17599,7 @@
       "uel": 0,
       "domesticCups": 0,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Jamie Vardy",
           "domesticTitles": 1,
@@ -17619,7 +17619,7 @@
       "uel": 0,
       "domesticCups": 2,
       "domesticSecondCups": 2,
-      "players": [
+      "data": [
         {
           "name": "Fabinho",
           "domesticTitles": 2,
@@ -17647,7 +17647,7 @@
       "uel": 1,
       "domesticCups": 3,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Arda Turan",
           "domesticTitles": 3,
@@ -17667,7 +17667,7 @@
       "uel": 1,
       "domesticCups": 5,
       "domesticSecondCups": 5,
-      "players": [
+      "data": [
         {
           "name": "Kevin de Bruyne",
           "domesticTitles": 3,
@@ -17695,7 +17695,7 @@
       "uel": 0,
       "domesticCups": 1,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Stephan El Shaarawy",
           "domesticTitles": 0,
@@ -17715,7 +17715,7 @@
       "uel": 0,
       "domesticCups": 2,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Dries Mertens",
           "domesticTitles": 0,
@@ -17735,7 +17735,7 @@
       "uel": 0,
       "domesticCups": 0,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Mousa Dembele",
           "domesticTitles": 1,
@@ -17755,7 +17755,7 @@
       "uel": 0,
       "domesticCups": 0,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Emil Forsberg",
           "domesticTitles": 2,
@@ -17775,7 +17775,7 @@
       "uel": 0,
       "domesticCups": 0,
       "domesticSecondCups": 3,
-      "players": [
+      "data": [
         {
           "name": "Bruno Henrique",
           "domesticTitles": 1,
@@ -17795,7 +17795,7 @@
       "uel": 0,
       "domesticCups": 7,
       "domesticSecondCups": 4,
-      "players": [
+      "data": [
         {
           "name": "Arthur Melo",
           "domesticTitles": 1,
@@ -17839,7 +17839,7 @@
       "uel": 1,
       "domesticCups": 4,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Olivier Giroud",
           "domesticTitles": 1,
@@ -17859,7 +17859,7 @@
       "uel": 0,
       "domesticCups": 7,
       "domesticSecondCups": 2,
-      "players": [
+      "data": [
         {
           "name": "Arjen Robben",
           "domesticTitles": 12,
@@ -17887,7 +17887,7 @@
       "uel": 0,
       "domesticCups": 3,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Laurent Koscielny",
           "domesticTitles": 0,
@@ -17907,7 +17907,7 @@
       "uel": 1,
       "domesticCups": 9,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Darijo Srna",
           "domesticTitles": 11,
@@ -17927,7 +17927,7 @@
       "uel": 0,
       "domesticCups": 0,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Son Heung-min",
           "domesticTitles": 0,
@@ -17947,7 +17947,7 @@
       "uel": 0,
       "domesticCups": 1,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Hakim Ziyech",
           "domesticTitles": 1,
@@ -17967,7 +17967,7 @@
       "uel": 1,
       "domesticCups": 1,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Jorginho ",
           "domesticTitles": 0,
@@ -17987,7 +17987,7 @@
       "uel": 0,
       "domesticCups": 7,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Jerome Boateng",
           "domesticTitles": 8,
@@ -18015,7 +18015,7 @@
       "uel": 0,
       "domesticCups": 5,
       "domesticSecondCups": 2,
-      "players": [
+      "data": [
         {
           "name": "Henrik Larsson",
           "domesticTitles": 7,
@@ -18035,7 +18035,7 @@
       "uel": 0,
       "domesticCups": 4,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Gonzalo Martinez",
           "domesticTitles": 0,
@@ -18055,7 +18055,7 @@
       "uel": 0,
       "domesticCups": 2,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Vincent Enyeama",
           "domesticTitles": 5,
@@ -18075,7 +18075,7 @@
       "uel": 2,
       "domesticCups": 2,
       "domesticSecondCups": 6,
-      "players": [
+      "data": [
         {
           "name": "Sergio Aguero",
           "domesticTitles": 4,
@@ -18103,7 +18103,7 @@
       "uel": 0,
       "domesticCups": 3,
       "domesticSecondCups": 1,
-      "players": [
+      "data": [
         {
           "name": "Jackson Martinez",
           "domesticTitles": 3,
@@ -18131,7 +18131,7 @@
       "uel": 0,
       "domesticCups": 3,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Paulo Dybala",
           "domesticTitles": 5,
@@ -18151,7 +18151,7 @@
       "uel": 0,
       "domesticCups": 6,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Leonardo Bonucci",
           "domesticTitles": 9,
@@ -18179,7 +18179,7 @@
       "uel": 1,
       "domesticCups": 4,
       "domesticSecondCups": 4,
-      "players": [
+      "data": [
         {
           "name": "Alisson",
           "domesticTitles": 1,
@@ -18207,7 +18207,7 @@
       "uel": 0,
       "domesticCups": 0,
       "domesticSecondCups": 1,
-      "players": [
+      "data": [
         {
           "name": "Wilfried Bony",
           "domesticTitles": 1,
@@ -18227,7 +18227,7 @@
       "uel": 0,
       "domesticCups": 2,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Naby Keita",
           "domesticTitles": 3,
@@ -18247,7 +18247,7 @@
       "uel": 1,
       "domesticCups": 1,
       "domesticSecondCups": 2,
-      "players": [
+      "data": [
         {
           "name": "Ramires",
           "domesticTitles": 2,
@@ -18267,7 +18267,7 @@
       "uel": 0,
       "domesticCups": 8,
       "domesticSecondCups": 6,
-      "players": [
+      "data": [
         {
           "name": "Dante",
           "domesticTitles": 4,
@@ -18295,7 +18295,7 @@
       "uel": 0,
       "domesticCups": 1,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Ciro Immobile",
           "domesticTitles": 0,
@@ -18323,7 +18323,7 @@
       "uel": 0,
       "domesticCups": 1,
       "domesticSecondCups": 1,
-      "players": [
+      "data": [
         {
           "name": "Emmanuel Mayuka",
           "domesticTitles": 0,
@@ -18343,7 +18343,7 @@
       "uel": 0,
       "domesticCups": 6,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Oliver Kahn",
           "domesticTitles": 8,
@@ -18363,7 +18363,7 @@
       "uel": 0,
       "domesticCups": 3,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Nemanja Matic",
           "domesticTitles": 3,
@@ -18383,7 +18383,7 @@
       "uel": 0,
       "domesticCups": 2,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Teemu Pukki",
           "domesticTitles": 3,
@@ -18403,7 +18403,7 @@
       "uel": 0,
       "domesticCups": 3,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Alessandro Nesta",
           "domesticTitles": 3,
@@ -18423,7 +18423,7 @@
       "uel": 0,
       "domesticCups": 1,
       "domesticSecondCups": 5,
-      "players": [
+      "data": [
         {
           "name": "Benjamin Mendy",
           "domesticTitles": 3,
@@ -18451,7 +18451,7 @@
       "uel": 0,
       "domesticCups": 5,
       "domesticSecondCups": 3,
-      "players": [
+      "data": [
         {
           "name": "Didier Drogba",
           "domesticTitles": 5,
@@ -18471,7 +18471,7 @@
       "uel": 0,
       "domesticCups": 1,
       "domesticSecondCups": 1,
-      "players": [
+      "data": [
         {
           "name": "James Milner ",
           "domesticTitles": 3,
@@ -18491,7 +18491,7 @@
       "uel": 0,
       "domesticCups": 1,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Raphael Varane",
           "domesticTitles": 3,
@@ -18511,7 +18511,7 @@
       "uel": 0,
       "domesticCups": 0,
       "domesticSecondCups": 3,
-      "players": [
+      "data": [
         {
           "name": "Mathieu Valbuena",
           "domesticTitles": 2,
@@ -18531,7 +18531,7 @@
       "uel": 2,
       "domesticCups": 6,
       "domesticSecondCups": 3,
-      "players": [
+      "data": [
         {
           "name": "Benjamin Pavard",
           "domesticTitles": 1,
@@ -18575,7 +18575,7 @@
       "uel": 2,
       "domesticCups": 4,
       "domesticSecondCups": 9,
-      "players": [
+      "data": [
         {
           "name": "Michael Owen",
           "domesticTitles": 1,
@@ -18619,7 +18619,7 @@
       "uel": 1,
       "domesticCups": 1,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Carlos Sanchez",
           "domesticTitles": 0,
@@ -18639,7 +18639,7 @@
       "uel": 0,
       "domesticCups": 4,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Giorgio Chiellini",
           "domesticTitles": 9,
@@ -18659,7 +18659,7 @@
       "uel": 0,
       "domesticCups": 2,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Mario Balotelli",
           "domesticTitles": 4,
@@ -18679,7 +18679,7 @@
       "uel": 1,
       "domesticCups": 12,
       "domesticSecondCups": 3,
-      "players": [
+      "data": [
         {
           "name": "Alexandre Lacazette",
           "domesticTitles": 0,
@@ -18739,7 +18739,7 @@
       "uel": 0,
       "domesticCups": 0,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Marco Asensio",
           "domesticTitles": 2,
@@ -18759,7 +18759,7 @@
       "uel": 1,
       "domesticCups": 3,
       "domesticSecondCups": 4,
-      "players": [
+      "data": [
         {
           "name": "Zlatan Ibrahimovic ",
           "domesticTitles": 13,
@@ -18779,7 +18779,7 @@
       "uel": 0,
       "domesticCups": 3,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Daniel Sturridge",
           "domesticTitles": 1,
@@ -18815,7 +18815,7 @@
       "uel": 2,
       "domesticCups": 18,
       "domesticSecondCups": 7,
-      "players": [
+      "data": [
         {
           "name": "David Beckham",
           "domesticTitles": 10,
@@ -18883,7 +18883,7 @@
       "uel": 0,
       "domesticCups": 4,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Pepe",
           "domesticTitles": 6,
@@ -18903,7 +18903,7 @@
       "uel": 0,
       "domesticCups": 2,
       "domesticSecondCups": 4,
-      "players": [
+      "data": [
         {
           "name": "Patrice Evra",
           "domesticTitles": 7,
@@ -18923,7 +18923,7 @@
       "uel": 0,
       "domesticCups": 4,
       "domesticSecondCups": 1,
-      "players": [
+      "data": [
         {
           "name": "Mehdi Benatia",
           "domesticTitles": 5,
@@ -18951,7 +18951,7 @@
       "uel": 0,
       "domesticCups": 7,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Mario Mandzukic",
           "domesticTitles": 9,
@@ -18971,7 +18971,7 @@
       "uel": 0,
       "domesticCups": 5,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Kalidou Koulibaly",
           "domesticTitles": 0,
@@ -19007,7 +19007,7 @@
       "uel": 0,
       "domesticCups": 0,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Dele Alli",
           "domesticTitles": 0,
@@ -19027,7 +19027,7 @@
       "uel": 0,
       "domesticCups": 5,
       "domesticSecondCups": 2,
-      "players": [
+      "data": [
         {
           "name": "Kylian Mbappe",
           "domesticTitles": 4,
@@ -19063,7 +19063,7 @@
       "uel": 0,
       "domesticCups": 0,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Mapou Yanga-Mbiwa",
           "domesticTitles": 1,
@@ -19083,7 +19083,7 @@
       "uel": 0,
       "domesticCups": 0,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Emmanuel Emenike",
           "domesticTitles": 1,
@@ -19103,7 +19103,7 @@
       "uel": 2,
       "domesticCups": 6,
       "domesticSecondCups": 1,
-      "players": [
+      "data": [
         {
           "name": "Diego Godin",
           "domesticTitles": 1,
@@ -19131,7 +19131,7 @@
       "uel": 0,
       "domesticCups": 2,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Keisuke Honda",
           "domesticTitles": 1,
@@ -19151,7 +19151,7 @@
       "uel": 1,
       "domesticCups": 4,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Fabio Cannavaro",
           "domesticTitles": 2,
@@ -19179,7 +19179,7 @@
       "uel": 0,
       "domesticCups": 4,
       "domesticSecondCups": 2,
-      "players": [
+      "data": [
         {
           "name": "Ezequiel Garay",
           "domesticTitles": 3,
@@ -19199,7 +19199,7 @@
       "uel": 0,
       "domesticCups": 1,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Hugo Lloris",
           "domesticTitles": 0,
@@ -19219,7 +19219,7 @@
       "uel": 0,
       "domesticCups": 1,
       "domesticSecondCups": 2,
-      "players": [
+      "data": [
         {
           "name": "Bruno Fernandes",
           "domesticTitles": 0,
@@ -19239,7 +19239,7 @@
       "uel": 1,
       "domesticCups": 1,
       "domesticSecondCups": 1,
-      "players": [
+      "data": [
         {
           "name": "Jan Oblak",
           "domesticTitles": 1,
@@ -19259,7 +19259,7 @@
       "uel": 2,
       "domesticCups": 6,
       "domesticSecondCups": 2,
-      "players": [
+      "data": [
         {
           "name": "Cesar Azpilicueta",
           "domesticTitles": 2,
@@ -19287,7 +19287,7 @@
       "uel": 0,
       "domesticCups": 0,
       "domesticSecondCups": 1,
-      "players": [
+      "data": [
         {
           "name": "Michu",
           "domesticTitles": 0,
@@ -19307,7 +19307,7 @@
       "uel": 0,
       "domesticCups": 1,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Hector Herrera",
           "domesticTitles": 1,
@@ -19335,7 +19335,7 @@
       "uel": 0,
       "domesticCups": 1,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Alessandro del Piero",
           "domesticTitles": 6,
@@ -19355,7 +19355,7 @@
       "uel": 0,
       "domesticCups": 2,
       "domesticSecondCups": 3,
-      "players": [
+      "data": [
         {
           "name": "Gabriel Jesus",
           "domesticTitles": 3,
@@ -19375,7 +19375,7 @@
       "uel": 1,
       "domesticCups": 5,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Gianluigi Buffon",
           "domesticTitles": 11,
@@ -19395,7 +19395,7 @@
       "uel": 0,
       "domesticCups": 6,
       "domesticSecondCups": 6,
-      "players": [
+      "data": [
         {
           "name": "Lucas Torreira",
           "domesticTitles": 0,
@@ -19423,7 +19423,7 @@
       "uel": 0,
       "domesticCups": 0,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Radja Nainggolan",
           "domesticTitles": 0,
@@ -19443,7 +19443,7 @@
       "uel": 0,
       "domesticCups": 0,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Asmir Begovic",
           "domesticTitles": 1,
@@ -19463,7 +19463,7 @@
       "uel": 0,
       "domesticCups": 4,
       "domesticSecondCups": 5,
-      "players": [
+      "data": [
         {
           "name": "Adrien Rabiot",
           "domesticTitles": 6,
@@ -19483,7 +19483,7 @@
       "uel": 0,
       "domesticCups": 5,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Klaas-Jan Huntelaar",
           "domesticTitles": 1,
@@ -19511,7 +19511,7 @@
       "uel": 1,
       "domesticCups": 4,
       "domesticSecondCups": 1,
-      "players": [
+      "data": [
         {
           "name": "Henrikh Mkhitaryan",
           "domesticTitles": 7,
@@ -19531,7 +19531,7 @@
       "uel": 0,
       "domesticCups": 0,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Andrew Robertson",
           "domesticTitles": 1,
@@ -19551,7 +19551,7 @@
       "uel": 0,
       "domesticCups": 0,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Lautaro Martinez",
           "domesticTitles": 0,
@@ -19571,7 +19571,7 @@
       "uel": 0,
       "domesticCups": 1,
       "domesticSecondCups": 2,
-      "players": [
+      "data": [
         {
           "name": "Alvaro Negredo",
           "domesticTitles": 1,
@@ -19591,7 +19591,7 @@
       "uel": 0,
       "domesticCups": 3,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Joshua Kimmich",
           "domesticTitles": 5,
@@ -19611,7 +19611,7 @@
       "uel": 4,
       "domesticCups": 21,
       "domesticSecondCups": 1,
-      "players": [
+      "data": [
         {
           "name": "Achraf Hakimi",
           "domesticTitles": 1,
@@ -19703,7 +19703,7 @@
       "uel": 1,
       "domesticCups": 4,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Antoine Griezmann",
           "domesticTitles": 0,
@@ -19731,7 +19731,7 @@
       "uel": 0,
       "domesticCups": 2,
       "domesticSecondCups": 3,
-      "players": [
+      "data": [
         {
           "name": "Nemanja Vidic",
           "domesticTitles": 6,
@@ -19751,7 +19751,7 @@
       "uel": 0,
       "domesticCups": 2,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Ousmane Dembele",
           "domesticTitles": 2,
@@ -19779,7 +19779,7 @@
       "uel": 0,
       "domesticCups": 2,
       "domesticSecondCups": 4,
-      "players": [
+      "data": [
         {
           "name": "Ederson",
           "domesticTitles": 4,
@@ -19799,7 +19799,7 @@
       "uel": 4,
       "domesticCups": 13,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Gonzalo Higuain",
           "domesticTitles": 6,
@@ -19843,7 +19843,7 @@
       "uel": 0,
       "domesticCups": 1,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Ante Rebic",
           "domesticTitles": 0,
@@ -19863,7 +19863,7 @@
       "uel": 0,
       "domesticCups": 4,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Daniele de Rossi",
           "domesticTitles": 0,
@@ -19891,7 +19891,7 @@
       "uel": 0,
       "domesticCups": 8,
       "domesticSecondCups": 4,
-      "players": [
+      "data": [
         {
           "name": "Angel di Maria",
           "domesticTitles": 6,
@@ -19911,7 +19911,7 @@
       "uel": 0,
       "domesticCups": 1,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Marco Reus",
           "domesticTitles": 0,
@@ -19931,7 +19931,7 @@
       "uel": 0,
       "domesticCups": 1,
       "domesticSecondCups": 1,
-      "players": [
+      "data": [
         {
           "name": "Mauro Icardi",
           "domesticTitles": 1,
@@ -19951,7 +19951,7 @@
       "uel": 0,
       "domesticCups": 1,
       "domesticSecondCups": 2,
-      "players": [
+      "data": [
         {
           "name": "Pablo Zabaleta",
           "domesticTitles": 2,
@@ -19971,7 +19971,7 @@
       "uel": 0,
       "domesticCups": 6,
       "domesticSecondCups": 3,
-      "players": [
+      "data": [
         {
           "name": "Rivaldo",
           "domesticTitles": 9,
@@ -19991,7 +19991,7 @@
       "uel": 0,
       "domesticCups": 6,
       "domesticSecondCups": 9,
-      "players": [
+      "data": [
         {
           "name": "Gabriel Barbosa",
           "domesticTitles": 1,
@@ -20019,7 +20019,7 @@
       "uel": 4,
       "domesticCups": 7,
       "domesticSecondCups": 9,
-      "players": [
+      "data": [
         {
           "name": "Cafu",
           "domesticTitles": 3,
@@ -20087,7 +20087,7 @@
       "uel": 0,
       "domesticCups": 1,
       "domesticSecondCups": 1,
-      "players": [
+      "data": [
         {
           "name": "Keylor Navas",
           "domesticTitles": 7,
@@ -20107,7 +20107,7 @@
       "uel": 1,
       "domesticCups": 13,
       "domesticSecondCups": 2,
-      "players": [
+      "data": [
         {
           "name": "Jens Lehmann",
           "domesticTitles": 3,
@@ -20151,7 +20151,7 @@
       "uel": 0,
       "domesticCups": 2,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Sergio Ramos",
           "domesticTitles": 5,
@@ -20171,7 +20171,7 @@
       "uel": 0,
       "domesticCups": 1,
       "domesticSecondCups": 3,
-      "players": [
+      "data": [
         {
           "name": "Harry Maguire",
           "domesticTitles": 0,
@@ -20199,7 +20199,7 @@
       "uel": 0,
       "domesticCups": 1,
       "domesticSecondCups": 2,
-      "players": [
+      "data": [
         {
           "name": "Joe Hart",
           "domesticTitles": 2,
@@ -20219,7 +20219,7 @@
       "uel": 0,
       "domesticCups": 3,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Pavel Nedved",
           "domesticTitles": 6,
@@ -20239,7 +20239,7 @@
       "uel": 0,
       "domesticCups": 2,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Marek Hamsik",
           "domesticTitles": 0,
@@ -20259,7 +20259,7 @@
       "uel": 0,
       "domesticCups": 3,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Ivan Perisic",
           "domesticTitles": 2,
@@ -20279,7 +20279,7 @@
       "uel": 0,
       "domesticCups": 1,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Gareth Bale",
           "domesticTitles": 2,
@@ -20299,7 +20299,7 @@
       "uel": 0,
       "domesticCups": 1,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Kevin Strootman",
           "domesticTitles": 0,
@@ -20319,7 +20319,7 @@
       "uel": 0,
       "domesticCups": 1,
       "domesticSecondCups": 5,
-      "players": [
+      "data": [
         {
           "name": "Juninho Pernambucano",
           "domesticTitles": 10,
@@ -20339,7 +20339,7 @@
       "uel": 1,
       "domesticCups": 18,
       "domesticSecondCups": 6,
-      "players": [
+      "data": [
         {
           "name": "Adrien Silva",
           "domesticTitles": 1,
@@ -20399,7 +20399,7 @@
       "uel": 0,
       "domesticCups": 4,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "David Villa",
           "domesticTitles": 3,
@@ -20419,7 +20419,7 @@
       "uel": 1,
       "domesticCups": 5,
       "domesticSecondCups": 1,
-      "players": [
+      "data": [
         {
           "name": "Branislav Ivanovic",
           "domesticTitles": 5,
@@ -20439,7 +20439,7 @@
       "uel": 1,
       "domesticCups": 4,
       "domesticSecondCups": 1,
-      "players": [
+      "data": [
         {
           "name": "Axel Witsel",
           "domesticTitles": 3,
@@ -20467,7 +20467,7 @@
       "uel": 4,
       "domesticCups": 1,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Kevin Gameiro",
           "domesticTitles": 1,
@@ -20487,7 +20487,7 @@
       "uel": 0,
       "domesticCups": 2,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Mario Gomez",
           "domesticTitles": 4,
@@ -20515,7 +20515,7 @@
       "uel": 0,
       "domesticCups": 0,
       "domesticSecondCups": 1,
-      "players": [
+      "data": [
         {
           "name": "Jordan Henderson",
           "domesticTitles": 1,
@@ -20543,7 +20543,7 @@
       "uel": 1,
       "domesticCups": 6,
       "domesticSecondCups": 5,
-      "players": [
+      "data": [
         {
           "name": "Javier Pastore",
           "domesticTitles": 5,
@@ -20571,7 +20571,7 @@
       "uel": 0,
       "domesticCups": 1,
       "domesticSecondCups": 1,
-      "players": [
+      "data": [
         {
           "name": "Dario Conca",
           "domesticTitles": 5,
@@ -20591,7 +20591,7 @@
       "uel": 0,
       "domesticCups": 3,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Christian Vieri",
           "domesticTitles": 1,
@@ -20627,7 +20627,7 @@
       "uel": 0,
       "domesticCups": 0,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Harry Kane",
           "domesticTitles": 0,
@@ -20647,7 +20647,7 @@
       "uel": 0,
       "domesticCups": 4,
       "domesticSecondCups": 4,
-      "players": [
+      "data": [
         {
           "name": "Blaise Matuidi",
           "domesticTitles": 7,
@@ -20667,7 +20667,7 @@
       "uel": 0,
       "domesticCups": 4,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Kwadwo Asamoah",
           "domesticTitles": 6,
@@ -20687,7 +20687,7 @@
       "uel": 0,
       "domesticCups": 0,
       "domesticSecondCups": 3,
-      "players": [
+      "data": [
         {
           "name": "Roberto Carlos",
           "domesticTitles": 6,
@@ -20707,7 +20707,7 @@
       "uel": 0,
       "domesticCups": 11,
       "domesticSecondCups": 6,
-      "players": [
+      "data": [
         {
           "name": "David Silva ",
           "domesticTitles": 4,
@@ -20751,7 +20751,7 @@
       "uel": 0,
       "domesticCups": 3,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Alex Teixeira",
           "domesticTitles": 5,
@@ -20771,7 +20771,7 @@
       "uel": 0,
       "domesticCups": 2,
       "domesticSecondCups": 3,
-      "players": [
+      "data": [
         {
           "name": "Ilkay Gundogan",
           "domesticTitles": 3,
@@ -20791,7 +20791,7 @@
       "uel": 0,
       "domesticCups": 2,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Santi Cazorla",
           "domesticTitles": 0,
@@ -20811,7 +20811,7 @@
       "uel": 0,
       "domesticCups": 2,
       "domesticSecondCups": 2,
-      "players": [
+      "data": [
         {
           "name": "Thomas Meunier",
           "domesticTitles": 4,
@@ -20831,7 +20831,7 @@
       "uel": 3,
       "domesticCups": 15,
       "domesticSecondCups": 4,
-      "players": [
+      "data": [
         {
           "name": "David Luiz",
           "domesticTitles": 4,
@@ -20867,7 +20867,7 @@
       "uel": 0,
       "domesticCups": 1,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Dusan Tadic",
           "domesticTitles": 1,
@@ -20887,7 +20887,7 @@
       "uel": 1,
       "domesticCups": 4,
       "domesticSecondCups": 2,
-      "players": [
+      "data": [
         {
           "name": "Frank Lampard",
           "domesticTitles": 3,
@@ -20907,7 +20907,7 @@
       "uel": 0,
       "domesticCups": 1,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Frenkie de Jong",
           "domesticTitles": 1,
@@ -20927,7 +20927,7 @@
       "uel": 0,
       "domesticCups": 1,
       "domesticSecondCups": 1,
-      "players": [
+      "data": [
         {
           "name": "Edin Dzeko",
           "domesticTitles": 3,
@@ -20947,7 +20947,7 @@
       "uel": 0,
       "domesticCups": 5,
       "domesticSecondCups": 0,
-      "players": [
+      "data": [
         {
           "name": "Robert Lewandowski",
           "domesticTitles": 9,
