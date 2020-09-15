@@ -74,6 +74,12 @@
   }
 </script>
 
+<style lang="scss">
+  body {
+    font-family: 'SSportsD';
+  }
+</style>
+
 <style lang="scss" scoped>
   .lang-select-block {
     top: 0;
