@@ -19,19 +19,19 @@
           <h2 class="table-title">Best Countries to develop players</h2>
           <Table1 :table-data="countries"/>
         </div>
+        <h2 class="quote">
+          Playing in Spain could increase your value by up to 1,500%
+        </h2>
         <div id="value">
-          <h2 class="quote">
-            Playing in Spain could increase your value by up to 1,500%
-          </h2>
           <h2 class="table-title">Best Clubs to develop talent for value</h2>
           <Table1 :table-data="bestValueClubs"/>
         </div>
+        <div class="right">
+          <h2 class="quote right">
+            Playing for Liverpool could increase your net value by up to &pound;20,000,000
+          </h2>
+        </div>
         <div id="trophies">
-          <div class="right">
-            <h2 class="quote right">
-              Playing for Liverpool could increase your net value by up to &pound;20,000,000
-            </h2>
-          </div>
           <h2 class="table-title">Best clubs to develop talent for trophies</h2>
           <Table2 :table-data="bestTrophyClubs"/>
         </div>
@@ -71,6 +71,9 @@
     Arial,
     sans-serif;
   }
+  .table-header {
+    filter: brightness(1.5);
+  }
   .table-title {
     text-align: center;
     font-size: 1.4rem;
@@ -92,13 +95,14 @@
     text-align: right;
   }
   nav {
-    position: sticky;
     top: 0;
-    background: linear-gradient(to right, #9D2627 0%, #7E1E1D 100%);
+    z-index: 100;
     display: flex;
+    position: sticky;
+    padding: 10px 20px;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px;
+    background: linear-gradient(to right, #9D2627 0%, #7E1E1D 100%);
     a {
       display: inline-block;
       color: #fff;

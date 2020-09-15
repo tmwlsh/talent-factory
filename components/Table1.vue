@@ -100,6 +100,9 @@
 </script>
 
 <style lang="scss" scoped>
+  .table-header {
+    filter: brightness(1.5);
+  }
   .table {
     padding: 20px 0px;
     overflow-x: auto;
