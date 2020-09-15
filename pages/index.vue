@@ -9,10 +9,16 @@
           <a href="#trophies"  v-scroll-to="'#trophies'">Best clubs to develop talent for trophies</a>
         </li>
       </ul>
-      <a class="lang-select" href="#">
-        <img src="http://placehold.it/50" alt="">
-      </a>
+      <div v-on:click='toggleLangBlock()' class="lang-select">
+        <img src="~assets/flags/german.png" alt="German Flag" />
+      </div>
     </nav>
+    <div class="lang-select-block" :class="languageBlockOpen ? 'open' : 'closed'">
+      <a v-on:click={toggleLangSelector} href="#"><img src="~assets/flags/german.png" alt="German Flag" /></a>
+      <a v-on:click={toggleLangSelector} href="#"><img src="~assets/flags/english.png" alt="British Flag" /></a>
+      <a v-on:click={toggleLangSelector} href="#"><img src="~assets/flags/french.png" alt="French Flag" /></a>
+      <a v-on:click={toggleLangSelector} href="#"><img src="~assets/flags/spanish.png" alt="Spanish Flag" /></a>
+    </div>
     <div class="container">
       <div>
         <div id="countries">
@@ -51,25 +57,67 @@
       Table1,
       Table2
     },
-    data() {
-      return { countries, bestValueClubs, bestTrophyClubs }
+    data: {
+      languageBlockOpen: false
     },
+    data() {
+      return { countries, bestValueClubs, bestTrophyClubs };
+    },
+    methods: {
+      toggleLangBlock () {
+        this.languageBlockOpen = !this.languageBlockOpen;
+        console.log(this.languageBlockOpen);
+      }
+    }
   }
 </script>
 
 <style lang="scss" scoped>
+  .lang-select-block {
+    top: 0;
+    right: 0;
+    z-index: 150;
+    height: auto;
+    display: flex;
+    position: fixed;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 23px 6px 19px;
+    transform: translateY(-100%);
+    background: linear-gradient(to right, #1D3C80 0%, #193573 100%);
+    &.open {
+      transform: translateY(0);
+    }
+    a {
+      display: block;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+      position: relative;
+      &:after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 2px solid #ffffff;
+        pointer-events: none;
+        content: '';
+        z-index: 100;
+        border-radius: 50%;
+      }
+      img {
+        display: block;
+        position: relative;
+        width: calc(100% + 4px);
+        height: calc(100% + 4px);
+      }
+    }
+  }
   main {
     background-color: #141B2B;
-    font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
   }
   .table-header {
     filter: brightness(1.5);
@@ -96,7 +144,7 @@
   }
   nav {
     top: 0;
-    z-index: 100;
+    z-index: 200;
     display: flex;
     position: sticky;
     padding: 10px 20px;
@@ -129,12 +177,19 @@
       flex-shrink: 0;
     }
     .lang-select {
+      width: 30px;
+      height: 30px;
       border-radius: 50%;
-      flex-shrink: 0;
       border: 2px solid #fff;
+      position: relative;
       overflow: hidden;
-      width: 50px;
-      height: 50px;
+      img {
+        top: -2px;
+        left: -2px;
+        display: block;
+        position: relative;
+        width: calc(100% + 4px);
+      }
     }
   }
   .container {
