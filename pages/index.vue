@@ -57,11 +57,13 @@
       Table1,
       Table2
     },
-    data: {
-      languageBlockOpen: false
-    },
     data() {
-      return { countries, bestValueClubs, bestTrophyClubs };
+      return {
+        countries,
+        bestValueClubs,
+        bestTrophyClubs,
+        languageBlockOpen: false
+      };
     },
     methods: {
       toggleLangBlock () {
