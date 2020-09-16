@@ -38,7 +38,7 @@
         <div class="header-inner">
           <h1>THE SKY BET TALENT FACTORY REPORT</h1>
           <div class="header-img-container">
-            <img src="~assets/header-img.jpg" />
+            <img src="~assets/header-img.png" />
           </div>
         </div>
       </div>
@@ -116,7 +116,7 @@
 <style lang="scss" scoped>
 
   header {
-    padding: 30px 0;
+    padding: 50px 0 0 0;
     margin-bottom: 100px;
     background-image: url('~assets/header-bg.jpg');
     background-size: cover;
@@ -171,10 +171,7 @@
       }
     }
     @media all and (min-width: 768px){
-      padding: 50px 0;
-    }
-    @media all and (min-width: 960px){
-      padding: 100px 0;
+      padding: 20px 0 0 0;
     }
   }
 
