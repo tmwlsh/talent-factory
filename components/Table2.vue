@@ -35,7 +35,7 @@
       </div>
       <transition name="slide-fade">
         <div v-if="activeCountries.indexOf(row.slug) !== -1">
-          <div class="row inner" v-for="player in row.players" :key="player.player">
+          <div class="row inner" v-for="player in row.data" :key="player.player">
             <div class="data">
               {{player.name}}
             </div>
