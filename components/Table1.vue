@@ -84,7 +84,6 @@
     computed: {
       filteredTableData: function () {
         const clonedData = JSON.parse(JSON.stringify(this.tableData))
-
         if(this.activeSort) return clonedData.sort((a, b) => {
           if(this.activeSort === 'slug') {
             return  this.sortAscending ? a.slug.localeCompare(b.slug) : b.slug.localeCompare(a.slug)
@@ -93,7 +92,6 @@
           return b[this.activeSort] - a[this.activeSort]
         })
         else return clonedData
-
       }
     }
   }
