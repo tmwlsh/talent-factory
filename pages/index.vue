@@ -33,6 +33,16 @@
       <a v-on:click={toggleLangSelector} href="#"><img src="~assets/flags/french.png" alt="French Flag" /></a>
       <a v-on:click={toggleLangSelector} href="#"><img src="~assets/flags/spanish.png" alt="Spanish Flag" /></a>
     </div>
+    <header>
+      <div class="container">
+        <div class="header-inner">
+          <h1>THE SKY BET TALENT FACTORY REPORT</h1>
+          <div class="header-img-container">
+            <img src="~assets/header-img.jpg" />
+          </div>
+        </div>
+      </div>
+    </header>
     <div class="container">
       <div>
         <div id="countries">
@@ -104,6 +114,69 @@
 </style>
 
 <style lang="scss" scoped>
+
+  header {
+    padding: 30px 0;
+    margin-bottom: 100px;
+    background-image: url('~assets/header-bg.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    .header-inner {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      .header-img-container {
+        flex: 0 0 100%;
+        display: block;
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+      h1 {
+        margin: 0 0 30px 0;
+        color: #ffffff;
+        font-size: 40px;
+        flex: 0 0 100%;
+        display: block;
+        text-align: center;
+      }
+      @media all and (min-width: 768px){
+        .header-img-container {
+          flex: 0 0 400px;
+        }
+        h1 {
+          text-align: left;
+          flex: 0 0 calc(100% - 450px);
+        }
+      }
+      @media all and (min-width: 960px){
+        .header-img-container {
+          flex: 0 0 600px;
+        }
+        h1 {
+          font-size: 52px;
+          flex: 0 0 calc(100% - 650px);
+        }
+      }
+      @media all and (min-width: 1400px){
+        .header-img-container {
+          flex: 0 0 700px;
+        }
+        h1 {
+          font-size: 60px;
+          flex: 0 0 calc(100% - 750px);
+        }
+      }
+    }
+    @media all and (min-width: 768px){
+      padding: 50px 0;
+    }
+    @media all and (min-width: 960px){
+      padding: 100px 0;
+    }
+  }
 
   div.mobile-nav {
     top: 0;
@@ -194,6 +267,7 @@
       display: none;
     }
   }
+
   .lang-select-block {
     top: 0;
     right: 0;
@@ -207,6 +281,7 @@
     padding: 80px 23px 6px 19px;
     transform: translateY(-100%);
     transition: .15s ease-in-out;
+    box-shadow: 0 0 30px rgba(black, 0.8);
     background: linear-gradient(to right, #1D3C80 0%, #193573 100%);
     &.open {
       transform: translateY(0);
@@ -238,8 +313,16 @@
       }
     }
   }
+
   main {
     background-color: #141B2B;
+    padding-bottom: 50px;
+    @media all and (min-width: 768px){
+      padding-bottom: 70px;
+    }
+    @media all and (min-width: 960px){
+      padding-bottom: 100px;
+    }
   }
   .table-header {
     filter: brightness(1.5);
