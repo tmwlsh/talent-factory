@@ -9,10 +9,24 @@
           <a href="#trophies"  v-scroll-to="'#trophies'">Best clubs to develop talent for trophies</a>
         </li>
       </ul>
-      <div v-on:click='toggleLangBlock()' class="lang-select">
-        <img src="~assets/flags/german.png" alt="German Flag" />
+      <div class="right-side">
+        <div v-on:click='toggleHamb()' class="hamb" :class="hambOpen ? 'open' : 'closed'">
+          <div class="line" />
+          <div class="line" />
+          <div class="line" />
+        </div>
+        <div v-on:click='toggleLangBlock()' class="lang-select">
+          <img src="~assets/flags/german.png" alt="German Flag" />
+        </div>
       </div>
     </nav>
+    <div class="mobile-nav" :class="mobileNavOpen ? 'open' : 'closed'">
+      <ul>
+        <li v-on:click='hideMobileNav()'><a href="#countries" v-scroll-to="'#countries'">Best Countries to develop players</a></li>
+        <li v-on:click='hideMobileNav()'><a href="#value"  v-scroll-to="'#value'">Best Clubs to develop talent for value</a></li>
+        <li v-on:click='hideMobileNav()'><a href="#trophies"  v-scroll-to="'#trophies'">Best clubs to develop talent for trophies</a></li>
+      </ul>
+    </div>
     <div class="lang-select-block" :class="languageBlockOpen ? 'open' : 'closed'">
       <a v-on:click={toggleLangSelector} href="#"><img src="~assets/flags/german.png" alt="German Flag" /></a>
       <a v-on:click={toggleLangSelector} href="#"><img src="~assets/flags/english.png" alt="British Flag" /></a>
@@ -62,13 +76,22 @@
         countries,
         bestValueClubs,
         bestTrophyClubs,
-        languageBlockOpen: false
+        languageBlockOpen: false,
+        hambOpen: false,
+        mobileNavOpen: false
       };
     },
     methods: {
       toggleLangBlock () {
         this.languageBlockOpen = !this.languageBlockOpen;
-        console.log(this.languageBlockOpen);
+      },
+      toggleHamb () {
+        this.hambOpen = !this.hambOpen;
+        this.mobileNavOpen = !this.mobileNavOpen;
+      },
+      hideMobileNav () {
+        this.mobileNavOpen = false;
+        this.hambOpen = false;
       }
     }
   }
@@ -81,6 +104,96 @@
 </style>
 
 <style lang="scss" scoped>
+
+  div.mobile-nav {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    position: fixed;
+    transform: translateX(-100%);
+    transition: .25s ease-in-out;
+    background: linear-gradient(to right, #9D2627 0%, #7E1E1D 100%);
+    &.open {
+      transform: translateX(0);
+    }
+    ul {
+      top: calc(50% + 10px);
+      left: 50%;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      position: absolute;
+      list-style-type: none;
+      width: calc(100% - 60px);
+      transform: translate(-50%, -50%);
+      li {
+        margin: 0 0 20px 0;
+        padding: 0;
+        display: block;
+        list-style-type: none;
+        a {
+          padding: 10px;
+          display: block;
+          color: #ffffff;
+          font-size: 24px;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  div.right-side {
+    display: flex;
+    align-items: center;
+  }
+
+  div.hamb {
+    position: relative;
+    display: block;
+    width: 52px;
+    height: 52px;
+    margin-right: 20px;
+    transition: .25s ease-in-out;
+    div.line {
+      left: 50%;
+      height: 2px;
+      width: 36px;
+      position: absolute;
+      background-color: #ffffff;
+      transform: translateX(-50%);
+      transition: .25s ease-in-out;
+      &:nth-of-type(1){
+        top: 15px;
+      }
+      &:nth-of-type(2){
+        top: 25px;
+      }
+      &:nth-of-type(3){
+        top: 35px;
+      }
+    }
+    &.open {
+      transform: rotate(180deg);
+      div.line {
+        &:nth-of-type(1){
+          top: 25px;
+          transform: translateX(-50%) rotate(-45deg);
+        }
+        &:nth-of-type(2){
+          opacity: 0;
+        }
+        &:nth-of-type(3){
+          top: 25px;
+          transform: translateX(-50%) rotate(45deg);
+        }
+      }
+    }
+    @media all and (min-width: 960px){
+      display: none;
+    }
+  }
   .lang-select-block {
     top: 0;
     right: 0;
@@ -93,6 +206,7 @@
     justify-content: center;
     padding: 80px 23px 6px 19px;
     transform: translateY(-100%);
+    transition: .15s ease-in-out;
     background: linear-gradient(to right, #1D3C80 0%, #193573 100%);
     &.open {
       transform: translateY(0);
@@ -157,6 +271,7 @@
     position: sticky;
     padding: 10px 20px;
     align-items: center;
+    box-shadow: 0 0 60px rgba(black, 0.3);
     justify-content: space-between;
     background: linear-gradient(to right, #9D2627 0%, #7E1E1D 100%);
     a {
@@ -168,7 +283,7 @@
     ul {
       margin: 0;
       padding: 0;
-      display: flex;
+      display: none;
       justify-content: center;
       align-items: flex-start;
       list-style-type: none;
@@ -176,6 +291,9 @@
         padding: 10px;
         max-width: 180px;
         font-size: 14px;
+      }
+      @media all and (min-width: 960px){
+        display: flex;
       }
     }
     .logo {
