@@ -62,6 +62,7 @@
         </div>
       </transition>
     </div>
+    <button v-show="!maxItemsShown" @click="increaseItems()">Show More</button>
   </div>
 </template>
 
@@ -73,9 +74,18 @@
         activeCountries: [],
         activeSort: false,
         sortAscending: true,
+        numberOfItems: 20,
+        maxItemsShown: false,
       }
     },
     methods: {
+      increaseItems() {
+        this.numberOfItems = this.numberOfItems + 20;
+        if(this.numberOfItems >= this.filteredTableData.length) {
+          this.numberOfItems = this.filteredTableData.length;
+          this.maxItemsShown = true;
+        }
+      },
       setActiveSort(id) {
         if(id === this.activeSort) this.sortAscending = !this.sortAscending
         else this.sortAscending
@@ -106,6 +116,10 @@
           return b[this.activeSort] - a[this.activeSort]
         })
         else return clonedData
+      },
+      dataLimited: function () {
+        const clonedData = JSON.parse(JSON.stringify(this.tableData))
+        return clonedData.splice(0, this.numberOfItems);
       }
     }
   }
