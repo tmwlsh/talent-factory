@@ -1,54 +1,56 @@
 <template>
-  <div class="table">
-    <div class="table-header row">
-      <div class="data" @click.prevent="setActiveSort('slug')">
-        <span>Country</span>
-      </div>
-      <div class="data" @click.prevent="setActiveSort('playerCount')">
-        <span>Player Count</span>
-      </div>
-      <div class="data" @click.prevent="setActiveSort('averageNetDifference')">
-        <span>Average Net Difference</span>
-      </div>
-      <div class="data" @click.prevent="setActiveSort('averagePercentageDifference')">
-        <span>Average Percentage Difference</span>
-      </div>
-    </div>
-    <div class="row-outer" v-for="row in dataLimited" :key="row.country">
-      <div class="row" @click.prevent="toggleDisplay(row.slug)">
-        <div class="data">
-          {{row.name}}
+  <div>
+    <div class="table">
+      <div class="table-header row">
+        <div class="data" @click.prevent="setActiveSort('slug')">
+          <span>Country</span>
         </div>
-        <div class="data">
-          {{row.playerCount}}
+        <div class="data" @click.prevent="setActiveSort('playerCount')">
+          <span>Player Count</span>
         </div>
-        <div class="data">
-          {{row.averageNetDifference | numberFilter}}
+        <div class="data" @click.prevent="setActiveSort('averageNetDifference')">
+          <span>Average Net Difference</span>
         </div>
-        <div class="data">
-          {{row.averagePercentageDifference}}%
+        <div class="data" @click.prevent="setActiveSort('averagePercentageDifference')">
+          <span>Average Percentage Difference</span>
         </div>
       </div>
-      <transition name="slide-fade">
-        <div class="row-inner-container" v-if="activeCountries.indexOf(row.slug) !== -1">
-          <div class="row inner" v-for="club in row.data" :key="club.name">
-            <div class="data">
-              {{club.name}}
-            </div>
-            <div class="data">
-              {{club.playerCount}}
-            </div>
-            <div class="data">
-              {{club.averageNetDifference | numberFilter}}
-            </div>
-            <div class="data">
-              {{club.averagePercentageDifference}}%
-            </div>
+      <div class="row-outer" v-for="row in dataLimited" :key="row.country">
+        <div class="row" @click.prevent="toggleDisplay(row.slug)">
+          <div class="data">
+            {{row.name}}
+          </div>
+          <div class="data">
+            {{row.playerCount}}
+          </div>
+          <div class="data">
+            {{row.averageNetDifference | numberFilter}}
+          </div>
+          <div class="data">
+            {{row.averagePercentageDifference}}%
           </div>
         </div>
-      </transition>
+        <transition name="slide-fade">
+          <div class="row-inner-container" v-if="activeCountries.indexOf(row.slug) !== -1">
+            <div class="row inner" v-for="club in row.data" :key="club.name">
+              <div class="data">
+                {{club.name}}
+              </div>
+              <div class="data">
+                {{club.playerCount}}
+              </div>
+              <div class="data">
+                {{club.averageNetDifference | numberFilter}}
+              </div>
+              <div class="data">
+                {{club.averagePercentageDifference}}%
+              </div>
+            </div>
+          </div>
+        </transition>
+      </div>
     </div>
-    <button v-show="!maxItemsShown" @click="increaseItems()">Show More</button>
+    <button class="show-more" v-show="!maxItemsShown" @click="increaseItems()">Show More</button>
   </div>
 </template>
 
@@ -112,6 +114,17 @@
 </script>
 
 <style lang="scss" scoped>
+  button.show-more {
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px;
+    padding: 20px 40px;
+    margin: 10px 0 0 0;
+    display: inline-block;
+    background-color: #ffffff;
+  }
   .table-header {
     filter: brightness(1.5);
   }

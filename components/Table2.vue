@@ -1,66 +1,68 @@
 <template>
-  <div class="table">
-    <div class="table-header row">
-      <div class="data" @click.prevent="setActiveSort('slug')">First Club</div>
-      <div class="data" @click.prevent="setActiveSort('playerCount')">First club Count</div>
-      <div class="data" @click.prevent="setActiveSort('domesticTitles')">Domestic Titles</div>
-      <div class="data" @click.prevent="setActiveSort('ucls')">Champtions league wins</div>
-      <div class="data" @click.prevent="setActiveSort('uel')">Eurpoa league wins</div>
-      <div class="data" @click.prevent="setActiveSort('domesticCups')">Domestic Cups</div>
-      <div class="data" @click.prevent="setActiveSort('domesticSecondCups')">Domestic Second cups</div>
-    </div>
-    <div class="row-outer" v-for="row in dataLimited" :key="row.country">
-      <div class="row" @click.prevent="toggleDisplay(row.slug)">
-        <div class="data">
-          {{row.name}}
-        </div>
-        <div class="data">
-          {{row.playerCount}}
-        </div>
-        <div class="data">
-          {{row.domesticTitles}}
-        </div>
-        <div class="data">
-          {{row.ucls}}
-        </div>
-        <div class="data">
-          {{row.uel}}
-        </div>
-        <div class="data">
-          {{row.domesticCups}}
-        </div>
-        <div class="data">
-          {{row.domesticSecondCups}}
-        </div>
+  <div>
+    <div class="table">
+      <div class="table-header row">
+        <div class="data" @click.prevent="setActiveSort('slug')">First Club</div>
+        <div class="data" @click.prevent="setActiveSort('playerCount')">First club Count</div>
+        <div class="data" @click.prevent="setActiveSort('domesticTitles')">Domestic Titles</div>
+        <div class="data" @click.prevent="setActiveSort('ucls')">Champtions league wins</div>
+        <div class="data" @click.prevent="setActiveSort('uel')">Eurpoa league wins</div>
+        <div class="data" @click.prevent="setActiveSort('domesticCups')">Domestic Cups</div>
+        <div class="data" @click.prevent="setActiveSort('domesticSecondCups')">Domestic Second cups</div>
       </div>
-      <transition name="slide-fade">
-        <div v-if="activeCountries.indexOf(row.slug) !== -1">
-          <div class="row inner" v-for="player in row.data" :key="player.player">
-            <div class="data">
-              {{player.name}}
-            </div>
-            <div class="data">
-              {{player.playerCount}}
-            </div>
-            <div class="data">
-              {{player.domesticTitles}}
-            </div>
-            <div class="data">
-              {{player.ucls}}
-            </div>
-            <div class="data">
-              {{player.uel}}
-            </div>
-            <div class="data">
-              {{player.domesticCups}}
-            </div>
-            <div class="data">
-              {{player.domesticSecondCups}}
-            </div>
-
+      <div class="row-outer" v-for="row in dataLimited" :key="row.country">
+        <div class="row" @click.prevent="toggleDisplay(row.slug)">
+          <div class="data">
+            {{row.name}}
+          </div>
+          <div class="data">
+            {{row.playerCount}}
+          </div>
+          <div class="data">
+            {{row.domesticTitles}}
+          </div>
+          <div class="data">
+            {{row.ucls}}
+          </div>
+          <div class="data">
+            {{row.uel}}
+          </div>
+          <div class="data">
+            {{row.domesticCups}}
+          </div>
+          <div class="data">
+            {{row.domesticSecondCups}}
           </div>
         </div>
-      </transition>
+        <transition name="slide-fade">
+          <div v-if="activeCountries.indexOf(row.slug) !== -1">
+            <div class="row inner" v-for="player in row.data" :key="player.player">
+              <div class="data">
+                {{player.name}}
+              </div>
+              <div class="data">
+                {{player.playerCount}}
+              </div>
+              <div class="data">
+                {{player.domesticTitles}}
+              </div>
+              <div class="data">
+                {{player.ucls}}
+              </div>
+              <div class="data">
+                {{player.uel}}
+              </div>
+              <div class="data">
+                {{player.domesticCups}}
+              </div>
+              <div class="data">
+                {{player.domesticSecondCups}}
+              </div>
+
+            </div>
+          </div>
+        </transition>
+      </div>
     </div>
     <button class="show-more" v-show="!maxItemsShown" @click="increaseItems()">Show More</button>
   </div>
@@ -126,6 +128,17 @@
 </script>
 
 <style lang="scss" scoped>
+  button.show-more {
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px;
+    padding: 20px 40px;
+    margin: 10px 0 0 0;
+    display: inline-block;
+    background-color: #ffffff;
+  }
   .table {
     padding: 20px 0px;
     overflow-x: auto;
