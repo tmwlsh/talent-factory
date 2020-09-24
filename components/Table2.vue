@@ -9,7 +9,7 @@
       <div class="data" @click.prevent="setActiveSort('domesticCups')">Domestic Cups</div>
       <div class="data" @click.prevent="setActiveSort('domesticSecondCups')">Domestic Second cups</div>
     </div>
-    <div v-for="row in filteredTableData" :key="row.name">
+    <div class="row-outer" v-for="row in dataLimited" :key="row.country">
       <div class="row" @click.prevent="toggleDisplay(row.slug)">
         <div class="data">
           {{row.name}}
@@ -62,7 +62,7 @@
         </div>
       </transition>
     </div>
-    <button v-show="!maxItemsShown" @click="increaseItems()">Show More</button>
+    <button class="show-more" v-show="!maxItemsShown" @click="increaseItems()">Show More</button>
   </div>
 </template>
 
@@ -167,6 +167,11 @@
   /* .slide-fade-leave-active below version 2.1.8 */ {
     transform: scaleY(1);
     opacity: 0;
+  }
+  .show-more {
+    width: 100%;
+    position: sticky;
+    left: 0;
   }
 </style>
 
