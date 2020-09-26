@@ -120,7 +120,7 @@
         else return clonedData
       },
       dataLimited: function () {
-        const clonedData = JSON.parse(JSON.stringify(this.tableData))
+        const clonedData = JSON.parse(JSON.stringify(this.filteredTableData))
         return clonedData.splice(0, this.numberOfItems);
       }
     }
