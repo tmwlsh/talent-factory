@@ -169,6 +169,7 @@
   .data {
     min-width: 250px;
     padding: 10px;
+    line-height: 1.6em;
   }
   .slide-fade-enter-active {
     transition: all .3s ease;

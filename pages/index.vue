@@ -36,7 +36,10 @@
     <header>
       <div class="container">
         <div class="header-inner">
-          <h1>THE SKY BET TALENT FACTORY REPORT</h1>
+          <div class="header-text">
+            <h1>Football Talent Factories</h1>
+            <p>Which Clubs and Leagues Produce the Most World Class Talent?</p>
+          </div>
           <div class="header-img-container">
             <img src="~assets/header-img.png" />
           </div>
@@ -44,9 +47,19 @@
       </div>
     </header>
     <div class="container">
+      <div class="page-intro">
+        <p>We’ve taken the Top 100 male footballers in world football for each of the past 20 seasons and analysed their historic transfer market values and trophies won, by each club and league country played in.</p>
+        <p>From this analysis, we can exclusively reveal the football talent factories of the world, that produce and elevate players to the next level.</p>
+      </div>
       <div>
         <div id="countries">
           <h2 class="table-title">Best Countries to develop players</h2>
+          <div class="table-intro">
+            <p>To quote former England striker Gary Lineker, “Football is a simple game. Twenty-two men chase a ball for 90 minutes and at the end, the Germans always win”.</p>
+            <p>And quite emphatically, this is the case for player development too. The ultimate decider of player skill and ability is their market value and the German Bundesliga is statistically the best for producing and enhancing footballing talent; adding £9.5m to players who play at least once in the German leagues.</p>
+            <p>At the other end of the spectrum, the statistically worst country for football players to increase their market value in is China – with player market values declining by an average of £4.7m.</p>
+            <p class="bold">View the table below the explore the full data:</p>
+          </div>
           <Table1 :table-data="countries"/>
         </div>
         <h2 class="quote">
@@ -54,6 +67,12 @@
         </h2>
         <div id="value">
           <h2 class="table-title">Best Clubs to develop talent for value</h2>
+          <div class="table-intro">
+            <p>Based on our criteria of a minimum of 5 players developed, RB Leipzig is officially the best club one can play for to increase their market value. The quality of coaching at this club sees players increase their market value by an average of £26 million. The standout cases being Timo Werner (+£64.8m), Naby Keita (+£42.3m) and Emil Forsberg (+£18.5m).</p>
+            <p>Closely following behind in second place is Liverpool, with players increasing their market value by an average of £21.5m.</p>
+            <p>To demonstrate the incredible impact Jurgen Klopp has had on the recent crop of Liverpool players, even world class players purchased for fees of £75m have seen their market value increase by £27m...</p>
+            <p class="bold">View the table below the explore the full data:</p>
+          </div>
           <Table1 :table-data="bestValueClubs"/>
         </div>
         <div class="right">
@@ -63,7 +82,32 @@
         </div>
         <div id="trophies">
           <h2 class="table-title">Best clubs to develop talent for trophies</h2>
+          <div class="table-intro">
+            <p>And finally, which are the best clubs for producing trophy and title winners? Here we took the first senior club that players signed for and tracked every trophy won in the players lifetime career / career so far.</p>
+            <p>As our list of players consists of the top 100 male players of the season for each of the past 20, we can also reveal the clubs who have recently been producing the best talent in world football.</p>
+            <p class="bold">The results are as follows:</p>
+            <ol>
+              <li>Ajax and Real Madrid have produced the joint most top 100 rated male players in world football over the past 20 years, with 10 each. Before looking, can you guess them?</li>
+              <li>Of the top 100 rated male players over the past 20 years, Barcelona have produced the most domestic title and UEFA Champions League winners, with players winning these trophies during their tenure at the Catalan giants or with other clubs (such as Thiago Alcantra at Bayern Munich and Pedro at Chelsea).</li>
+            </ol>
+            <p class="bold">View the table below the explore the full data:</p>
+          </div>
           <Table2 :table-data="bestTrophyClubs"/>
+        </div>
+        <div id="methodology">
+          <h2 class="table-title">Methodology</h2>
+          <div class="table-intro">
+            <p>For this study, we took the past 20 annualised lists of the top 100 male footballers of the year (as chosen by football experts from around the world) and reviewed the historic transfer market values of each player by their respective clubs and leagues played at.</p>
+            <p>We did this to find the football talent factories that have a proven track record in transforming good players into greats, as the ultimate measure of player skill and ability is their transfer market value.</p>
+            <p>Below is the analysis process we followed.</p>
+            <p class="bold">Example Analysis Process: </p>
+          </div>
+          <Table3 />
+          <div class="table-intro">
+            <p>For consistency, all transfer market value data was sourced from Transfermarkt, so we could evaluate transfer market value increases/decreases during player loan periods and where players stayed at one club their whole career.</p>
+            <p>To supplement the data analysis on player development, we also pulled in data on individual player honours per club to see which clubs and leagues had the most impact on developing serial winners.</p>
+            <p>All data accurate at time of release: October 2020.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -115,6 +159,70 @@
 
 <style lang="scss" scoped>
 
+  div#methodology {
+    margin-top: 50px;
+    @media all and (min-width: 768px){
+      margin-top: 100px;
+    }
+  }
+
+  div.table-intro {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0 0 0;
+    p {
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgba(#ffffff, 0.7);
+      line-height: 1.6em;
+      font-size: 16px;
+      &.bold {
+        color: rgba(#ffffff, 1);
+        font-weight: 600;
+      }
+    }
+    ol, ul {
+      margin: 0;
+      padding: 0 0 0 15px;
+      li {
+        padding: 0 0 0 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgba(#ffffff, 1);
+        line-height: 1.6em;
+        font-size: 16px;
+        margin-bottom: 20px;
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+      }
+    }
+    @media all and (min-width: 768px){
+      padding: 30px 0;
+      p {
+        font-size: 18px;
+      }
+      ol, ul {
+        li {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  div.page-intro {
+    padding: 0px 0 50px 0;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 768px;
+    p {
+      color: #ffffff;
+      font-size: 18px;
+      line-height: 1.6em;
+    }
+    @media all and (min-width: 768px){
+      padding: 20px 0 80px 0;
+    }
+  }
+
   header {
     padding: 50px 0 0 0;
     margin-bottom: 100px;
@@ -134,39 +242,57 @@
           height: auto;
         }
       }
-      h1 {
-        margin: 0 0 30px 0;
-        color: #ffffff;
-        font-size: 40px;
+      div.header-text {
         flex: 0 0 100%;
-        display: block;
-        text-align: center;
+        h1 {
+          margin: 0 0 30px 0;
+          color: #ffffff;
+          font-size: 40px;
+          display: block;
+          text-align: center;
+        }
+        p {
+          font-size: 18px;
+          font-weight: 300;
+          line-height: 1.6em;
+          color: #ffffff;
+          text-align: center;
+        }
       }
       @media all and (min-width: 768px){
         .header-img-container {
           flex: 0 0 400px;
         }
-        h1 {
-          text-align: left;
+        div.header-text {
           flex: 0 0 calc(100% - 450px);
+          h1 {
+            text-align: left;
+          }
+          p {
+            text-align: left;
+          }
         }
       }
       @media all and (min-width: 960px){
         .header-img-container {
           flex: 0 0 600px;
         }
-        h1 {
-          font-size: 52px;
+        div.header-text {
           flex: 0 0 calc(100% - 650px);
+          h1 {
+            font-size: 52px;
+          }
         }
       }
       @media all and (min-width: 1400px){
         .header-img-container {
           flex: 0 0 700px;
         }
-        h1 {
-          font-size: 60px;
+        div.header-text {
           flex: 0 0 calc(100% - 750px);
+          h1 {
+            font-size: 60px;
+          }
         }
       }
     }
@@ -321,9 +447,11 @@
       padding-bottom: 100px;
     }
   }
+
   .table-header {
     filter: brightness(1.5);
   }
+
   .table-title {
     text-align: center;
     font-size: 1.4rem;
@@ -331,6 +459,7 @@
     margin-bottom: 0;
     color: #ffffff;
   }
+
   .quote {
     font-size: 3rem;
     max-width: 15em;
@@ -339,11 +468,13 @@
     padding: 100px 0px;
     margin-top: 0;
   }
+
   .right {
     display: flex;
     justify-content: flex-end;
     text-align: right;
   }
+
   nav {
     top: 0;
     z-index: 200;
@@ -398,6 +529,7 @@
       }
     }
   }
+
   .container {
     margin: 0 auto;
     padding: 0 30px;

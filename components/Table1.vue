@@ -174,6 +174,7 @@
     min-width: 25%;
     padding: 10px;
     box-sizing: border-box;
+    line-height: 1.6em;
   }
   .slide-fade-enter-active {
     transition: all .3s ease;
