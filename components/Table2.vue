@@ -139,6 +139,9 @@
     display: inline-block;
     background-color: #ffffff;
   }
+  .table-header {
+    filter: brightness(1.5);
+  }
   .table {
     padding: 20px 0px;
     overflow-x: auto;
@@ -149,19 +152,19 @@
     margin-bottom: 5px;
     .data {
       &:nth-of-type(odd) {
-        background: linear-gradient(to right, #162C5F 0%, #122854 100%);
+        background: linear-gradient(to right, darken(#00277C, 0) 0%, darken(#00277C, 5) 100%);
       }
       &:nth-of-type(even) {
-        background: linear-gradient(to right, #1D3C80 0%, #193573 100%);
+        background: linear-gradient(to right, darken(#00277C, 0) 0%, darken(#00277C, 5) 100%);
       }
     }
     &.inner {
       .data {
         &:nth-of-type(odd) {
-          background: linear-gradient(to right, #721C1D 0%, #5D1515 100%);
+          background: linear-gradient(to right, darken(#E71312, 10) 0%, darken(#E71312, 20) 100%);
         }
         &:nth-of-type(even) {
-          background: linear-gradient(to right, #9D2627 0%, #7E1E1D 100%);
+          background: linear-gradient(to right, darken(#E71312, 10) 0%, darken(#E71312, 20) 100%);
         }
       }
     }

@@ -310,7 +310,7 @@
     position: fixed;
     transform: translateX(-100%);
     transition: .25s ease-in-out;
-    background: linear-gradient(to right, #9D2627 0%, #7E1E1D 100%);
+    background: linear-gradient(to right, darken(#E71312, 10) 0%, darken(#E71312, 20) 100%);
     &.open {
       transform: translateX(0);
     }
@@ -438,7 +438,7 @@
   }
 
   main {
-    background-color: #141B2B;
+    background-color: darken(#00277C, 9);
     padding-bottom: 50px;
     @media all and (min-width: 768px){
       padding-bottom: 70px;
@@ -484,7 +484,7 @@
     align-items: center;
     box-shadow: 0 0 60px rgba(black, 0.3);
     justify-content: space-between;
-    background: linear-gradient(to right, #9D2627 0%, #7E1E1D 100%);
+    background: linear-gradient(to right, darken(#E71312, 10) 0%, darken(#E71312, 20) 100%);
     a {
       display: inline-block;
       color: #fff;
