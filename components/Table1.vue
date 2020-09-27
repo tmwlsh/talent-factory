@@ -15,7 +15,7 @@
           <span>Average Percentage Difference</span>
         </div>
       </div>
-      <div class="row-outer" v-for="row in dataLimited" :key="row.country">
+      <div class="row-outer" v-for="row in filteredTableData" :key="row.country">
         <div class="row" @click.prevent="toggleDisplay(row.slug)">
           <div class="data">
             {{row.name}}
