@@ -95,7 +95,7 @@
     },
     computed: {
       filteredTableData: function () {
-        const clonedData = JSON.parse(JSON.stringify(this.tableData))
+        const clonedData = JSON.parse(JSON.stringify(this.dataLimited))
         if(this.activeSort) return clonedData.sort((a, b) => {
           if(this.activeSort === 'slug') {
             return  this.sortAscending ? a.slug.localeCompare(b.slug) : b.slug.localeCompare(a.slug)
@@ -106,10 +106,10 @@
         else return clonedData
       },
       dataLimited: function () {
-        const clonedData = JSON.parse(JSON.stringify(this.filteredTableData))
+        const clonedData = JSON.parse(JSON.stringify(this.tableData))
         return clonedData.splice(0, this.numberOfItems);
       }
-    },
+    }
   }
 </script>
 

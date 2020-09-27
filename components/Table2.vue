@@ -10,7 +10,7 @@
         <div class="data" @click.prevent="setActiveSort('domesticCups')">Domestic Cups</div>
         <div class="data" @click.prevent="setActiveSort('domesticSecondCups')">Domestic Second cups</div>
       </div>
-      <div class="row-outer" v-for="row in dataLimited" :key="row.country">
+      <div class="row-outer" v-for="row in filteredTableData" :key="row.country">
         <div class="row" @click.prevent="toggleDisplay(row.slug)">
           <div class="data">
             {{row.name}}
@@ -109,7 +109,7 @@
     },
     computed: {
       filteredTableData: function () {
-        const clonedData = JSON.parse(JSON.stringify(this.tableData))
+        const clonedData = JSON.parse(JSON.stringify(this.dataLimited))
         if(this.activeSort) return clonedData.sort((a, b) => {
           if(this.activeSort === 'slug') {
             return  this.sortAscending ? a.slug.localeCompare(b.slug) : b.slug.localeCompare(a.slug)
@@ -120,7 +120,7 @@
         else return clonedData
       },
       dataLimited: function () {
-        const clonedData = JSON.parse(JSON.stringify(this.filteredTableData))
+        const clonedData = JSON.parse(JSON.stringify(this.tableData))
         return clonedData.splice(0, this.numberOfItems);
       }
     }
