@@ -2,13 +2,18 @@
   <div>
     <div class="table">
       <div class="table-header row">
-        <div class="data" @click.prevent="setActiveSort('slug')">First Club</div>
-        <div class="data" @click.prevent="setActiveSort('playerCount')">First club Count</div>
-        <div class="data" @click.prevent="setActiveSort('domesticTitles')">Domestic Titles</div>
-        <div class="data" @click.prevent="setActiveSort('ucls')">Champtions league wins</div>
-        <div class="data" @click.prevent="setActiveSort('uel')">Eurpoa league wins</div>
-        <div class="data" @click.prevent="setActiveSort('domesticCups')">Domestic Cups</div>
-        <div class="data" @click.prevent="setActiveSort('domesticSecondCups')">Domestic Second cups</div>
+        <div class="data" @click.prevent="setActiveSort('slug')">
+          <span>Club</span>
+        </div>
+        <div class="data" @click.prevent="setActiveSort('playerCount')">
+          <span>Player Count</span>
+        </div>
+        <div class="data" @click.prevent="setActiveSort('averageNetDifference')">
+          <span>Average Net Difference</span>
+        </div>
+        <div class="data" @click.prevent="setActiveSort('averagePercentageDifference')">
+          <span>Average Percentage Difference</span>
+        </div>
       </div>
       <div class="row-outer" v-for="row in filteredTableData" :key="row.country">
         <div class="row" @click.prevent="toggleDisplay(row.slug)">
@@ -19,46 +24,27 @@
             {{row.playerCount}}
           </div>
           <div class="data">
-            {{row.domesticTitles}}
+            {{row.averageNetDifference | numberFilter}}
           </div>
           <div class="data">
-            {{row.ucls}}
-          </div>
-          <div class="data">
-            {{row.uel}}
-          </div>
-          <div class="data">
-            {{row.domesticCups}}
-          </div>
-          <div class="data">
-            {{row.domesticSecondCups}}
+            {{row.averagePercentageDifference}}%
           </div>
         </div>
         <transition name="slide-fade">
-          <div v-if="activeCountries.indexOf(row.slug) !== -1">
-            <div class="row inner" v-for="player in row.data" :key="player.player">
+          <div class="row-inner-container" v-if="activeCountries.indexOf(row.slug) !== -1">
+            <div class="row inner" v-for="club in row.data" :key="club.name">
               <div class="data">
-                {{player.name}}
+                {{club.name}}
               </div>
               <div class="data">
-                {{player.playerCount}}
+                {{club.playerCount}}
               </div>
               <div class="data">
-                {{player.domesticTitles}}
+                {{club.averageNetDifference | numberFilter}}
               </div>
               <div class="data">
-                {{player.ucls}}
+                {{club.averagePercentageDifference}}%
               </div>
-              <div class="data">
-                {{player.uel}}
-              </div>
-              <div class="data">
-                {{player.domesticCups}}
-              </div>
-              <div class="data">
-                {{player.domesticSecondCups}}
-              </div>
-
             </div>
           </div>
         </transition>
@@ -145,10 +131,24 @@
   .table {
     padding: 20px 0px;
     overflow-x: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
     color: #fff;
   }
-  .row {
+  .row-outer {
     display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    min-width: 960px;
+  }
+  .row-inner-container {
+    width: 100%;
+  }
+  .row {
+    min-width: 960px;
+    display: flex;
+    width: 100%;
     margin-bottom: 5px;
     .data {
       &:nth-of-type(odd) {
@@ -160,6 +160,7 @@
     }
     &.inner {
       .data {
+        flex: 0 0 25%;
         &:nth-of-type(odd) {
           background: linear-gradient(to right, darken(#E71312, 10) 0%, darken(#E71312, 20) 100%);
         }
@@ -170,8 +171,9 @@
     }
   }
   .data {
-    min-width: 250px;
+    min-width: 25%;
     padding: 10px;
+    box-sizing: border-box;
     line-height: 1.6em;
   }
   .slide-fade-enter-active {
@@ -184,11 +186,6 @@
   /* .slide-fade-leave-active below version 2.1.8 */ {
     transform: scaleY(1);
     opacity: 0;
-  }
-  .show-more {
-    width: 100%;
-    position: sticky;
-    left: 0;
   }
 </style>
 

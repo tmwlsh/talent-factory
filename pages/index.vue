@@ -73,7 +73,7 @@
             <p>To demonstrate the incredible impact Jurgen Klopp has had on the recent crop of Liverpool players, even world class players purchased for fees of £75m have seen their market value increase by £27m...</p>
             <p class="bold">View the table below the explore the full data:</p>
           </div>
-          <Table1 :table-data="bestValueClubs"/>
+          <Table2 :table-data="bestValueClubs"/>
         </div>
         <div class="right">
           <h2 class="quote right">
@@ -92,7 +92,7 @@
             </ol>
             <p class="bold">View the table below the explore the full data:</p>
           </div>
-          <Table2 :table-data="bestTrophyClubs"/>
+          <Table3 :table-data="bestTrophyClubs"/>
         </div>
         <div id="methodology">
           <h2 class="table-title">Methodology</h2>
@@ -102,7 +102,7 @@
             <p>Below is the analysis process we followed.</p>
             <p class="bold">Example Analysis Process: </p>
           </div>
-          <Table3 />
+          <Table4 />
           <div class="table-intro">
             <p>For consistency, all transfer market value data was sourced from Transfermarkt, so we could evaluate transfer market value increases/decreases during player loan periods and where players stayed at one club their whole career.</p>
             <p>To supplement the data analysis on player development, we also pulled in data on individual player honours per club to see which clubs and leagues had the most impact on developing serial winners.</p>
@@ -526,6 +526,9 @@
         display: block;
         position: relative;
         width: calc(100% + 4px);
+      }
+      @media all and (min-width: 768px){
+        cursor: pointer;
       }
     }
   }
