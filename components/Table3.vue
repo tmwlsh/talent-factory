@@ -83,8 +83,8 @@
     methods: {
       increaseItems() {
         this.numberOfItems = this.numberOfItems + 20;
-        if(this.numberOfItems >= this.filteredTableData.length) {
-          this.numberOfItems = this.filteredTableData.length;
+        if(this.numberOfItems >= this.tableData.length) {
+          this.numberOfItems = this.tableData.length;
           this.maxItemsShown = true;
         }
       },
