@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="table-outer">
     <div class="table">
       <div class="table-header row">
         <div class="data" @click.prevent="setActiveSort('slug')">
@@ -114,6 +114,9 @@
 </script>
 
 <style lang="scss" scoped>
+  div.table-outer {
+    margin-bottom: 100px;
+  }
   button.show-more {
     border: 0;
     outline: none;
@@ -127,6 +130,7 @@
   }
   .table-header {
     filter: brightness(1.5);
+    cursor: pointer;
   }
   .table {
     padding: 20px 0px;

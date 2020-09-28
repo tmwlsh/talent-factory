@@ -62,9 +62,6 @@
           </div>
           <Table1 :table-data="countries"/>
         </div>
-        <h2 class="quote">
-          Playing in Spain could increase your value by up to 1,500%
-        </h2>
         <div id="value">
           <h2 class="table-title">Best Clubs to develop talent for value</h2>
           <div class="table-intro">
@@ -74,11 +71,6 @@
             <p class="bold">View the table below the explore the full data:</p>
           </div>
           <Table2 :table-data="bestValueClubs"/>
-        </div>
-        <div class="right">
-          <h2 class="quote right">
-            Playing for Liverpool could increase your net value by up to &pound;20,000,000
-          </h2>
         </div>
         <div id="trophies">
           <h2 class="table-title">Best clubs to develop talent for trophies</h2>
