@@ -69,8 +69,8 @@
     methods: {
       increaseItems() {
         this.numberOfItems = this.numberOfItems + 20;
-        if(this.numberOfItems >= this.tableData.length) {
-          this.numberOfItems = this.tableData.length;
+        if(this.numberOfItems >= this.preSortedData.length) {
+          this.numberOfItems = this.preSortedData.length;
           this.maxItemsShown = true;
         }
       },
@@ -106,8 +106,12 @@
         else return clonedData
       },
       dataLimited: function () {
-        const clonedData = JSON.parse(JSON.stringify(this.tableData))
+        const clonedData = JSON.parse(JSON.stringify(this.preSortedData))
         return clonedData.splice(0, this.numberOfItems);
+      },
+      preSortedData: function () {
+        const clonedData = JSON.parse(JSON.stringify(this.tableData))
+        return clonedData.sort((a, b) => b['averageNetDifference'] - a['averageNetDifference'])
       }
     }
   }
