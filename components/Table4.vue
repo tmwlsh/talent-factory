@@ -4,33 +4,33 @@
       <div class="row-outer">
         <div class="row">
           <div class="data">Cristiano Ronaldo</div>
-          <div class="data">Sporting de Lisboa</div>
-          <div class="data">Valor de mercado al incorporarse (A)</div>
-          <div class="data">Valor de mercado en el momento de la venta / Transferencia / Valor actual (B)</div>
+          <div class="data">Sporting Lissabon</div>
+          <div class="data">Marktwert bei Beitritt (A)</div>
+          <div class="data">Marktwert bei Verkauf/Transfer/aktueller Wert (B)</div>
         </div>
       </div>
       <div class="row-outer">
         <div class="row">
           <div class="data">Cristiano Ronaldo</div>
           <div class="data">Manchester United</div>
-          <div class="data">Valor de mercado al incorporarse (A)</div>
-          <div class="data">Valor de mercado en el momento de la venta / Transferencia / Valor actual (B)</div>
+          <div class="data">Marktwert bei Beitritt (A)</div>
+          <div class="data">Marktwert bei Verkauf/Transfer/aktueller Wert (B)</div>
         </div>
       </div>
       <div class="row-outer">
         <div class="row">
           <div class="data">Cristiano Ronaldo</div>
           <div class="data">Real Madrid</div>
-          <div class="data">Valor de mercado al incorporarse (A)</div>
-          <div class="data">Valor de mercado en el momento de la venta / Transferencia / Valor actual (B)</div>
+          <div class="data">Marktwert bei Beitritt (A)</div>
+          <div class="data">Marktwert bei Verkauf/Transfer/aktueller Wert (B)</div>
         </div>
       </div>
       <div class="row-outer">
         <div class="row">
           <div class="data">Cristiano Ronaldo</div>
-          <div class="data">Juventus</div>
-          <div class="data">Valor de mercado al incorporarse (A)</div>
-          <div class="data">Valor de mercado en el momento de la venta / Transferencia / Valor actual (B)</div>
+          <div class="data">Juventus Turin</div>
+          <div class="data">Marktwert bei Beitritt (A)</div>
+          <div class="data">Marktwert bei Verkauf/Transfer/aktueller Wert (B)</div>
         </div>
       </div>
     </div>

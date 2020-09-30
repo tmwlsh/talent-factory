@@ -4,9 +4,9 @@
       <a href="#top" v-scroll-to="'body'" class="logo">Talent <br/> Factories</a>
       <ul>
         <li>
-          <a href="#countries" v-scroll-to="'#countries'">Países en los que mejor evolucionan los futbolistas</a>
-          <a href="#value"  v-scroll-to="'#value'">Clubes en los que más aumenta el valor de los jugadores</a>
-          <a href="#trophies"  v-scroll-to="'#trophies'">Clubes que más ganadores de títulos producen</a>
+          <a href="#countries" v-scroll-to="'#countries'">Die Länder mit der besten Ausbildung für Spieler</a>
+          <a href="#value"  v-scroll-to="'#value'">Clubs mit dem besten Effekt auf den Marktwert der Spieler</a>
+          <a href="#trophies"  v-scroll-to="'#trophies'">Clubs mit den meisten Trophäen</a>
         </li>
       </ul>
       <div class="right-side">
@@ -16,28 +16,28 @@
           <div class="line" />
         </div>
         <div v-on:click='toggleLangBlock()' class="lang-select">
-          <img src="~assets/flags/spanish.png" alt="Spanish Flag" />
+          <img src="~assets/flags/german.png" alt="German Flag" />
         </div>
       </div>
     </nav>
     <div class="mobile-nav" :class="mobileNavOpen ? 'open' : 'closed'">
       <ul>
-        <li v-on:click='hideMobileNav()'><a href="#countries" v-scroll-to="'#countries'">Países en los que mejor evolucionan los futbolistas</a></li>
-        <li v-on:click='hideMobileNav()'><a href="#value"  v-scroll-to="'#value'">Clubes en los que más aumenta el valor de los jugadores</a></li>
-        <li v-on:click='hideMobileNav()'><a href="#trophies"  v-scroll-to="'#trophies'">Clubes que más ganadores de títulos producen</a></li>
+        <li v-on:click='hideMobileNav()'><a href="#countries" v-scroll-to="'#countries'">Die Länder mit der besten Ausbildung für Spieler</a></li>
+        <li v-on:click='hideMobileNav()'><a href="#value"  v-scroll-to="'#value'">Clubs mit dem besten Effekt auf den Marktwert der Spieler</a></li>
+        <li v-on:click='hideMobileNav()'><a href="#trophies"  v-scroll-to="'#trophies'">Clubs mit den meisten Trophäen</a></li>
       </ul>
     </div>
     <div class="lang-select-block" :class="languageBlockOpen ? 'open' : 'closed'">
-      <a v-on:click={toggleLangSelector} href="../en"><img src="~assets/flags/english.png" alt="English Flag" /></a>
-      <a v-on:click={toggleLangSelector} href="../"><img src="~assets/flags/german.png" alt="German Flag" /></a>
-      <a v-on:click={toggleLangSelector} href="../fr"><img src="~assets/flags/french.png" alt="French Flag" /></a>
+      <a v-on:click={toggleLangSelector} href="./en"><img src="~assets/flags/english.png" alt="English Flag" /></a>
+      <a v-on:click={toggleLangSelector} href="./es"><img src="~assets/flags/spanish.png" alt="Spanish Flag" /></a>
+      <a v-on:click={toggleLangSelector} href="./fr"><img src="~assets/flags/french.png" alt="French Flag" /></a>
     </div>
     <header>
       <div class="container">
         <div class="header-inner">
           <div class="header-text">
-            <h1>Fábricas de talento futbolístico</h1>
-            <p>¿Qué clubes y ligas producen los futbolistas con más talento de todo el mundo?</p>
+            <h1>Talentschmieden im Fußball</h1>
+            <p>Welche Clubs und Ligen bringen die meisten Ausnahmespieler hervor?</p>
           </div>
           <div class="header-img-container">
             <img src="~assets/header-img.png" />
@@ -47,56 +47,57 @@
     </header>
     <div class="container">
       <div class="page-intro">
-        <p>Nos hemos fijado en los 100 mejores futbolistas de las 20 últimas temporadas y hemos analizado su valor de mercado y los trofeos que han ganado en función del club y de la liga.</p>
-        <p>Gracias a este análisis, podemos revelar en exclusiva cuáles son las fábricas de talento futbolístico, aquellas que producen jugadores y los impulsan al siguiente nivel.</p>
+        <p>Wir haben uns die Top-100 der weltweit besten männlichen Fußballspieler näher angeschaut und je nach Club und Liga ihre Transfermarktwerte und Trophäen analysiert, die sie in den letzten 20 Saisons erzielt bzw. gewonnen haben.</p>
+        <p>Dank dieser Analyse können wir einen exklusiven Einblick in die Fußball Talentschmieden der Welt geben, die die Fähigkeiten der Spieler beflügeln.</p>
       </div>
       <div>
         <div id="countries">
-          <h2 class="table-title">Países en los que mejor evolucionan los futbolistas</h2>
+          <h2 class="table-title">Die Länder mit der besten Ausbildung für Spieler</h2>
           <div class="table-intro">
-            <p>Ya lo dijo el exfutbolista inglés Gary Lineker: "El fútbol es un deporte muy sencillo. Veintidós hombres persiguen una pelota durante 90 minutos y, al final, Alemania siempre gana".</p>
-            <p>Pues bien, curiosamente, ocurre lo mismo en relación con la evolución de los jugadores. El factor fundamental que indica la calidad de un jugador es su valor en el mercado, y según los datos, la Bundesliga alemana es la que más talento futbolístico produce e impulsa, ya que suma una media de 9,5 millones de libras al valor de los futbolistas que juegan en ella al menos una vez.</p>
-            <p>Por el contrario, el país en el que los jugadores lo tienen más difícil para aumentar su valor de mercado es China, donde pierden una media de 4,7 millones de libras.</p>
-            <p class="bold">Consulta la siguiente tabla para ver todos los datos:</p>
+            <p>Um den ehemaligen Stürmer der Englänger Gary Lineker zu zitieren: "Fußball ist ein simples Spiel. 22 Spieler jagen über 90 Minuten dem Ball nach - und am Ende gewinnen immer die Deutschen."</p>
+            <p>Und ganz eindeutig trifft das auch auf das Training der Spieler zu. Der beste Indikator für die Fähigkeiten der Spieler ist ihr Marktwert. Und die deutsche Bundesliga produziert und veredelt die meisten Fußballtalente. Der Wert von Spielern steigt um 10,3 Millionen Euro, wenn Sie mindestens einmal in einer der deutschen Ligen antreten.</p>
+            <p>Am unteren Ende des Spektrums finden sich die Länder, die sich statistisch betrachtet am schlechtesten auf den Marktwert auswirken. Angeführt von China, wo der Wert der Spieler durchschnittlich um 5,10 Millionen Euro sinkt.</p>
+            <p class="bold">In der Tabelle unten finden Sie eine vollständige Liste der Daten:</p>
           </div>
           <Table1 :table-data="countries"/>
         </div>
         <div id="value">
-          <h2 class="table-title">Clubes en los que más aumenta el valor de los jugadores</h2>
+          <h2 class="table-title">Clubs mit dem besten Effekt auf den Marktwert der Spieler</h2>
           <div class="table-intro">
-            <p>Con un mínimo que hemos establecido en 5 jugadores formados, el R. B. Leipzig es la mejor opción si un jugador quiere aumentar su valor de mercado, pues la calidad del entrenamiento de este club hace que los jugadores aumenten su valor una media de 26 millones de libras. Destacan jugadores como Timo Werner (+64,8 millones de libras), Naby Keïta (+42,3 millones de libras) y Emil Forsberg (+18,5 millones de libras).</p>
-            <p>La segunda mejor opción es el Liverpool, donde los jugadores aumentan su valor de mercado una media de 21,5 millones de libras. Sube incluso el valor de jugadores de primer nivel que fueron comprados por 75 millones de libras y, ahora, cuestan 27 millones de libras más, lo que demuestra el asombroso efecto que ha tenido Jurgen Klopp en la plantilla.</p>
-            <p class="bold">Consulta la siguiente tabla para ver todos los datos:</p>
+            <p>Geht man von unserem Kriterium, dass 5 Spieler ausgebildet werden, aus, wirkt sich RB Leipzig offiziell am besten auf den Marktwert aus. Die Qualität des Trainings sorgt bei diesem Club dafür, dass der Wert der Spieler durchschnittlich um 28,2 Millionen Euro steigt. Besonders extreme Fälle sind Timo Werner (+70,3 Millionen Euro), Naby Keita (+45,9 Millionen Euro) und Emil Forsberg (+20,1 Millionen Euro).</p>
+            <p>Mit knappem Rückstand liegt Liverpool auf dem zweiten Platz. Hier steigt der Marktwert der Spieler durchschnittlich um 23,3 Millionen Euro.</p>
+            <p>Ein guter Beleg für den erstaunlichen Effekt, den Jürgen Klopp auf das Team Liverpool hat: Selbst bei Weltklassespielern, die für 81 Millionen Euro eingekauft wurden, steigert sich der Marktwert um 30 Millionen Euro...</p>
+            <p class="bold">In der Tabelle unten finden Sie eine vollständige Liste der Daten:</p>
           </div>
           <Table2 :table-data="bestValueClubs"/>
         </div>
         <div id="trophies">
-          <h2 class="table-title">Clubes que más ganadores de títulos producen</h2>
+          <h2 class="table-title">Clubs mit den meisten Trophäen</h2>
           <div class="table-intro">
-            <p>¿Qué clubes son los mejores a la hora de producir ganadores de títulos? En este caso, nos hemos fijado en el primer club sénior con el que un jugador firma un contrato y, después, hemos comprobado todos los títulos ganados por ese jugador durante su carrera.</p>
-            <p>Los datos abarcan 20 temporadas e incluyen los 100 mejores jugadores de cada temporada, así que también podemos saber los clubes en donde se ha producido más talento en los últimos años.</p>
-            <p class="bold">Los resultados son los siguientes:</p>
+            <p>Und zu guter letzt: Aus welchen Clubs kommen die Spieler, die die meisten Trophäen und Titel gewinnen? Um das zu ermitteln, sind wir vom ersten bedeutenderen Club ausgegangen, der die Spieler unter Vertrag genommen hat. Davon ausgehend haben wir jede Trophäe aufgelistet, die die Fußballer in ihrer gesamten Karriere bzw. in ihrer Karriere bis jetzt gewonnen haben.</p>
+            <p>Da unsere Liste die Top-100 der männlichen Spieler aus den vergangenen 20 Saisons enthält, können wir auch die Clubs identifizieren, die in der letzten Zeit die meisten Weltklassespieler produziert haben.</p>
+            <p class="bold">Das sind die Ergebnisse:</p>
             <ol>
-              <li>El Ajax y el Real Madrid, con 10 jugadores cada uno, son los clubes que más futbolistas aportan a la lista de los 100 mejores jugadores en los últimos 20 años. Sin mirar, ¿quieres intentar adivinarlos?</li>
-              <li>A los 100 mejores jugadores de los últimos 20 años, el Barcelona aporta la mayor cantidad de ganadores de títulos nacionales y de la Champions. Los jugadores han ganado los títulos jugando en el Barcelona o en otros clubes (por ejemplo, Thiago Alcántara en el Bayern de Múnich o Pedro en el Chelsea).</li>
+              <li>Ajax und Real Madrid haben in den letzten 20 Jahren zusammen die meisten der Top-100 Talente des Männerfußball trainiert - 10 Stück pro Team. Wollen Sie raten, bevor wir sie aufdecken?</li>
+              <li>Unter der Top-100 der männlichen Spieler aus den letzten 20 Jahren hat Barcelona die Talente produziert, die die meisten Landes und UEFA Tittel gewonnen haben. Die Fußballer haben diese Titel während ihrer Zeit bei den Catalan Giants oder in anderen Clubs gewonnen (z. B. Thiago Alcantra bei Bayern München, Pedro bei Chelsea).</li>
             </ol>
-            <p class="bold">Consulta la siguiente tabla para ver todos los datos:</p>
+            <p class="bold">In der Tabelle unten finden Sie eine vollständige Liste der Daten:</p>
           </div>
           <Table3 :table-data="bestTrophyClubs"/>
         </div>
         <div id="methodology">
-          <h2 class="table-title">Metodología</h2>
+          <h2 class="table-title">Vorgehensweise</h2>
           <div class="table-intro">
-            <p>En este estudio, hemos analizado las listas de los 100 mejores jugadores de la temporada de los últimos 20 años (elegidos por expertos futbolísticos de todo el mundo) y hemos comprobado el valor de mercado de cada jugador en función de los clubes y las ligas en donde jugaron.</p>
-            <p>Nuestro objetivo es averiguar qué clubes han transformado a los buenos jugadores en excelentes (el factor fundamental que indica la calidad de un jugador es su valor en el mercado).</p>
-            <p>A continuación, se muestra el análisis que hemos realizado.</p>
-            <p class="bold">Análisis de ejemplo:</p>
+            <p>Für unsere Statistik haben wir uns die letzten 20 Jahreslisten der Top-100 der männlichen Fußballer des Jahres (von Fußballexperten weltweit gewählt) näher angesehen und dabei den zu dem jeweiligen Zeitpunkt geltenden Transfermarktwert jedes Spieler nach Club und Liga ermittelt.</p>
+            <p>So wollten wir die Talentschmieden im Fußballsport identifizieren, die Erfolge darin vorzeigen können, gute Spiele in großartige zu entwickeln, da der beste Indikator der Fähigkeiten der Transfermarktwert ist.</p>
+            <p>Weiter unten finden Sie die einzelnen Schritte, denen wir bei jeder Analyse gefolgt sind.</p>
+            <p class="bold">Beispiel für eine Analyse:</p>
           </div>
           <Table4 />
           <div class="table-intro">
-            <p>Todos los valores de mercado se han obtenido de Transfermarkt. Hemos comprobado las subidas y bajadas del valor de los jugadores durante las cesiones y en el caso de que se quedasen en un club toda su carrera.</p>
-            <p>Para complementar el análisis de datos sobre la evolución de los jugadores, también hemos obtenido datos sobre los títulos ganados en función del club. Así, se puede comprobar qué clubes y ligas han tenido más influencia a la hora de producir grandes ganadores.</p>
-            <p>Los datos son precisos en el momento de la publicación (octubre de 2020).</p>
+            <p>Um der Folgerichtigkeit willen haben wir alle Daten über die Transfermarktwerte von Transfermarkt bezogen. So konnten wir den Anstieg/Rückgang des Werts bei Leihspielern und bei Fußballern, die ihre gesamte Karriere in einem Club verbracht haben, bewerten.</p>
+            <p>Zusätzlich zu der Daten gestützten Analyse der Entwicklung der Spieler ließen wir in die Bewertung auch Daten über einzelne Spieler, je nach Club kategorisiert, einfließen. So konnten wir feststellen, welche Clubs und Ligen die Fußballer mit den meisten Siegen produzieren.</p>
+            <p>Alle Daten sind bis zum Zeitpunkt der Veröffentlichung gültig: Oktober 2020.</p>
           </div>
         </div>
       </div>
