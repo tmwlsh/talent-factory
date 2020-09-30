@@ -16,7 +16,7 @@
           <div class="line" />
         </div>
         <div v-on:click='toggleLangBlock()' class="lang-select">
-          <img src="~assets/flags/german.png" alt="German Flag" />
+          <img src="~assets/flags/english.png" alt="English Flag" />
         </div>
       </div>
     </nav>
@@ -28,10 +28,9 @@
       </ul>
     </div>
     <div class="lang-select-block" :class="languageBlockOpen ? 'open' : 'closed'">
-      <a v-on:click={toggleLangSelector} href="#"><img src="~assets/flags/german.png" alt="German Flag" /></a>
-      <a v-on:click={toggleLangSelector} href="#"><img src="~assets/flags/english.png" alt="British Flag" /></a>
-      <a v-on:click={toggleLangSelector} href="#"><img src="~assets/flags/french.png" alt="French Flag" /></a>
-      <a v-on:click={toggleLangSelector} href="#"><img src="~assets/flags/spanish.png" alt="Spanish Flag" /></a>
+      <a v-on:click={toggleLangSelector} href="../de"><img src="~assets/flags/german.png" alt="German Flag" /></a>
+      <a v-on:click={toggleLangSelector} href="../fr"><img src="~assets/flags/french.png" alt="French Flag" /></a>
+      <a v-on:click={toggleLangSelector} href="../es"><img src="~assets/flags/spanish.png" alt="Spanish Flag" /></a>
     </div>
     <header>
       <div class="container">
