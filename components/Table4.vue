@@ -4,33 +4,33 @@
       <div class="row-outer">
         <div class="row">
           <div class="data">Cristiano Ronaldo</div>
-          <div class="data">Sporting CP</div>
-          <div class="data">Valeur marchande à l’arrivée dans le club (A)</div>
-          <div class="data">Valeur marchande au moment de la revente / du transfert / valeur actuelle (B)</div>
+          <div class="data">Sporting de Lisboa</div>
+          <div class="data">Valor de mercado al incorporarse (A)</div>
+          <div class="data">Valor de mercado en el momento de la venta / Transferencia / Valor actual (B)</div>
         </div>
       </div>
       <div class="row-outer">
         <div class="row">
           <div class="data">Cristiano Ronaldo</div>
           <div class="data">Manchester United</div>
-          <div class="data">Valeur marchande à l’arrivée dans le club (A)</div>
-          <div class="data">Valeur marchande au moment de la revente / du transfert / valeur actuelle (B)</div>
+          <div class="data">Valor de mercado al incorporarse (A)</div>
+          <div class="data">Valor de mercado en el momento de la venta / Transferencia / Valor actual (B)</div>
         </div>
       </div>
       <div class="row-outer">
         <div class="row">
           <div class="data">Cristiano Ronaldo</div>
           <div class="data">Real Madrid</div>
-          <div class="data">Valeur marchande à l’arrivée dans le club (A)</div>
-          <div class="data">Valeur marchande au moment de la revente / du transfert / valeur actuelle (B)</div>
+          <div class="data">Valor de mercado al incorporarse (A)</div>
+          <div class="data">Valor de mercado en el momento de la venta / Transferencia / Valor actual (B)</div>
         </div>
       </div>
       <div class="row-outer">
         <div class="row">
           <div class="data">Cristiano Ronaldo</div>
           <div class="data">Juventus</div>
-          <div class="data">Valeur marchande à l’arrivée dans le club (A)</div>
-          <div class="data">Valeur marchande au moment de la revente / du transfert / valeur actuelle (B)</div>
+          <div class="data">Valor de mercado al incorporarse (A)</div>
+          <div class="data">Valor de mercado en el momento de la venta / Transferencia / Valor actual (B)</div>
         </div>
       </div>
     </div>
