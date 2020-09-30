@@ -1,7 +1,7 @@
 
 export default {
   router: {
-    base: '/talent-factory-piece/en'
+    base: '/talent-factory-piece/fr'
   },
   /*
   ** Nuxt rendering mode

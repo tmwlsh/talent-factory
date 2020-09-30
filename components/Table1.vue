@@ -90,7 +90,8 @@
     },
     filters: {
       numberFilter(num) {
-        return `£${num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`;
+        const euros = (num * 1.01).toFixed(2);
+        return `€${euros.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`;
       }
     },
     computed: {

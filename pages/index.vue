@@ -4,9 +4,9 @@
       <a href="#top" v-scroll-to="'body'" class="logo">Talent <br/> Factories</a>
       <ul>
         <li>
-          <a href="#countries" v-scroll-to="'#countries'">Best Countries to develop players</a>
-          <a href="#value"  v-scroll-to="'#value'">Best Clubs to develop talent for value</a>
-          <a href="#trophies"  v-scroll-to="'#trophies'">Best clubs to develop talent for trophies</a>
+          <a href="#countries" v-scroll-to="'#countries'">Meilleurs pays pour le développement des joueurs</a>
+          <a href="#value"  v-scroll-to="'#value'">Meilleurs clubs pour le développement de joueurs sur le marché</a>
+          <a href="#trophies"  v-scroll-to="'#trophies'">Meilleurs clubs pour le développement des joueurs en championnats</a>
         </li>
       </ul>
       <div class="right-side">
@@ -16,28 +16,28 @@
           <div class="line" />
         </div>
         <div v-on:click='toggleLangBlock()' class="lang-select">
-          <img src="~assets/flags/english.png" alt="English Flag" />
+          <img src="~assets/flags/french.png" alt="French Flag" />
         </div>
       </div>
     </nav>
     <div class="mobile-nav" :class="mobileNavOpen ? 'open' : 'closed'">
       <ul>
-        <li v-on:click='hideMobileNav()'><a href="#countries" v-scroll-to="'#countries'">Best Countries to develop players</a></li>
-        <li v-on:click='hideMobileNav()'><a href="#value"  v-scroll-to="'#value'">Best Clubs to develop talent for value</a></li>
-        <li v-on:click='hideMobileNav()'><a href="#trophies"  v-scroll-to="'#trophies'">Best clubs to develop talent for trophies</a></li>
+        <li v-on:click='hideMobileNav()'><a href="#countries" v-scroll-to="'#countries'">Meilleurs pays pour le développement des joueurs</a></li>
+        <li v-on:click='hideMobileNav()'><a href="#value"  v-scroll-to="'#value'">Meilleurs clubs pour le développement de joueurs sur le marché</a></li>
+        <li v-on:click='hideMobileNav()'><a href="#trophies"  v-scroll-to="'#trophies'">Meilleurs clubs pour le développement des joueurs en championnats</a></li>
       </ul>
     </div>
     <div class="lang-select-block" :class="languageBlockOpen ? 'open' : 'closed'">
-      <a v-on:click={toggleLangSelector} href="../de"><img src="~assets/flags/german.png" alt="German Flag" /></a>
-      <a v-on:click={toggleLangSelector} href="../fr"><img src="~assets/flags/french.png" alt="French Flag" /></a>
+      <a v-on:click={toggleLangSelector} href="../en"><img src="~assets/flags/english.png" alt="English Flag" /></a>
+      <a v-on:click={toggleLangSelector} href="../"><img src="~assets/flags/german.png" alt="German Flag" /></a>
       <a v-on:click={toggleLangSelector} href="../es"><img src="~assets/flags/spanish.png" alt="Spanish Flag" /></a>
     </div>
     <header>
       <div class="container">
         <div class="header-inner">
           <div class="header-text">
-            <h1>Football Talent Factories</h1>
-            <p>Which Clubs and Leagues Produce the Most World Class Talent?</p>
+            <h1>Football : les usines à talents</h1>
+            <p>Quels clubs et championnats ont produit les plus grands talents du football?</p>
           </div>
           <div class="header-img-container">
             <img src="~assets/header-img.png" />
@@ -47,57 +47,57 @@
     </header>
     <div class="container">
       <div class="page-intro">
-        <p>We’ve taken the Top 100 male footballers in world football for each of the past 20 seasons and analysed their historic transfer market values and trophies won, by each club and league country played in.</p>
-        <p>From this analysis, we can exclusively reveal the football talent factories of the world, that produce and elevate players to the next level.</p>
+        <p>Nous avons pris les 100 meilleurs footballeurs du monde pour chacune des 20 dernières saisons, et nous avons analysé l’historique de leurs valeurs sur le marché des transferts ainsi que les coupes remportées, par club et championnat dans lesquels ils ont évolué.</p>
+        <p>En nous basant sur ces analyses, nous pouvons vous révéler en exclusivité quels clubs et championnats de football constituent de véritables usines à talents, qui façonnent les joueurs et leur permettent de passer au niveau supérieur.</p>
       </div>
       <div>
         <div id="countries">
-          <h2 class="table-title">Best Countries to develop players</h2>
+          <h2 class="table-title">Meilleurs pays pour le développement des joueurs</h2>
           <div class="table-intro">
-            <p>To quote former England striker Gary Lineker, “Football is a simple game. Twenty-two men chase a ball for 90 minutes and at the end, the Germans always win”.</p>
-            <p>And quite emphatically, this is the case for player development too. The ultimate decider of player skill and ability is their market value and the German Bundesliga is statistically the best for producing and enhancing footballing talent; adding £9.5m to players who play at least once in the German leagues.</p>
-            <p>At the other end of the spectrum, the statistically worst country for football players to increase their market value in is China – with player market values declining by an average of £4.7m.</p>
-            <p class="bold">View the table below the explore the full data:</p>
+            <p>Comme le disait l’ancien attaquant anglais Gary Lineker, « le football est un jeu simple. Vingt-deux mecs courent après un ballon pendant 90 minutes et à la fin, ce sont toujours les Allemands qui gagnent ». Et ce pronostic se révèle tout aussi vrai en matière de développement des joueurs.</p>
+            <p>La valeur d’un footballeur sur le marché des transferts constitue un indicateur de premier ordre pour évaluer les aptitudes et le potentiel de ce dernier. À ce titre, la Bundesliga est statistiquement le meilleur championnat en termes de production et d’amélioration des talents du ballon rond. En effet, les footballeurs de notre top 100 qui ont joué au moins une saison dans les ligues allemandes ont vu leur côte s’envoler de 10,3 millions d’euros.</p>
+            <p>À l’opposé, le pays qui affiche les pires statistiques en la matière est la Chine, car nos joueurs y ont vu leur côte fondre de 5 millions d’euros en moyenne.</p>
+            <p class="bold">Consultez le tableau ci-dessous pour voir l’intégralité des données:</p>
           </div>
           <Table1 :table-data="countries"/>
         </div>
         <div id="value">
-          <h2 class="table-title">Best Clubs to develop talent for value</h2>
+          <h2 class="table-title">Meilleurs clubs pour le développement de joueurs sur le marché</h2>
           <div class="table-intro">
-            <p>Based on our criteria of a minimum of 5 players developed, RB Leipzig is officially the best club one can play for to increase their market value. The quality of coaching at this club sees players increase their market value by an average of £26 million. The standout cases being Timo Werner (+£64.8m), Naby Keita (+£42.3m) and Emil Forsberg (+£18.5m).</p>
-            <p>Closely following behind in second place is Liverpool, with players increasing their market value by an average of £21.5m.</p>
-            <p>To demonstrate the incredible impact Jurgen Klopp has had on the recent crop of Liverpool players, even world class players purchased for fees of £75m have seen their market value increase by £27m...</p>
-            <p class="bold">View the table below the explore the full data:</p>
+            <p>Pour cette analyse, nous avons étudié les clubs dont au minimum 5 joueurs avaient vu leur valeur augmenter sur le marché des transferts. Selon ce critère, le RB Leipzig est officiellement le meilleur club pour un joueur qui souhaiterait augmenter sa côte sur le mercato. La qualité du coaching dans ce club augmente la valeur des joueurs sur le marché de 28 millions d’euros en moyenne. Parmi les performances notables du club, Timo Werner (+70,3 millions d’euros), Naby Keita (+45,8 millions d’euros) et Emil Forsberg (+20 millions d’euros) signent des scores remarquables.</p>
+            <p>Liverpool se classe en seconde position juste derrière le club allemand, avec une augmentation moyenne de la valeur de ses meilleurs joueurs de 23,3 millions d’euros.</p>
+            <p>Pour démontrer l’impact incroyable de Jurgen Klopp sur les derniers joueurs recrutés par Liverpool, même les stars de classe mondiale achetées 81,3 millions d’euros ont vu leur valeur sur le marché des transferts augmenter de 29 millions d’euros.</p>
+            <p class="bold">Consultez le tableau ci-dessous pour voir l’intégralité des données:</p>
           </div>
           <Table2 :table-data="bestValueClubs"/>
         </div>
         <div id="trophies">
-          <h2 class="table-title">Best clubs to develop talent for trophies</h2>
+          <h2 class="table-title">Meilleurs clubs pour le développement des joueurs en championnats</h2>
           <div class="table-intro">
-            <p>And finally, which are the best clubs for producing trophy and title winners? Here we took the first senior club that players signed for and tracked every trophy won in the players lifetime career / career so far.</p>
-            <p>As our list of players consists of the top 100 male players of the season for each of the past 20, we can also reveal the clubs who have recently been producing the best talent in world football.</p>
-            <p class="bold">The results are as follows:</p>
+            <p>Et pour terminer, quels sont les clubs qui arrivent le mieux à façonner des footballeurs qui remportent des coupes et des titres de champions ? Pour cette analyse, nous avons pris le premier club senior dans lequel les joueurs ont signé, et nous avons noté chaque coupe remportée pendant leur carrière ou à ce jour.</p>
+            <p>Comme notre liste se compose des 100 meilleurs footballeurs de la saison pour chaque saison les 20 dernières années, nous sommes aussi en mesure de vous révéler quels sont les clubs qui ont récemment produit les meilleurs talents au monde de la planète football.</p>
+            <p class="bold">Les résultats sont les suivants:</p>
             <ol>
-              <li>Ajax and Real Madrid have produced the joint most top 100 rated male players in world football over the past 20 years, with 10 each. Before looking, can you guess them?</li>
-              <li>Of the top 100 rated male players over the past 20 years, Barcelona have produced the most domestic title and UEFA Champions League winners, with players winning these trophies during their tenure at the Catalan giants or with other clubs (such as Thiago Alcantra at Bayern Munich and Pedro at Chelsea).</li>
+              <li>Premiers à ex aequo, l’Ajax et le Real Madrid ont produit le plus grand nombre des 100 meilleurs joueurs de la scène footballistique internationale ces 20 dernières années, avec 10 footballeurs chacun. Seriez-vous capable de les citer sans regarder le détail des résultats?</li>
+              <li>Des 100 meilleurs joueurs ces 20 dernières années, c’est le Barça qui a produit le plus grand nombre de joueurs ayant remporté des titres nationaux et des victoires en Champions League, les joueurs ayant gagné ces coupes lorsqu’ils évoluaient dans le club catalan, ou au sein d’autres club (comme Thiago Alcantra au Bayern de Munich et Pedro à Chelsea).</li>
             </ol>
-            <p class="bold">View the table below the explore the full data:</p>
+            <p class="bold">Consultez le tableau ci-dessous pour voir l’intégralité des données:</p>
           </div>
           <Table3 :table-data="bestTrophyClubs"/>
         </div>
         <div id="methodology">
-          <h2 class="table-title">Methodology</h2>
+          <h2 class="table-title">Méthodologie</h2>
           <div class="table-intro">
-            <p>For this study, we took the past 20 annualised lists of the top 100 male footballers of the year (as chosen by football experts from around the world) and reviewed the historic transfer market values of each player by their respective clubs and leagues played at.</p>
-            <p>We did this to find the football talent factories that have a proven track record in transforming good players into greats, as the ultimate measure of player skill and ability is their transfer market value.</p>
-            <p>Below is the analysis process we followed.</p>
-            <p class="bold">Example Analysis Process: </p>
+            <p>Pour cette analyse, nous avons pris les 20 dernières listes annualisées des 100 meilleurs footballeurs de l’année (établies par des experts en football du monde entier), et nous avons étudié l’historique des valeurs de transfert de chaque joueur en fonction des clubs et championnats dans lesquels il a évolué.</p>
+            <p>Nous avons procédé ainsi pour identifier les « usines » à talent du monde du football, qui ont prouvé leur capacité à transformer les bons joueurs en joueurs d’exception, dans la mesure où la valeur d’un footballeur sur le marché des transferts constitue un indicateur de choix pour évaluer les aptitudes et le potentiel de ce dernier.</p>
+            <p>Vous trouverez ci-dessous l’analyse sur laquelle se basent nos affirmations.</p>
+            <p class="bold">Exemple d’analyse:</p>
           </div>
           <Table4 />
           <div class="table-intro">
-            <p>For consistency, all transfer market value data was sourced from Transfermarkt, so we could evaluate transfer market value increases/decreases during player loan periods and where players stayed at one club their whole career.</p>
-            <p>To supplement the data analysis on player development, we also pulled in data on individual player honours per club to see which clubs and leagues had the most impact on developing serial winners.</p>
-            <p>All data accurate at time of release: October 2020.</p>
+            <p>Pour une meilleure homogénéité des résultats, toutes les données relatives aux valeurs sur le marché des transferts sont issues de Transfermarkt. Ceci nous a permis d’évaluer les augmentations ou diminutions de la valeur sur le marché des transferts pendant les périodes de prêt des joueurs, et lorsque les joueurs sont restés dans le même club toute leur carrière. </p>
+            <p>Pour compléter l’analyse des données concernant le développement des joueurs, nous avons également agrégé des informations relatives aux titres remportés par les joueurs par club pour voir quels clubs et championnats avaient le plus d’impact sur le développement de footballeurs titrés.</p>
+            <p>Toutes les données sont exactes au moment de la publication : octobre 2020.</p>
           </div>
         </div>
       </div>
@@ -392,11 +392,14 @@
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    padding: 80px 23px 6px 19px;
+    padding: 85px 23px 6px 19px;
     transform: translateY(-100%);
     transition: .15s ease-in-out;
     box-shadow: 0 0 30px rgba(black, 0.8);
     background: linear-gradient(to right, #1D3C80 0%, #193573 100%);
+    @media all and (min-width: 960px){
+      padding: 115px 23px 6px 19px;
+    }
     &.open {
       transform: translateY(0);
     }
@@ -489,6 +492,10 @@
       justify-content: center;
       align-items: flex-start;
       list-style-type: none;
+      li {
+        display: flex;
+        align-items: center;
+      }
       a {
         padding: 10px;
         max-width: 180px;

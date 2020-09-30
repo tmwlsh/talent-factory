@@ -5,32 +5,32 @@
         <div class="row">
           <div class="data">Cristiano Ronaldo</div>
           <div class="data">Sporting CP</div>
-          <div class="data">Market Value at join (A)</div>
-          <div class="data">Market Value at point of sale / transfer / current value (B)</div>
+          <div class="data">Valeur marchande à l’arrivée dans le club (A)</div>
+          <div class="data">Valeur marchande au moment de la revente / du transfert / valeur actuelle (B)</div>
         </div>
       </div>
       <div class="row-outer">
         <div class="row">
           <div class="data">Cristiano Ronaldo</div>
           <div class="data">Manchester United</div>
-          <div class="data">Market Value at join (A)</div>
-          <div class="data">Market Value at point of sale / transfer / current value (B)</div>
+          <div class="data">Valeur marchande à l’arrivée dans le club (A)</div>
+          <div class="data">Valeur marchande au moment de la revente / du transfert / valeur actuelle (B)</div>
         </div>
       </div>
       <div class="row-outer">
         <div class="row">
           <div class="data">Cristiano Ronaldo</div>
           <div class="data">Real Madrid</div>
-          <div class="data">Market Value at join (A)</div>
-          <div class="data">Market Value at point of sale / transfer / current value (B)</div>
+          <div class="data">Valeur marchande à l’arrivée dans le club (A)</div>
+          <div class="data">Valeur marchande au moment de la revente / du transfert / valeur actuelle (B)</div>
         </div>
       </div>
       <div class="row-outer">
         <div class="row">
           <div class="data">Cristiano Ronaldo</div>
           <div class="data">Juventus</div>
-          <div class="data">Market Value at join (A)</div>
-          <div class="data">Market Value at point of sale / transfer / current value (B)</div>
+          <div class="data">Valeur marchande à l’arrivée dans le club (A)</div>
+          <div class="data">Valeur marchande au moment de la revente / du transfert / valeur actuelle (B)</div>
         </div>
       </div>
     </div>
