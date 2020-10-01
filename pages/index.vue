@@ -238,7 +238,7 @@
         h1 {
           margin: 0 0 30px 0;
           color: #ffffff;
-          font-size: 40px;
+          font-size: 30px;
           display: block;
           text-align: center;
         }
