@@ -28,9 +28,9 @@
       </ul>
     </div>
     <div class="lang-select-block" :class="languageBlockOpen ? 'open' : 'closed'">
-      <a v-on:click={toggleLangSelector} href="../"><img src="~assets/flags/german.png" alt="German Flag" /></a>
-      <a v-on:click={toggleLangSelector} href="../fr"><img src="~assets/flags/french.png" alt="French Flag" /></a>
-      <a v-on:click={toggleLangSelector} href="../es"><img src="~assets/flags/spanish.png" alt="Spanish Flag" /></a>
+      <a v-on:click={toggleLangSelector} href="#"><img src="~assets/flags/german.png" alt="German Flag" /></a>
+      <a v-on:click={toggleLangSelector} href="#"><img src="~assets/flags/french.png" alt="French Flag" /></a>
+      <a v-on:click={toggleLangSelector} href="#"><img src="~assets/flags/spanish.png" alt="Spanish Flag" /></a>
     </div>
     <header>
       <div class="container">
