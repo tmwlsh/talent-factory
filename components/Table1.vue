@@ -135,6 +135,23 @@
   .table-header {
     filter: brightness(1.5);
     cursor: pointer;
+    div.data {
+      padding: 10px 50px 10px 10px;
+      box-sizing: border-box;
+      position: relative;
+      &:after {
+        pointer-events: none;
+        content: '';
+        width: 20px;
+        height: 20px;
+        background-image: url('~assets/arrow.png');
+        background-size: cover;
+        background-position: 50% 50%;
+        position: absolute;
+        top: 12px;
+        right: 15px;
+      }
+    }
   }
   .table {
     padding: 20px 0px;
