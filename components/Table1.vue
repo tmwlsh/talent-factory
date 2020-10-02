@@ -200,6 +200,7 @@
     padding: 10px;
     box-sizing: border-box;
     line-height: 1.6em;
+    box-sizing: border-box;
   }
   .slide-fade-enter-active {
     transition: all .3s ease;
