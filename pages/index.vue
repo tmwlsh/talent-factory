@@ -179,7 +179,7 @@
     display: block;
     height: 5px;
     margin: 100px 0;
-    background-color: #ffe600;
+    background-color: #ffffff;
     &.first {
       margin: 50px 0 100px 0;
     }
