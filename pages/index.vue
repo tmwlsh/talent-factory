@@ -39,9 +39,6 @@
             <h1>Football Talent Factories</h1>
             <p>Which Clubs and Leagues Produce the Most World Class Talent?</p>
           </div>
-          <div class="header-img-container">
-            <img src="~assets/header-img.png" />
-          </div>
         </div>
       </div>
     </header>
@@ -215,26 +212,15 @@
   }
 
   header {
-    padding: 50px 0 0 0;
+    padding: 250px 0 50px 0;
     margin-bottom: 100px;
-    background-image: url('~assets/header-bg.jpg');
+    background-image: url('~assets/header-bg2.jpg');
     background-size: cover;
     background-position: 50% 50%;
     .header-inner {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-between;
-      .header-img-container {
-        flex: 0 0 100%;
-        display: block;
-        img {
-          width: 100%;
-          height: auto;
-        }
-      }
       div.header-text {
-        flex: 0 0 100%;
+        max-width: 640px;
+        margin: 0 auto;
         h1 {
           margin: 0 0 30px 0;
           color: #ffffff;
@@ -250,45 +236,20 @@
           text-align: center;
         }
       }
-      @media all and (min-width: 768px){
-        .header-img-container {
-          flex: 0 0 400px;
-        }
-        div.header-text {
-          flex: 0 0 calc(100% - 450px);
-          h1 {
-            text-align: left;
-          }
-          p {
-            text-align: left;
-          }
-        }
-      }
       @media all and (min-width: 960px){
-        .header-img-container {
-          flex: 0 0 600px;
-        }
         div.header-text {
-          flex: 0 0 calc(100% - 650px);
           h1 {
             font-size: 52px;
           }
         }
       }
       @media all and (min-width: 1400px){
-        .header-img-container {
-          flex: 0 0 700px;
-        }
         div.header-text {
-          flex: 0 0 calc(100% - 750px);
           h1 {
             font-size: 60px;
           }
         }
       }
-    }
-    @media all and (min-width: 768px){
-      padding: 20px 0 0 0;
     }
   }
 
@@ -475,7 +436,7 @@
     align-items: center;
     box-shadow: 0 0 60px rgba(black, 0.3);
     justify-content: space-between;
-    background: linear-gradient(to right, darken(#E71312, 10) 0%, darken(#E71312, 20) 100%);
+    background-color: darken(#E71312, 10);
     a {
       display: inline-block;
       color: #fff;
