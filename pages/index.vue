@@ -181,7 +181,7 @@
     margin: 100px 0;
     background-color: #ffffff;
     &.first {
-      margin: 50px 0 100px 0;
+      margin: 0 0 100px 0;
     }
   }
 
@@ -235,23 +235,25 @@
   }
 
   div.page-intro {
-    padding: 0px 0 50px 0;
+    padding: 50px 0;
     text-align: center;
     margin: 0 auto;
-    max-width: 768px;
+    max-width: 960px;
     p {
       color: #ffffff;
-      font-size: 18px;
+      font-size: 16px;
       line-height: 1.6em;
     }
     @media all and (min-width: 768px){
-      padding: 20px 0 80px 0;
+      padding: 80px 0;
+      p {
+        font-size: 20px;
+      }
     }
   }
 
   header {
     padding: 250px 0 50px 0;
-    margin-bottom: 100px;
     background-image: url('~assets/header-bg2.jpg');
     background-size: cover;
     background-position: 50% 50%;
