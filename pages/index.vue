@@ -42,11 +42,17 @@
         </div>
       </div>
     </header>
+
     <div class="container">
       <div class="page-intro">
         <p>We’ve taken the Top 100 male footballers in world football for each of the past 20 seasons and analysed their historic transfer market values and trophies won, by each club and league country played in.</p>
         <p>From this analysis, we can exclusively reveal the football talent factories of the world, that produce and elevate players to the next level.</p>
       </div>
+    </div>
+
+    <div class="red-break first"></div>
+
+    <div class="container">
       <div>
         <div id="countries">
           <h2 class="table-title">Best Countries to develop players</h2>
@@ -58,6 +64,13 @@
           </div>
           <Table1 :table-data="countries"/>
         </div>
+      </div>
+    </div>
+
+    <div class="red-break"></div>
+
+    <div class="container">
+      <div>
         <div id="value">
           <h2 class="table-title">Best Clubs to develop talent for value</h2>
           <div class="table-intro">
@@ -68,6 +81,13 @@
           </div>
           <Table2 :table-data="bestValueClubs"/>
         </div>
+      </div>
+    </div>
+
+    <div class="red-break"></div>
+
+    <div class="container">
+      <div>
         <div id="trophies">
           <h2 class="table-title">Best clubs to develop talent for trophies</h2>
           <div class="table-intro">
@@ -82,6 +102,13 @@
           </div>
           <Table3 :table-data="bestTrophyClubs"/>
         </div>
+      </div>
+    </div>
+
+    <div class="red-break"></div>
+
+    <div class="container">
+      <div>
         <div id="methodology">
           <h2 class="table-title">Methodology</h2>
           <div class="table-intro">
@@ -146,6 +173,17 @@
 </style>
 
 <style lang="scss" scoped>
+
+  .red-break {
+    width: 100%;
+    display: block;
+    height: 10px;
+    margin: 100px 0;
+    background-color: #E71312;
+    &.first {
+      margin: 50px 0 100px 0;
+    }
+  }
 
   div#methodology {
     margin-top: 50px;
@@ -262,7 +300,7 @@
     position: fixed;
     transform: translateX(-100%);
     transition: .25s ease-in-out;
-    background: linear-gradient(to right, darken(#E71312, 10) 0%, darken(#E71312, 20) 100%);
+    background-color: darken(#E71312, 10);
     &.open {
       transform: translateX(0);
     }
