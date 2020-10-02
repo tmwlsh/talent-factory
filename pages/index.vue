@@ -177,9 +177,9 @@
   .red-break {
     width: 100%;
     display: block;
-    height: 10px;
+    height: 5px;
     margin: 100px 0;
-    background-color: #E71312;
+    background-color: #ffe600;
     &.first {
       margin: 50px 0 100px 0;
     }
