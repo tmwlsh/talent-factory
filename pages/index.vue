@@ -26,6 +26,11 @@
         <li v-on:click='hideMobileNav()'><a href="#value"  v-scroll-to="'#value'">Clubs mit dem besten Effekt auf den Marktwert der Spieler</a></li>
         <li v-on:click='hideMobileNav()'><a href="#trophies"  v-scroll-to="'#trophies'">Clubs mit den meisten Trophäen</a></li>
       </ul>
+      <div class="sbg-logo-container">
+        <a target="_blank" href="https://skybet.com">
+          <img src="~assets/sky-bet.png" alt="Sky Betting &amp; Gaming Logo" />
+        </a>
+      </div>
     </div>
     <div class="lang-select-block" :class="languageBlockOpen ? 'open' : 'closed'">
       <a v-on:click={toggleLangSelector} href="./en"><img src="~assets/flags/english.png" alt="English Flag" /></a>
@@ -36,20 +41,27 @@
       <div class="container">
         <div class="header-inner">
           <div class="header-text">
+            <div class="sbg-logo-container">
+              <a target="_blank" href="https://skybet.com">
+                <img src="~assets/sky-bet.png" alt="Sky Betting &amp; Gaming Logo" />
+              </a>
+            </div>
             <h1>Talentschmieden im Fußball</h1>
             <p>Welche Clubs und Ligen bringen die meisten Ausnahmespieler hervor?</p>
-          </div>
-          <div class="header-img-container">
-            <img src="~assets/header-img.png" />
           </div>
         </div>
       </div>
     </header>
-    <div class="container">
-      <div class="page-intro">
-        <p>Wir haben uns die Top-100 der weltweit besten männlichen Fußballspieler näher angeschaut und je nach Club und Liga ihre Transfermarktwerte und Trophäen analysiert, die sie in den letzten 20 Saisons erzielt bzw. gewonnen haben.</p>
-        <p>Dank dieser Analyse können wir einen exklusiven Einblick in die Fußball Talentschmieden der Welt geben, die die Fähigkeiten der Spieler beflügeln.</p>
+    <div class="page-intro">
+      <div class="page-intro-inner">
+        <div class="container">
+          <p>Wir haben uns die Top-100 der weltweit besten männlichen Fußballspieler näher angeschaut und je nach Club und Liga ihre Transfermarktwerte und Trophäen analysiert, die sie in den letzten 20 Saisons erzielt bzw. gewonnen haben.</p>
+          <p>Dank dieser Analyse können wir einen exklusiven Einblick in die Fußball Talentschmieden der Welt geben, die die Fähigkeiten der Spieler beflügeln.</p>
+        </div>
       </div>
+    </div>
+    <div class="red-break first"></div>
+    <div class="container">
       <div>
         <div id="countries">
           <h2 class="table-title">Die Länder mit der besten Ausbildung für Spieler</h2>
@@ -61,6 +73,11 @@
           </div>
           <Table1 :table-data="countries"/>
         </div>
+      </div>
+    </div>
+    <div class="red-break"></div>
+    <div class="container">
+      <div>
         <div id="value">
           <h2 class="table-title">Clubs mit dem besten Effekt auf den Marktwert der Spieler</h2>
           <div class="table-intro">
@@ -71,6 +88,11 @@
           </div>
           <Table2 :table-data="bestValueClubs"/>
         </div>
+      </div>
+    </div>
+    <div class="red-break"></div>
+    <div class="container">
+      <div>
         <div id="trophies">
           <h2 class="table-title">Clubs mit den meisten Trophäen</h2>
           <div class="table-intro">
@@ -85,6 +107,11 @@
           </div>
           <Table3 :table-data="bestTrophyClubs"/>
         </div>
+      </div>
+    </div>
+    <div class="red-break"></div>
+    <div class="container">
+      <div>
         <div id="methodology">
           <h2 class="table-title">Vorgehensweise</h2>
           <div class="table-intro">
@@ -98,6 +125,11 @@
             <p>Um der Folgerichtigkeit willen haben wir alle Daten über die Transfermarktwerte von Transfermarkt bezogen. So konnten wir den Anstieg/Rückgang des Werts bei Leihspielern und bei Fußballern, die ihre gesamte Karriere in einem Club verbracht haben, bewerten.</p>
             <p>Zusätzlich zu der Daten gestützten Analyse der Entwicklung der Spieler ließen wir in die Bewertung auch Daten über einzelne Spieler, je nach Club kategorisiert, einfließen. So konnten wir feststellen, welche Clubs und Ligen die Fußballer mit den meisten Siegen produzieren.</p>
             <p>Alle Daten sind bis zum Zeitpunkt der Veröffentlichung gültig: Oktober 2020.</p>
+          </div>
+          <div class="sbg-logo-container">
+            <a target="_blank" href="https://skybet.com">
+              <img src="~assets/sky-bet.png" alt="Sky Betting &amp; Gaming Logo" />
+            </a>
           </div>
         </div>
       </div>
@@ -150,6 +182,27 @@
 
 <style lang="scss" scoped>
 
+  .sbg-logo-container {
+    margin-top: 100px;
+    text-align: center;
+    a {
+      text-decoration: none;
+      img {
+        max-width: 160px;
+      }
+    }
+  }
+  .red-break {
+    width: 100%;
+    display: block;
+    height: 5px;
+    margin: 100px 0;
+    background-color: #fff;
+    &.first {
+        margin: 0 0 100px;
+    }
+  }
+
   div#methodology {
     margin-top: 50px;
     @media all and (min-width: 768px){
@@ -200,95 +253,74 @@
   }
 
   div.page-intro {
-    padding: 0px 0 50px 0;
+    padding: 50px 0;
     text-align: center;
     margin: 0 auto;
-    max-width: 768px;
+    background-color: #ffffff;
+    div.page-intro-inner {
+      max-width: 800px;
+      margin: 0 auto;
+    }
     p {
-      color: #ffffff;
-      font-size: 18px;
+      color: #00194e;
+      font-size: 16px;
       line-height: 1.6em;
     }
     @media all and (min-width: 768px){
-      padding: 20px 0 80px 0;
+      padding: 80px 0;
+      p {
+        font-size: 20px;
+      }
     }
   }
 
   header {
-    padding: 50px 0 0 0;
-    margin-bottom: 100px;
-    background-image: url('~assets/header-bg.jpg');
+    padding: 100px 0;
+    background-image: url('~assets/header-bg2.jpg');
     background-size: cover;
+    text-align: center;
     background-position: 50% 50%;
     .header-inner {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-between;
-      .header-img-container {
-        flex: 0 0 100%;
-        display: block;
-        img {
-          width: 100%;
-          height: auto;
-        }
+      .sbg-logo-container {
+        margin-top: 0;
+        margin-bottom: 40px;
       }
       div.header-text {
-        flex: 0 0 100%;
+        max-width: 768px;
+        margin: 0 auto;
         h1 {
           margin: 0 0 30px 0;
           color: #ffffff;
-          font-size: 30px;
+          font-size: 40px;
           display: block;
-          text-align: center;
         }
         p {
           font-size: 18px;
           font-weight: 300;
           line-height: 1.6em;
           color: #ffffff;
-          text-align: center;
-        }
-      }
-      @media all and (min-width: 768px){
-        .header-img-container {
-          flex: 0 0 400px;
-        }
-        div.header-text {
-          flex: 0 0 calc(100% - 450px);
-          h1 {
-            text-align: left;
-          }
-          p {
-            text-align: left;
-          }
         }
       }
       @media all and (min-width: 960px){
-        .header-img-container {
-          flex: 0 0 600px;
-        }
         div.header-text {
-          flex: 0 0 calc(100% - 650px);
           h1 {
-            font-size: 52px;
+            font-size: 64px;
+          }
+          p {
+            font-size: 24px;
           }
         }
       }
       @media all and (min-width: 1400px){
-        .header-img-container {
-          flex: 0 0 700px;
-        }
         div.header-text {
-          flex: 0 0 calc(100% - 750px);
           h1 {
-            font-size: 60px;
+            font-size: 72px;
+          }
+          p {
+            font-size: 32px;
           }
         }
       }
-    }
-    @media all and (min-width: 768px){
-      padding: 20px 0 0 0;
     }
   }
 
@@ -328,6 +360,12 @@
           text-decoration: none;
         }
       }
+    }
+    .sbg-logo-container {
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      bottom: 40px;
     }
   }
 
