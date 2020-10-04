@@ -4,15 +4,9 @@
       <a href="#top" v-scroll-to="'body'" class="logo">Talent <br/> Factories</a>
       <ul>
         <li>
-<<<<<<< HEAD
           <a href="#countries" v-scroll-to="'#countries'">Países en los que mejor evolucionan los futbolistas</a>
           <a href="#value"  v-scroll-to="'#value'">Clubes en los que más aumenta el valor de los jugadores</a>
           <a href="#trophies"  v-scroll-to="'#trophies'">Clubes que más ganadores de títulos producen</a>
-=======
-          <a href="#countries" v-scroll-to="'#countries'">Meilleurs pays pour le développement des joueurs</a>
-          <a href="#value"  v-scroll-to="'#value'">Meilleurs clubs pour le développement de joueurs sur le marché</a>
-          <a href="#trophies"  v-scroll-to="'#trophies'">Meilleurs clubs pour le développement des joueurs en championnats</a>
->>>>>>> 15caba0... real french update
         </li>
       </ul>
       <div class="right-side">
@@ -22,47 +16,28 @@
           <div class="line" />
         </div>
         <div v-on:click='toggleLangBlock()' class="lang-select">
-<<<<<<< HEAD
           <img src="~assets/flags/spanish.png" alt="Spanish Flag" />
-=======
-          <img src="~assets/flags/french.png" alt="French Flag" />
->>>>>>> 15caba0... real french update
         </div>
       </div>
     </nav>
     <div class="mobile-nav" :class="mobileNavOpen ? 'open' : 'closed'">
       <ul>
-<<<<<<< HEAD
         <li v-on:click='hideMobileNav()'><a href="#countries" v-scroll-to="'#countries'">Países en los que mejor evolucionan los futbolistas</a></li>
         <li v-on:click='hideMobileNav()'><a href="#value"  v-scroll-to="'#value'">Clubes en los que más aumenta el valor de los jugadores</a></li>
         <li v-on:click='hideMobileNav()'><a href="#trophies"  v-scroll-to="'#trophies'">Clubes que más ganadores de títulos producen</a></li>
-=======
-        <li v-on:click='hideMobileNav()'><a href="#countries" v-scroll-to="'#countries'">Meilleurs pays pour le développement des joueurs</a></li>
-        <li v-on:click='hideMobileNav()'><a href="#value"  v-scroll-to="'#value'">Meilleurs clubs pour le développement de joueurs sur le marché</a></li>
-        <li v-on:click='hideMobileNav()'><a href="#trophies"  v-scroll-to="'#trophies'">Meilleurs clubs pour le développement des joueurs en championnats</a></li>
->>>>>>> 15caba0... real french update
       </ul>
     </div>
     <div class="lang-select-block" :class="languageBlockOpen ? 'open' : 'closed'">
       <a v-on:click={toggleLangSelector} href="../en"><img src="~assets/flags/english.png" alt="English Flag" /></a>
       <a v-on:click={toggleLangSelector} href="../"><img src="~assets/flags/german.png" alt="German Flag" /></a>
-<<<<<<< HEAD
       <a v-on:click={toggleLangSelector} href="../fr"><img src="~assets/flags/french.png" alt="French Flag" /></a>
-=======
-      <a v-on:click={toggleLangSelector} href="../es"><img src="~assets/flags/spanish.png" alt="Spanish Flag" /></a>
->>>>>>> 15caba0... real french update
     </div>
     <header>
       <div class="container">
         <div class="header-inner">
           <div class="header-text">
-<<<<<<< HEAD
             <h1>Fábricas de talento futbolístico</h1>
             <p>¿Qué clubes y ligas producen los futbolistas con más talento de todo el mundo?</p>
-=======
-            <h1>Football : les usines à talents</h1>
-            <p>Quels clubs et championnats ont produit les plus grands talents du football?</p>
->>>>>>> 15caba0... real french update
           </div>
           <div class="header-img-container">
             <img src="~assets/header-img.png" />
