@@ -50,7 +50,7 @@
         </transition>
       </div>
     </div>
-    <button class="show-more" v-show="!maxItemsShown" @click="increaseItems()">Show More</button>
+    <button class="show-more" v-show="!maxItemsShown" @click="increaseItems()">montre plus</button>
   </div>
 </template>
 
