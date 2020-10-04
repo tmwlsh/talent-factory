@@ -6,13 +6,13 @@
           <span>Club</span>
         </div>
         <div class="data" @click.prevent="setActiveSort('playerCount')">
-          <span>Player Count</span>
+          <span>Número de jugadores</span>
         </div>
         <div class="data" @click.prevent="setActiveSort('averageNetDifference')">
-          <span>Average Net Difference</span>
+          <span>Diferencia neta media</span>
         </div>
         <div class="data" @click.prevent="setActiveSort('averagePercentageDifference')">
-          <span>Average Percentage Difference</span>
+          <span>Diferencia porcentual media</span>
         </div>
       </div>
       <div class="row-outer" v-for="row in filteredTableData" :key="row.country">
@@ -50,7 +50,7 @@
         </transition>
       </div>
     </div>
-    <button class="show-more" v-show="!maxItemsShown" @click="increaseItems()">Show More</button>
+    <button class="show-more" v-show="!maxItemsShown" @click="increaseItems()">mostrar más</button>
   </div>
 </template>
 

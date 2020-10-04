@@ -2,11 +2,11 @@
   <div class="table-outer">
     <div class="table">
       <div class="table-header row">
-        <div class="data" @click.prevent="setActiveSort('slug')">First Club</div>
-        <div class="data" @click.prevent="setActiveSort('playerCount')">First club Count</div>
-        <div class="data" @click.prevent="setActiveSort('domesticTitles')">Domestic Titles</div>
-        <div class="data" @click.prevent="setActiveSort('ucls')">Champtions league wins</div>
-        <div class="data" @click.prevent="setActiveSort('uel')">Eurpoa league wins</div>
+        <div class="data" @click.prevent="setActiveSort('slug')">Primer club</div>
+        <div class="data" @click.prevent="setActiveSort('playerCount')">Primer club (cantidad)</div>
+        <div class="data" @click.prevent="setActiveSort('domesticTitles')">Títulos nacionales</div>
+        <div class="data" @click.prevent="setActiveSort('ucls')">Partidos ganados en la Liga de Campeones</div>
+        <div class="data" @click.prevent="setActiveSort('uel')">Partidos ganados en la UEFA</div>
         <div class="data" @click.prevent="setActiveSort('domesticCups')">Domestic Cups</div>
         <div class="data" @click.prevent="setActiveSort('domesticSecondCups')">Domestic Second cups</div>
       </div>
@@ -64,7 +64,7 @@
         </transition>
       </div>
     </div>
-    <button class="show-more" v-show="!maxItemsShown" @click="increaseItems()">Show More</button>
+    <button class="show-more" v-show="!maxItemsShown" @click="increaseItems()">mostrar más</button>
   </div>
 </template>
 
