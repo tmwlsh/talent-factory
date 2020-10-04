@@ -26,6 +26,11 @@
         <li v-on:click='hideMobileNav()'><a href="#value"  v-scroll-to="'#value'">Best Clubs to develop talent for value</a></li>
         <li v-on:click='hideMobileNav()'><a href="#trophies"  v-scroll-to="'#trophies'">Best clubs to develop talent for trophies</a></li>
       </ul>
+      <div class="sbg-logo-container">
+        <a target="_blank" href="https://skybet.com">
+          <img src="~assets/sky-bet.png" alt="Sky Betting &amp; Gaming Logo" />
+        </a>
+      </div>
     </div>
     <div class="lang-select-block" :class="languageBlockOpen ? 'open' : 'closed'">
       <a v-on:click={toggleLangSelector} href="#"><img src="~assets/flags/german.png" alt="German Flag" /></a>
@@ -36,6 +41,11 @@
       <div class="container">
         <div class="header-inner">
           <div class="header-text">
+            <div class="sbg-logo-container">
+              <a target="_blank" href="https://skybet.com">
+                <img src="~assets/sky-bet.png" alt="Sky Betting &amp; Gaming Logo" />
+              </a>
+            </div>
             <h1>Football Talent Factories</h1>
             <p>Which Clubs and Leagues Produce the Most World Class Talent?</p>
           </div>
@@ -43,10 +53,12 @@
       </div>
     </header>
 
-    <div class="container">
-      <div class="page-intro">
-        <p>We’ve taken the Top 100 male footballers in world football for each of the past 20 seasons and analysed their historic transfer market values and trophies won, by each club and league country played in.</p>
-        <p>From this analysis, we can exclusively reveal the football talent factories of the world, that produce and elevate players to the next level.</p>
+    <div class="page-intro">
+      <div class="container">
+        <div class="page-intro-inner">
+          <p>We’ve taken the Top 100 male footballers in world football for each of the past 20 seasons and analysed their historic transfer market values and trophies won, by each club and league country played in.</p>
+          <p>From this analysis, we can exclusively reveal the football talent factories of the world, that produce and elevate players to the next level.</p>
+        </div>
       </div>
     </div>
 
@@ -125,6 +137,11 @@
           </div>
         </div>
       </div>
+      <div class="sbg-logo-container">
+        <a target="_blank" href="https://skybet.com">
+          <img src="~assets/sky-bet.png" alt="Sky Betting &amp; Gaming Logo" />
+        </a>
+      </div>
     </div>
   </main>
 </template>
@@ -173,6 +190,19 @@
 </style>
 
 <style lang="scss" scoped>
+
+  .sbg-logo-container {
+    margin-top: 100px;
+    text-align: center;
+
+    a {
+      display: inline-block;
+      text-decoration: none;
+      img {
+        max-width: 160px;
+      }
+    }
+  }
 
   .red-break {
     width: 100%;
@@ -237,10 +267,13 @@
   div.page-intro {
     padding: 50px 0;
     text-align: center;
-    margin: 0 auto;
-    max-width: 960px;
+    background-color: #ffffff;
+    div.page-intro-inner {
+      max-width: 800px;
+      margin: 0 auto;
+    }
     p {
-      color: #ffffff;
+      color: #00194e;
       font-size: 16px;
       line-height: 1.6em;
     }
@@ -253,13 +286,17 @@
   }
 
   header {
-    padding: 250px 0 50px 0;
+    padding: 100px 0;
     background-image: url('~assets/header-bg2.jpg');
     background-size: cover;
     background-position: 50% 50%;
     .header-inner {
+      .sbg-logo-container {
+        margin-top: 0;
+        margin-bottom: 40px;
+      }
       div.header-text {
-        max-width: 640px;
+        max-width: 768px;
         margin: 0 auto;
         h1 {
           margin: 0 0 30px 0;
@@ -279,14 +316,20 @@
       @media all and (min-width: 960px){
         div.header-text {
           h1 {
-            font-size: 52px;
+            font-size: 64px;
+          }
+          p {
+            font-size: 24px;
           }
         }
       }
       @media all and (min-width: 1400px){
         div.header-text {
           h1 {
-            font-size: 60px;
+            font-size: 78px;
+          }
+          p {
+            font-size: 32px;
           }
         }
       }
@@ -329,6 +372,11 @@
           text-decoration: none;
         }
       }
+    }
+    .sbg-logo-container {
+      position: absolute;
+      bottom: 30px;
+      width: 100%;
     }
   }
 
