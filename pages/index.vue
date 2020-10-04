@@ -1,7 +1,7 @@
 <template>
   <main>
     <nav>
-      <a href="#top" v-scroll-to="'body'" class="logo">Talent <br/> Factories</a>
+      <a href="#top" v-scroll-to="'body'" class="logo">Usines<br/>à talents</a>
       <ul>
         <li>
           <a href="#countries" v-scroll-to="'#countries'">Meilleurs pays pour le développement des joueurs</a>
@@ -26,6 +26,11 @@
         <li v-on:click='hideMobileNav()'><a href="#value"  v-scroll-to="'#value'">Meilleurs clubs pour le développement de joueurs sur le marché</a></li>
         <li v-on:click='hideMobileNav()'><a href="#trophies"  v-scroll-to="'#trophies'">Meilleurs clubs pour le développement des joueurs en championnats</a></li>
       </ul>
+      <div class="sbg-logo-container">
+        <a target="_blank" href="https://skybet.com">
+          <img src="~assets/sky-bet.png" alt="Sky Betting &amp; Gaming Logo" />
+        </a>
+      </div>
     </div>
     <div class="lang-select-block" :class="languageBlockOpen ? 'open' : 'closed'">
       <a v-on:click={toggleLangSelector} href="../en"><img src="~assets/flags/english.png" alt="English Flag" /></a>
@@ -36,20 +41,27 @@
       <div class="container">
         <div class="header-inner">
           <div class="header-text">
+            <div class="sbg-logo-container">
+              <a target="_blank" href="https://skybet.com">
+                <img src="~assets/sky-bet.png" alt="Sky Betting &amp; Gaming Logo" />
+              </a>
+            </div>
             <h1>Football : les usines à talents</h1>
             <p>Quels clubs et championnats ont produit les plus grands talents du football?</p>
-          </div>
-          <div class="header-img-container">
-            <img src="~assets/header-img.png" />
           </div>
         </div>
       </div>
     </header>
-    <div class="container">
-      <div class="page-intro">
-        <p>Nous avons pris les 100 meilleurs footballeurs du monde pour chacune des 20 dernières saisons, et nous avons analysé l’historique de leurs valeurs sur le marché des transferts ainsi que les coupes remportées, par club et championnat dans lesquels ils ont évolué.</p>
-        <p>En nous basant sur ces analyses, nous pouvons vous révéler en exclusivité quels clubs et championnats de football constituent de véritables usines à talents, qui façonnent les joueurs et leur permettent de passer au niveau supérieur.</p>
+    <div class="page-intro">
+      <div class="page-intro-inner">
+        <div class="container">
+          <p>Nous avons pris les 100 meilleurs footballeurs du monde pour chacune des 20 dernières saisons, et nous avons analysé l’historique de leurs valeurs sur le marché des transferts ainsi que les coupes remportées, par club et championnat dans lesquels ils ont évolué.</p>
+          <p>En nous basant sur ces analyses, nous pouvons vous révéler en exclusivité quels clubs et championnats de football constituent de véritables usines à talents, qui façonnent les joueurs et leur permettent de passer au niveau supérieur.</p>
+        </div>
       </div>
+    </div>
+    <div class="red-break first"></div>
+    <div class="container">
       <div>
         <div id="countries">
           <h2 class="table-title">Meilleurs pays pour le développement des joueurs</h2>
@@ -61,6 +73,11 @@
           </div>
           <Table1 :table-data="countries"/>
         </div>
+      </div>
+    </div>
+    <div class="red-break"></div>
+    <div class="container">
+      <div>
         <div id="value">
           <h2 class="table-title">Meilleurs clubs pour le développement de joueurs sur le marché</h2>
           <div class="table-intro">
@@ -71,6 +88,11 @@
           </div>
           <Table2 :table-data="bestValueClubs"/>
         </div>
+      </div>
+    </div>
+    <div class="red-break"></div>
+    <div class="container">
+      <div>
         <div id="trophies">
           <h2 class="table-title">Meilleurs clubs pour le développement des joueurs en championnats</h2>
           <div class="table-intro">
@@ -85,6 +107,11 @@
           </div>
           <Table3 :table-data="bestTrophyClubs"/>
         </div>
+      </div>
+    </div>
+    <div class="red-break"></div>
+    <div class="container">
+      <div>
         <div id="methodology">
           <h2 class="table-title">Méthodologie</h2>
           <div class="table-intro">
@@ -101,6 +128,11 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="sbg-logo-container">
+      <a target="_blank" href="https://skybet.com">
+        <img src="~assets/sky-bet.png" alt="Sky Betting &amp; Gaming Logo" />
+      </a>
     </div>
   </main>
 </template>
@@ -149,6 +181,28 @@
 </style>
 
 <style lang="scss" scoped>
+
+  .sbg-logo-container {
+    margin-top: 100px;
+    text-align: center;
+    a {
+      text-decoration: none;
+      img {
+        max-width: 160px;
+      }
+    }
+  }
+
+  .red-break {
+    width: 100%;
+    display: block;
+    height: 5px;
+    margin: 100px 0;
+    background-color: #fff;
+    &.first {
+        margin: 0 0 100px;
+    }
+  }
 
   div#methodology {
     margin-top: 50px;
@@ -200,95 +254,74 @@
   }
 
   div.page-intro {
-    padding: 0px 0 50px 0;
+    padding: 50px 0;
     text-align: center;
     margin: 0 auto;
-    max-width: 768px;
+    background-color: #ffffff;
+    div.page-intro-inner {
+      max-width: 800px;
+      margin: 0 auto;
+    }
     p {
-      color: #ffffff;
-      font-size: 18px;
+      color: #00194e;
+      font-size: 16px;
       line-height: 1.6em;
     }
     @media all and (min-width: 768px){
-      padding: 20px 0 80px 0;
+      padding: 80px 0;
+      p {
+        font-size: 20px;
+      }
     }
   }
 
   header {
-    padding: 50px 0 0 0;
-    margin-bottom: 100px;
-    background-image: url('~assets/header-bg.jpg');
+    padding: 100px 0;
+    background-image: url('~assets/header-bg2.jpg');
     background-size: cover;
+    text-align: center;
     background-position: 50% 50%;
     .header-inner {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-between;
-      .header-img-container {
-        flex: 0 0 100%;
-        display: block;
-        img {
-          width: 100%;
-          height: auto;
-        }
+      .sbg-logo-container {
+        margin-top: 0;
+        margin-bottom: 40px;
       }
       div.header-text {
-        flex: 0 0 100%;
+        max-width: 768px;
+        margin: 0 auto;
         h1 {
           margin: 0 0 30px 0;
           color: #ffffff;
           font-size: 40px;
           display: block;
-          text-align: center;
         }
         p {
           font-size: 18px;
           font-weight: 300;
           line-height: 1.6em;
           color: #ffffff;
-          text-align: center;
-        }
-      }
-      @media all and (min-width: 768px){
-        .header-img-container {
-          flex: 0 0 400px;
-        }
-        div.header-text {
-          flex: 0 0 calc(100% - 450px);
-          h1 {
-            text-align: left;
-          }
-          p {
-            text-align: left;
-          }
         }
       }
       @media all and (min-width: 960px){
-        .header-img-container {
-          flex: 0 0 600px;
-        }
         div.header-text {
-          flex: 0 0 calc(100% - 650px);
           h1 {
-            font-size: 52px;
+            font-size: 64px;
+          }
+          p {
+            font-size: 24px;
           }
         }
       }
       @media all and (min-width: 1400px){
-        .header-img-container {
-          flex: 0 0 700px;
-        }
         div.header-text {
-          flex: 0 0 calc(100% - 750px);
           h1 {
-            font-size: 60px;
+            font-size: 72px;
+          }
+          p {
+            font-size: 32px;
           }
         }
       }
-    }
-    @media all and (min-width: 768px){
-      padding: 20px 0 0 0;
     }
   }
 
@@ -328,6 +361,12 @@
           text-decoration: none;
         }
       }
+    }
+    .sbg-logo-container {
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      bottom: 40px;
     }
   }
 
@@ -478,7 +517,7 @@
     align-items: center;
     box-shadow: 0 0 60px rgba(black, 0.3);
     justify-content: space-between;
-    background: linear-gradient(to right, darken(#E71312, 10) 0%, darken(#E71312, 20) 100%);
+    background-color: darken(#E71312, 10);
     a {
       display: inline-block;
       color: #fff;

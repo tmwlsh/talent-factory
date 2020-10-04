@@ -2,11 +2,11 @@
   <div class="table-outer">
     <div class="table">
       <div class="table-header row">
-        <div class="data" @click.prevent="setActiveSort('slug')">First Club</div>
-        <div class="data" @click.prevent="setActiveSort('playerCount')">First club Count</div>
-        <div class="data" @click.prevent="setActiveSort('domesticTitles')">Domestic Titles</div>
-        <div class="data" @click.prevent="setActiveSort('ucls')">Champtions league wins</div>
-        <div class="data" @click.prevent="setActiveSort('uel')">Eurpoa league wins</div>
+        <div class="data" @click.prevent="setActiveSort('slug')">Premier club</div>
+        <div class="data" @click.prevent="setActiveSort('playerCount')">Nombre du premier club</div>
+        <div class="data" @click.prevent="setActiveSort('domesticTitles')">Titres en championnats nationaux</div>
+        <div class="data" @click.prevent="setActiveSort('ucls')">Victoires en Champions League</div>
+        <div class="data" @click.prevent="setActiveSort('uel')">Victoires en Europa League</div>
         <div class="data" @click.prevent="setActiveSort('domesticCups')">Domestic Cups</div>
         <div class="data" @click.prevent="setActiveSort('domesticSecondCups')">Domestic Second cups</div>
       </div>
