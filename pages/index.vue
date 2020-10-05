@@ -26,11 +26,6 @@
         <li v-on:click='hideMobileNav()'><a href="#value"  v-scroll-to="'#value'">Meilleurs clubs pour le développement de joueurs sur le marché</a></li>
         <li v-on:click='hideMobileNav()'><a href="#trophies"  v-scroll-to="'#trophies'">Meilleurs clubs pour le développement des joueurs en championnats</a></li>
       </ul>
-      <div class="sbg-logo-container">
-        <a target="_blank" href="https://skybet.com">
-          <img src="~assets/sky-bet.png" alt="Sky Betting &amp; Gaming Logo" />
-        </a>
-      </div>
     </div>
     <div class="lang-select-block" :class="languageBlockOpen ? 'open' : 'closed'">
       <a v-on:click={toggleLangSelector} href="../en"><img src="~assets/flags/english.png" alt="English Flag" /></a>
@@ -41,11 +36,6 @@
       <div class="container">
         <div class="header-inner">
           <div class="header-text">
-            <div class="sbg-logo-container">
-              <a target="_blank" href="https://skybet.com">
-                <img src="~assets/sky-bet.png" alt="Sky Betting &amp; Gaming Logo" />
-              </a>
-            </div>
             <h1>Football : les usines à talents</h1>
             <p>Quels clubs et championnats ont produit les plus grands talents du football?</p>
           </div>
