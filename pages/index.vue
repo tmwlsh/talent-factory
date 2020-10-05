@@ -26,11 +26,6 @@
         <li v-on:click='hideMobileNav()'><a href="#value"  v-scroll-to="'#value'">Clubes en los que más aumenta el valor de los jugadores</a></li>
         <li v-on:click='hideMobileNav()'><a href="#trophies"  v-scroll-to="'#trophies'">Clubes que más ganadores de títulos producen</a></li>
       </ul>
-      <div class="sbg-logo-container">
-        <a target="_blank" href="https://skybet.com">
-          <img src="~assets/sky-bet.png" alt="Sky Betting &amp; Gaming Logo" />
-        </a>
-      </div>
     </div>
     <div class="lang-select-block" :class="languageBlockOpen ? 'open' : 'closed'">
       <a v-on:click={toggleLangSelector} href="../en"><img src="~assets/flags/english.png" alt="English Flag" /></a>
@@ -41,11 +36,6 @@
       <div class="container">
         <div class="header-inner">
           <div class="header-text">
-            <div class="sbg-logo-container">
-              <a target="_blank" href="https://skybet.com">
-                <img src="~assets/sky-bet.png" alt="Sky Betting &amp; Gaming Logo" />
-              </a>
-            </div>
             <h1>Fábricas de talento futbolístico</h1>
             <p>¿Qué clubes y ligas producen los futbolistas con más talento de todo el mundo?</p>
           </div>
