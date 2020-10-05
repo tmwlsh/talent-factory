@@ -26,11 +26,6 @@
         <li v-on:click='hideMobileNav()'><a href="#value"  v-scroll-to="'#value'">Clubs mit dem besten Effekt auf den Marktwert der Spieler</a></li>
         <li v-on:click='hideMobileNav()'><a href="#trophies"  v-scroll-to="'#trophies'">Clubs mit den meisten Trophäen</a></li>
       </ul>
-      <div class="sbg-logo-container">
-        <a target="_blank" href="https://skybet.com">
-          <img src="~assets/sky-bet.png" alt="Sky Betting &amp; Gaming Logo" />
-        </a>
-      </div>
     </div>
     <div class="lang-select-block" :class="languageBlockOpen ? 'open' : 'closed'">
       <a v-on:click={toggleLangSelector} href="./en"><img src="~assets/flags/english.png" alt="English Flag" /></a>
