@@ -2,15 +2,15 @@
   <div class="table-outer">
     <div class="table">
       <div class="table-header row">
-        <div class="data" @click.prevent="setActiveSort('slug')">First Club</div>
-        <div class="data" @click.prevent="setActiveSort('playerCount')">First club Count</div>
-        <div class="data" @click.prevent="setActiveSort('domesticTitles')">Domestic Titles</div>
-        <div class="data" @click.prevent="setActiveSort('ucls')">Champtions league wins</div>
-        <div class="data" @click.prevent="setActiveSort('uel')">Eurpoa league wins</div>
+        <div class="data" @click.prevent="setActiveSort('slug')">Erster Verein</div>
+        <div class="data" @click.prevent="setActiveSort('playerCount')">Erster Verein Anzahl</div>
+        <div class="data" @click.prevent="setActiveSort('domesticTitles')">Inlandstitel</div>
+        <div class="data" @click.prevent="setActiveSort('ucls')">Siege in der Champions League</div>
+        <div class="data" @click.prevent="setActiveSort('uel')">Siege in der Europe League</div>
         <div class="data" @click.prevent="setActiveSort('domesticCups')">Domestic Cups</div>
         <div class="data" @click.prevent="setActiveSort('domesticSecondCups')">Domestic Second cups</div>
       </div>
-      <div class="row-outer" v-for="row in filteredTableData" :key="row.country">
+      <div class="row-outer" v-for="row in filteredTableData" :key="row.Land">
         <div class="row" @click.prevent="toggleDisplay(row.slug)">
           <div class="data">
             {{row.name}}

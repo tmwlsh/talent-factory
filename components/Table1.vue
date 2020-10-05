@@ -3,19 +3,19 @@
     <div class="table">
       <div class="table-header row">
         <div class="data" @click.prevent="setActiveSort('slug')">
-          <span>Country</span>
+          <span>Land</span>
         </div>
         <div class="data" @click.prevent="setActiveSort('playerCount')">
-          <span>Player Count</span>
+          <span>Spielerzahl</span>
         </div>
         <div class="data" @click.prevent="setActiveSort('averageNetDifference')">
-          <span>Average Net Difference</span>
+          <span>Durchschnittliche Nettodifferenz</span>
         </div>
         <div class="data" @click.prevent="setActiveSort('averagePercentageDifference')">
-          <span>Average Percentage Difference</span>
+          <span>Durchschnittliche prozentuale Differenz</span>
         </div>
       </div>
-      <div class="row-outer" v-for="row in filteredTableData" :key="row.country">
+      <div class="row-outer" v-for="row in filteredTableData" :key="row.Land">
         <div class="row" @click.prevent="toggleDisplay(row.slug)">
           <div class="data">
             {{row.name}}

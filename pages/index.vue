@@ -1,7 +1,7 @@
 <template>
   <main>
     <nav>
-      <a href="#top" v-scroll-to="'body'" class="logo">Talent <br/> Factories</a>
+      <a href="#top" v-scroll-to="'body'" class="logo">Talentschmieden</br>im Fußball</a>
       <ul>
         <li>
           <a href="#countries" v-scroll-to="'#countries'">Die Länder mit der besten Ausbildung für Spieler</a>
