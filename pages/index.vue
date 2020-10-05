@@ -26,11 +26,6 @@
         <li v-on:click='hideMobileNav()'><a href="#value"  v-scroll-to="'#value'">Best Clubs to develop talent for value</a></li>
         <li v-on:click='hideMobileNav()'><a href="#trophies"  v-scroll-to="'#trophies'">Best clubs to develop talent for trophies</a></li>
       </ul>
-      <div class="sbg-logo-container">
-        <a target="_blank" href="https://skybet.com">
-          <img src="~assets/sky-bet.png" alt="Sky Betting &amp; Gaming Logo" />
-        </a>
-      </div>
     </div>
     <div class="lang-select-block" :class="languageBlockOpen ? 'open' : 'closed'">
       <a v-on:click={toggleLangSelector} href="../"><img src="~assets/flags/german.png" alt="German Flag" /></a>
@@ -41,11 +36,6 @@
       <div class="container">
         <div class="header-inner">
           <div class="header-text">
-            <div class="sbg-logo-container">
-              <a target="_blank" href="https://skybet.com">
-                <img src="~assets/sky-bet.png" alt="Sky Betting &amp; Gaming Logo" />
-              </a>
-            </div>
             <h1>Football Talent Factories</h1>
             <p>Which Clubs and Leagues Produce the Most World Class Talent?</p>
           </div>
