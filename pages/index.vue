@@ -41,11 +41,6 @@
       <div class="container">
         <div class="header-inner">
           <div class="header-text">
-            <div class="sbg-logo-container">
-              <a target="_blank" href="https://skybet.com">
-                <img src="~assets/sky-bet.png" alt="Sky Betting &amp; Gaming Logo" />
-              </a>
-            </div>
             <h1>Talentschmieden im Fußball</h1>
             <p>Welche Clubs und Ligen bringen die meisten Ausnahmespieler hervor?</p>
           </div>
@@ -291,7 +286,7 @@
         h1 {
           margin: 0 0 30px 0;
           color: #ffffff;
-          font-size: 40px;
+          font-size: 24px;
           display: block;
         }
         p {
@@ -299,6 +294,20 @@
           font-weight: 300;
           line-height: 1.6em;
           color: #ffffff;
+        }
+      }
+      @media all and (min-width: 640px){
+        div.header-text {
+          h1 {
+            font-size: 32px;
+          }
+        }
+      }
+      @media all and (min-width: 768px){
+        div.header-text {
+          h1 {
+            font-size: 42px;
+          }
         }
       }
       @media all and (min-width: 960px){
@@ -516,7 +525,7 @@
     align-items: center;
     box-shadow: 0 0 60px rgba(black, 0.3);
     justify-content: space-between;
-    background: linear-gradient(to right, darken(#E71312, 10) 0%, darken(#E71312, 20) 100%);
+    background-color: darken(#E71312, 10);
     a {
       display: inline-block;
       color: #fff;
