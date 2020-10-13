@@ -25,7 +25,7 @@ export default {
       { hid: 'description', name: 'description', content: "Talent Factories" }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: './favicon.ico' }
     ]
   },
   /*
