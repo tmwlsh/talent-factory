@@ -177,10 +177,10 @@
     margin-bottom: 5px;
     .data {
       &:nth-of-type(odd) {
-        background: linear-gradient(to right, darken(#00277C, 0) 0%, darken(#00277C, 5) 100%);
+        background: linear-gradient(to right, #111111, #121212);
       }
       &:nth-of-type(even) {
-        background: linear-gradient(to right, darken(#00277C, 0) 0%, darken(#00277C, 5) 100%);
+        background: linear-gradient(to right, #1a1a1a, #1e1e1e);
       }
     }
     &.inner {

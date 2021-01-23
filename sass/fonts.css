@@ -1,9 +1,5 @@
 @font-face {
-  font-family: "SSportsD";
-  src: local("SSportsD"),
-   url(~assets/fonts/SSportsD-Bold.ttf) format("truetype"),
-   url(~assets/fonts/SSportsD-BoldItalic.ttf) format("truetype"),
-   url(~assets/fonts/SSportsD-MediumItalic.ttf) format("truetype"),
-   url(~assets/fonts/SSportsD-Regular.ttf) format("truetype"),
-   url(~assets/fonts/SSportsD-RegularItalic.ttf) format("truetype");
+  font-family: "Druk";
+  src: local("Druk"),
+   url(~assets/fonts/Druk-Heavy-Web.ttf) format("truetype")
 }

@@ -28,9 +28,7 @@
       </ul>
     </div>
     <div class="lang-select-block" :class="languageBlockOpen ? 'open' : 'closed'">
-      <a v-on:click={toggleLangSelector} href="../"><img src="~assets/flags/german.png" alt="German Flag" /></a>
       <a v-on:click={toggleLangSelector} href="../fr"><img src="~assets/flags/french.png" alt="French Flag" /></a>
-      <a v-on:click={toggleLangSelector} href="../es"><img src="~assets/flags/spanish.png" alt="Spanish Flag" /></a>
     </div>
     <header>
       <div class="container">
@@ -60,8 +58,7 @@
           <h2 class="table-title">Best Countries to develop players</h2>
           <div class="table-intro">
             <p>To quote former England striker Gary Lineker, “Football is a simple game. Twenty-two men chase a ball for 90 minutes and at the end, the Germans always win”.</p>
-            <p>And quite emphatically, this is the case for player development too. The ultimate decider of player skill and ability is their market value and the German Bundesliga is statistically the best for producing and enhancing footballing talent; adding £9.5m to players who play at least once in the German leagues.</p>
-            <p>At the other end of the spectrum, the statistically worst country for football players to increase their market value in is China – with player market values declining by an average of £4.7m.</p>
+            <p>And quite emphatically, this is the case for player development too. The ultimate decider of player skill and ability is their market value and the German Bundesliga is statistically the best for producing and enhancing footballing talent; adding £17.5m to players who play at least once in the German leagues.</p>
             <p class="bold">View the table below the explore the full data:</p>
           </div>
           <Table1 :table-data="countries"/>
@@ -76,9 +73,7 @@
         <div id="value">
           <h2 class="table-title">Best Clubs to develop talent for value</h2>
           <div class="table-intro">
-            <p>Based on our criteria of a minimum of 5 players developed, RB Leipzig is officially the best club one can play for to increase their market value. The quality of coaching at this club sees players increase their market value by an average of £26 million. The standout cases being Timo Werner (+£64.8m), Naby Keita (+£42.3m) and Emil Forsberg (+£18.5m).</p>
-            <p>Closely following behind in second place is Liverpool, with players increasing their market value by an average of £21.5m.</p>
-            <p>To demonstrate the incredible impact Jurgen Klopp has had on the recent crop of Liverpool players, even world class players purchased for fees of £75m have seen their market value increase by £27m...</p>
+            <p>Based on our criteria of a minimum of 5 current or former top 100 rated players, Tottenham Hotspur is officially the best club one can play for to increase their market value. The quality of coaching at this club sees players increase their market value by an average of £32 million. The standout cases being Harry Kane (+£134m), Christian Eriksen (+£73.8m) and Gareth Bale (+£58.7m).</p>
             <p class="bold">View the table below the explore the full data:</p>
           </div>
           <Table2 :table-data="bestValueClubs"/>
@@ -95,14 +90,9 @@
           <div class="table-intro">
             <p>And finally, which are the best clubs for producing trophy and title winners? Here we took the first senior club that players signed for and tracked every trophy won in the players lifetime career / career so far.</p>
             <p>As our list of players consists of the top 100 male players of the season for each of the past 20, we can also reveal the clubs who have recently been producing the best talent in world football.</p>
-            <p class="bold">The results are as follows:</p>
-            <ol>
-              <li>Ajax and Real Madrid have produced the joint most top 100 rated male players in world football over the past 20 years, with 10 each. Before looking, can you guess them?</li>
-              <li>Of the top 100 rated male players over the past 20 years, Barcelona have produced the most domestic title and UEFA Champions League winners, with players winning these trophies during their tenure at the Catalan giants or with other clubs (such as Thiago Alcantra at Bayern Munich and Pedro at Chelsea).</li>
-            </ol>
-            <p class="bold">View the table below the explore the full data:</p>
+            <p>Ajax have produced the most top 100 rated male players in world football over the past 20 years, with a total of 11.</p>
+            <p>Of the top 100 rated male players over the past 20 years, Barcelona have produced the most domestic title and UEFA Champions League winners, with players winning these trophies during their tenure at the Catalan giants or with other clubs (such as Thiago Alcantra at Bayern Munich and Pedro at Chelsea).</p>
           </div>
-          <Table3 :table-data="bestTrophyClubs"/>
         </div>
       </div>
     </div>
@@ -123,13 +113,13 @@
           <div class="table-intro">
             <p>For consistency, all transfer market value data was sourced from Transfermarkt, so we could evaluate transfer market value increases/decreases during player loan periods and where players stayed at one club their whole career.</p>
             <p>To supplement the data analysis on player development, we also pulled in data on individual player honours per club to see which clubs and leagues had the most impact on developing serial winners.</p>
-            <p>All data accurate at time of release: October 2020.</p>
+            <p>All data accurate at time of release: January 2021.</p>
           </div>
         </div>
       </div>
       <div class="sbg-logo-container">
-        <a target="_blank" href="https://skybet.com">
-          <img src="~assets/sky-bet.png" alt="Sky Betting &amp; Gaming Logo" />
+        <a target="_blank" href="https://pokerstars.com">
+          <img src="~assets/poker-stars.png" alt="Poker Stars Logo" />
         </a>
       </div>
     </div>
@@ -139,7 +129,7 @@
 <script>
   import Table1 from '~/components/Table1'
   import Table2 from '~/components/Table2'
-  import {countries, bestValueClubs, bestTrophyClubs} from '~/assets/data/real.json'
+  import {countries, bestValueClubs} from '~/assets/data/real.json'
 
 
   export default {
@@ -151,7 +141,6 @@
       return {
         countries,
         bestValueClubs,
-        bestTrophyClubs,
         languageBlockOpen: false,
         hambOpen: false,
         mobileNavOpen: false
@@ -175,7 +164,7 @@
 
 <style lang="scss">
   body {
-    font-family: 'SSportsD';
+    font-family: 'Roboto', sans-serif;
   }
 </style>
 
@@ -294,6 +283,8 @@
           font-size: 40px;
           display: block;
           text-align: center;
+          font-family: 'Druk', sans-serif;
+          text-transform: uppercase;
         }
         p {
           font-size: 18px;
@@ -435,7 +426,7 @@
     transform: translateY(-100%);
     transition: .15s ease-in-out;
     box-shadow: 0 0 30px rgba(black, 0.8);
-    background: linear-gradient(to right, #1D3C80 0%, #193573 100%);
+    background: darken(#D70A0A, 5%);
     &.open {
       transform: translateY(0);
     }
@@ -468,7 +459,7 @@
   }
 
   main {
-    background-color: darken(#00277C, 9);
+    background-color: #000000;
     padding-bottom: 50px;
     @media all and (min-width: 768px){
       padding-bottom: 70px;
@@ -484,10 +475,12 @@
 
   .table-title {
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 2.2rem;
+    letter-spacing: 2px;
     text-transform: uppercase;
     margin-bottom: 0;
     color: #ffffff;
+    font-family: 'Druk', sans-serif;
   }
 
   .quote {
@@ -514,7 +507,7 @@
     align-items: center;
     box-shadow: 0 0 60px rgba(black, 0.3);
     justify-content: space-between;
-    background-color: darken(#E71312, 10);
+    background-color: #D70A0A;
     a {
       display: inline-block;
       color: #fff;
@@ -540,8 +533,11 @@
     .logo {
       text-transform: uppercase;
       font-weight: 700;
-      font-size: 20px;
+      font-size: 24px;
       flex-shrink: 0;
+      font-family: 'Druk', sans-serif;
+      letter-spacing: 1px;
+      line-height: 0.9em;
     }
     .lang-select {
       width: 30px;

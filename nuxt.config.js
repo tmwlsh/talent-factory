@@ -1,13 +1,13 @@
 
 export default {
   // router: {
-  //   base: '/talent-factory-piece/en'
+  //   base: '/campaigns/talent-factories'
   // },
   /*
   ** Nuxt rendering mode
   ** See https://nuxtjs.org/api/configuration-mode
   */
-  mode: 'spa',
+  // mode: 'spa',
   /*
   ** Nuxt target
   ** See https://nuxtjs.org/api/configuration-target
@@ -25,7 +25,8 @@ export default {
       { hid: 'description', name: 'description', content: "Talent Factories" }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: './favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: './favicon.ico' },
+      { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap' }
     ]
   },
   /*

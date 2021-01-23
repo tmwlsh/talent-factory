@@ -6,6 +6,6 @@
 
 <style lang="scss" scoped>
   html, body {
-    font-family: 'SSportsD', sans-serif;
+    font-family: 'Roboto', sans-serif;
   }
 </style>
